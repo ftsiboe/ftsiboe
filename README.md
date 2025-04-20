@@ -7,6 +7,7 @@
 🌱 I’m currently leveling up my Python skills  
 ⚡ Fun fact: I’m a huge dog lover!
 
+⚠️ **Disclaimer:** This is my PERSONAL account. All content here reflects my own views and beliefs and **SHOULD NOT** be construed to represent my past or current employers.  
 
 <!--
 **ftsiboe/ftsiboe** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
