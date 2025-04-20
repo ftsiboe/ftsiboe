@@ -12,6 +12,9 @@
 ---
 
 ## 📝 Selected Publications
+
+_For a full list, see my [Google Scholar](https://scholar.google.com/citations?user=ox2t_YIAAAAJ&hl=en) profile._
+
 **Selected published work**
 * [Recent Developments in Ad Hoc Assistance Programs for Agricultural Producers](https://doi.org/10.32747/2024.8633521.ers)
 * [Federal Programs for Agricultural Risk Management](https://dx.doi.org/10.32747/2023.8321812.ers)
@@ -27,20 +30,18 @@
 * [Utilizing Topographic and Soil Features to Improve Rating for Farm‐Level Insurance Products.](https://doi.org/10.1111/ajae.12218)
 
 **Working papers**
-* Farmer Incentives for Purchasing Agricultural Insurance. (with Jesse Tack)
-* Actuarial Impacts of Rating Revisions in United States Agricultural Insurance. 
-* Actuarial Updates Limits Private to Public Risk Transfers in Agricultural Insurance. 
-* Actuarial Updates Cut Taxpayer Cost in Subsidized Agricultural Insurance Programs.
-* Agricultural Insurance Association with Farm Technology and Technical Efficiency. (with Eric Njuki)
-* Hidden Safety Net of Underutilized Supplemental Insurance in US Agriculture. (with Amy Hagerman and Hunter Biram)
-* Buy-up Price Loss Coverage can Potentially Enhance the Resiliency of U.S. Producer (with Dylan Turner)
-* Risk Reduction Impacts of Crop Insurance in the United States. (with Dylan Turner, Katherine Baldwin, Brian Williams, Erik Dohlman, Mat) (AEPP forthcoming)
-* Crop insurance participation and cover crop use: Evidence from ARMS data (with Dylan Turner, Maria Bowman, & Roderick Rejesus)
-* Demand, Pricing, and Welfare in U.S. Federal Crop Insurance. (With Ed Perry & Jisang Yu)
-* Climate-Smart Premiums: How the Cost of Crop Insurance Adapts to Global Warming
+* Risk Reduction Impacts of Crop Insurance in the United States. (with [Dylan Turner](https://scholar.google.com/citations?user=XFmCbrwAAAAJ&hl=en), [Katherine Baldwin](https://scholar.google.com/citations?user=ZAIOP_AAAAAJ&hl=en), [Brian Williams](https://scholar.google.com/citations?hl=en&user=K9X2MkEAAAAJ), [Erik Dohlman](https://scholar.google.com/citations?view_op=list_works&hl=en&user=mu80hNIAAAAJ), [Matthew Miller](https://www.ers.usda.gov/authors/ers-staff-directory/matthew-miller)) [***forthcoming @ AEPP***]
+* Crop insurance participation and cover crop use: Evidence from ARMS data (with [Dylan Turner](https://scholar.google.com/citations?user=XFmCbrwAAAAJ&hl=en), [Maria Bowman](https://scholar.google.com/citations?user=R_D5t8cAAAAJ), & [Roderick Rejesus](https://scholar.google.com/citations?user=uqa7Si8AAAAJ&hl=en&oi=ao)) [***forthcoming @ JAAEA***]
+* Actuarial Impacts of Rating Revisions in United States Agricultural Insurance. (sole authored) [***revision submitted to AJAE***]
+* Buy-up Price Loss Coverage can Potentially Enhance the Resiliency of U.S. Producer (with [Dylan Turner](https://scholar.google.com/citations?user=XFmCbrwAAAAJ&hl=en)) [***revision requested @ AEPP***]
+* Actuarial Updates Cut Taxpayer Cost in Subsidized Agricultural Insurance Programs. (sole authored) [***initial submission to AJAE***]
+* Agricultural Insurance Association with Farm Technology and Technical Efficiency. (with [Eric Njuki](https://scholar.google.com/citations?user=WpdtAwYAAAAJ&hl=en&oi=ao)) [***initial submission to AEPP***]
+* Hidden Safety Net of Underutilized Supplemental Insurance in US Agriculture. (with [Hunter Biram](https://scholar.google.com/citations?user=YSNo4bkAAAAJ&hl=en&oi=ao) and [Amy Hagerman](https://scholar.google.com/citations?user=zU7DmEwAAAAJ&hl=en&oi=ao)) [***initial submission to AEPP***]
+* Actuarial Updates Limits Private to Public Risk Transfers in Agricultural Insurance. (with [Dylan Turner](https://scholar.google.com/citations?user=XFmCbrwAAAAJ&hl=en), [Serkan Aglasan](https://scholar.google.com/citations?user=adXXj-YAAAAJ&hl=en), & [Roderick Rejesus](https://scholar.google.com/citations?user=uqa7Si8AAAAJ&hl=en&oi=ao)) [***at writing stage***]
+* Farmer Incentives for Purchasing Agricultural Insurance. (with [Jesse Tack](https://scholar.google.com/citations?user=eCPIZ9YAAAAJ&hl=en&oi=ao)) [***@ analysis stage***]
+* Demand, Pricing, and Welfare in U.S. Federal Crop Insurance. (with [Ed Perry](https://scholar.google.com/citations?user=P_IbmTMAAAAJ&hl=en&oi=ao) & [Jisang Yu](https://scholar.google.com/citations?user=DGOD2AcAAAAJ&hl=en)) [***@ conceptualizing stage***]
+* Climate-Smart Premiums: How the Cost of Crop Insurance Adapts to Global Warming.  [***@ conceptualizing stage***]
   
-_For a full list, see my [Google Scholar](https://scholar.google.com/citations?user=YOUR_ID) profile._
-
 <!--
 **ftsiboe/ftsiboe** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
