@@ -2,8 +2,8 @@ name: Update Scholar Metrics
 
 on:
   schedule:
-    - cron: '0 0 * * *'       # every day at midnight UTC
-  workflow_dispatch:          # also allows manual runs
+    - cron: '0 0 * * *'     # every day at midnight UTC
+  workflow_dispatch:        # also allows manual runs
 
 jobs:
   fetch-and-commit:
@@ -27,5 +27,5 @@ jobs:
       - name: Commit and push updated metrics
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: chore: update Google Scholar metrics
-          file_pattern: scholar-metrics.json
+          commit_message: "chore: update Google Scholar metrics"
+          file_pattern: "scholar-metrics.json"
