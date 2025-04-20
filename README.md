@@ -1,13 +1,15 @@
 # 👋 Hi, I’m Francis Tsiboe
 
-🏢 [Senior Research Economist & Program Leader](https://www.arpc-ndsu.com/team/francis-tsiboe) @ [Agricultural Risk Policy Center (ARPC)](https://www.arpc-ndsu.com/), [North Dakota State University](https://www.ndsu.edu/).  
+> ⚠️ **Disclaimer:** This is my **personal** account. All views here are my own and **not** those of my employers.
+
+🏢 I’m a [Senior Research Economist & Program Leader](https://www.arpc-ndsu.com/team/francis-tsiboe) @ [Agricultural Risk Policy Center (ARPC)](https://www.arpc-ndsu.com/), [North Dakota State University](https://www.ndsu.edu/).  
 🔭 I’m currently working on building a U.S. farm‑policy simulator  
 👯 I’m open to research or consulting collaborations on U.S. farm safety‑net programs (FCIP, PLC, ARC)  
 💬 Ask me anything about the farm safety‑net  
 🌱 I’m currently leveling up my Python skills  
 ⚡ Fun fact: I’m a huge dog lover!
 
-> ⚠️ **Disclaimer:** This is my **personal** account. All views here are my own and **not** those of my employers.
+📊 Research Metrics [![Citations](https://img.shields.io/badge/dynamic/json?label=Citations&query=$.citations&url=https://raw.githubusercontent.com/ftsiboe/ftsiboe/main/scholar-metrics.json)](https://scholar.google.com/citations?user=ox2t_YIAAAAJ&hl=en)  [![h‑index](https://img.shields.io/badge/dynamic/json?label=h‑index&query=$.h_index&url=https://raw.githubusercontent.com/ftsiboe/ftsiboe/main/scholar-metrics.json)](https://scholar.google.com/citations?user=ox2t_YIAAAAJ&hl=en)  [![i10‑index](https://img.shields.io/badge/dynamic/json?label=i10‑index&query=$.i10_index&url=https://raw.githubusercontent.com/ftsiboe/ftsiboe/main/scholar-metrics.json)](https://scholar.google.com/citations?user=ox2t_YIAAAAJ&hl=en)
 
 ---
 
@@ -15,7 +17,7 @@
 
 _For a full list, see my [Google Scholar](https://scholar.google.com/citations?user=ox2t_YIAAAAJ&hl=en) profile._
 
-**Selected published work**
+**Published work**
 * [Recent Developments in Ad Hoc Assistance Programs for Agricultural Producers](https://doi.org/10.32747/2024.8633521.ers)
 * [Federal Programs for Agricultural Risk Management](https://dx.doi.org/10.32747/2023.8321812.ers)
 * U.S. Agricultural Policy Review   [2021](https://www.ers.usda.gov/publications/pub-details?pubid=105901)    [2022](https://doi.org/10.32747/2023.8134363.ers)    [2023](https://doi.org/10.32747/2024.8754393.ers)  
