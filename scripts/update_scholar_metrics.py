@@ -5,10 +5,15 @@ from scholarly import scholarly, ProxyGenerator
 
 SCHOLAR_ID = "ox2t_YIAAAAJ"
 
-# Initialize a free proxy pool
+# Try to initialize free proxies, but don’t fail if that API changed
 pg = ProxyGenerator()
-pg.FreeProxies()                 # uses a rotating list of free public proxies
-scholarly.use_proxy(pg)
+try:
+    pg.FreeProxies()               
+    scholarly.use_proxy(pg)
+    print("[info] Using FreeProxies()")
+except Exception as e:
+    print(f"[warning] could not init FreeProxies(): {e}", file=sys.stderr)
+    # continue without proxy
 
 def fetch_metrics(user_id):
     author = scholarly.search_author_id(user_id)
@@ -24,7 +29,6 @@ if __name__ == "__main__":
         metrics = fetch_metrics(SCHOLAR_ID)
     except Exception as e:
         print(f"[warning] could not fetch metrics: {e}", file=sys.stderr)
-        # exit zero so the Action still moves on
         sys.exit(0)
 
     with open("scholar-metrics.json", "w") as f:
