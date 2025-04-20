@@ -2,8 +2,8 @@ name: Update Scholar Metrics
 
 on:
   schedule:
-    - cron: '0 0 * * *'
-  workflow_dispatch:
+    - cron: '0 0 * * *'      # daily at midnight UTC
+  workflow_dispatch:         # manual trigger too
 
 jobs:
   fetch-and-commit:
@@ -27,15 +27,14 @@ jobs:
       - name: Fetch Google Scholar metrics
         run: python scripts/update_scholar_metrics.py
 
-      - name: Debug ls
+      - name: Debug output
         run: |
-          ls -al .
-          cat scholar-metrics.json || echo "scholar-metrics.json not found"
+          ls -al scholar-metrics.json
+          cat scholar-metrics.json
 
-      - name: Commit and push updated metrics
+      - name: Commit & push updated metrics
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: main
+          branch: main                          # or your default branch
           commit_message: "chore: update Google Scholar metrics"
           file_pattern: "scholar-metrics.json"
