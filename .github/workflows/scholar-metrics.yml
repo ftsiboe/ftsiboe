@@ -2,8 +2,8 @@ name: Update Scholar Metrics
 
 on:
   schedule:
-    - cron: '0 0 * * *'     # every day at midnight UTC
-  workflow_dispatch:        # also allows manual runs
+    - cron: '0 0 * * *'
+  workflow_dispatch:
 
 jobs:
   fetch-and-commit:
@@ -12,6 +12,9 @@ jobs:
     steps:
       - name: Check out repo
         uses: actions/checkout@v3
+        with:
+          persist-credentials: true
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -24,8 +27,15 @@ jobs:
       - name: Fetch Google Scholar metrics
         run: python scripts/update_scholar_metrics.py
 
+      - name: Debug ls
+        run: |
+          ls -al .
+          cat scholar-metrics.json || echo "scholar-metrics.json not found"
+
       - name: Commit and push updated metrics
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: main
           commit_message: "chore: update Google Scholar metrics"
           file_pattern: "scholar-metrics.json"
