@@ -3,7 +3,7 @@ name: Update Scholar Metrics
 on:
   schedule:
     - cron: '0 0 * * *'   # daily at midnight UTC
-  workflow_dispatch:      # allow manual runs
+  workflow_dispatch:
 
 jobs:
   fetch-and-commit:
@@ -21,13 +21,8 @@ jobs:
         with:
           r-version: '4.2'
 
-      - name: Install R dependencies
-        run: |
-          Rscript -e 'install.packages(c("httr","rvest","jsonlite"), repos="https://cloud.r-project.org")'
-
       - name: Fetch Google Scholar metrics
         run: |
-          chmod +x scripts/update_scholar_metrics.R
           scripts/update_scholar_metrics.R
 
       - name: Debug output
