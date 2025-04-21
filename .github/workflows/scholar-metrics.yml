@@ -21,9 +21,8 @@ jobs:
         with:
           r-version: '4.2'
 
-      - name: Fetch Google Scholar metrics
-        run: |
-          scripts/update_scholar_metrics.R
+  - name: Fetch Google Scholar metrics
+        run: Rscript scripts/update_scholar_metrics.R
 
       - name: Debug output
         run: |
