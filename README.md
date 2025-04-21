@@ -2,19 +2,22 @@
 
 **About me** 
 
-🏢 I’m a [Senior Research Economist & Program Leader](https://www.arpc-ndsu.com/team/francis-tsiboe) @ [Agricultural Risk Policy Center (ARPC)](https://www.arpc-ndsu.com/), [North Dakota State University](https://www.ndsu.edu/).  
-🔭 I’m currently working on building a U.S. farm‑policy simulator  
-👯 I’m open to research or consulting collaborations on U.S. farm safety‑net programs (FCIP, PLC, ARC)  
-💬 Ask me anything about the farm safety‑net  
-🌱 I’m currently leveling up my Python skills  
-⚡ Fun fact: I’m a huge dog lover!
+🏢 I’m an incoming [Senior Research Economist & Program Leader](https://www.arpc-ndsu.com/team/francis-tsiboe) @ [ARPC](https://www.arpc-ndsu.com/) | [NDSU](https://www.ndsu.edu/).  
+📈 My research focuses on applied microecon, with an emphasis on risk management strategies and agricultural policy in the United States.
+🔭 I’m currently 80% of the time working on building a U.S. farm‑policy simulator.  
+🔭 I’m currently 20% of the time working on agricultural productivity in Ghana.  
+👯 I’m open to research or consulting collaborations on U.S. farm safety‑net programs (FCIP, PLC, ARC).  
+💬 Ask me anything about the farm safety‑net.  
+🌱 I’m currently leveling up my Python skills.  
+⚡ Fun fact: I’m a huge dog lover!  
+📂 Publications: [Published work](https://github.com/ftsiboe/ftsiboe/wiki/My-published-work) | 
+[Working papers](https://github.com/ftsiboe/ftsiboe/wiki/My-working-papers) | [Google scholar profile](https://scholar.google.com/citations?user=ox2t_YIAAAAJ&hl=en)
 
 [![Citations](https://img.shields.io/badge/dynamic/json?label=Citations&query=$.citations&url=https://raw.githubusercontent.com/ftsiboe/ftsiboe/main/scholar-metrics.json)](https://scholar.google.com/citations?user=ox2t_YIAAAAJ&hl=en) 
 [![h‑index](https://img.shields.io/badge/dynamic/json?label=h‑index&query=$.h_index&url=https://raw.githubusercontent.com/ftsiboe/ftsiboe/main/scholar-metrics.json)](https://scholar.google.com/citations?user=ox2t_YIAAAAJ&hl=en) 
 [![i10‑index](https://img.shields.io/badge/dynamic/json?label=i10‑index&query=$.i10_index&url=https://raw.githubusercontent.com/ftsiboe/ftsiboe/main/scholar-metrics.json)](https://scholar.google.com/citations?user=ox2t_YIAAAAJ&hl=en) 
 
-[Published work](https://github.com/ftsiboe/ftsiboe/wiki/My-published-work) | 
-[Working papers](https://github.com/ftsiboe/ftsiboe/wiki/My-working-papers)
+
 
 
 > ⚠️ **Disclaimer:** This is my **personal** account. All views here are my own and **not** those of my employers.
