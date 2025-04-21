@@ -3,7 +3,7 @@
 **About me** 
 
 🏢 I’m an incoming [Senior Research Economist & Program Leader](https://www.arpc-ndsu.com/team/francis-tsiboe) @ [ARPC](https://www.arpc-ndsu.com/) | [NDSU](https://www.ndsu.edu/).  
-📈 My research focuses on applied microecon, with an emphasis on risk management strategies and agricultural policy in the United States.
+📈 My research focuses on applied microecon, with an emphasis on risk management strategies and agric policy in the U.S..  
 🔭 I’m currently 80% of the time working on building a U.S. farm‑policy simulator.  
 🔭 I’m currently 20% of the time working on agricultural productivity in Ghana.  
 👯 I’m open to research or consulting collaborations on U.S. farm safety‑net programs (FCIP, PLC, ARC).  
