@@ -36,3 +36,4 @@ jobs:
           branch: main
           commit_message: "chore: update Google Scholar metrics"
           file_pattern: "scholar-metrics.json"
+          
