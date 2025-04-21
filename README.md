@@ -9,14 +9,9 @@
 🌱 I’m currently leveling up my Python skills  
 ⚡ Fun fact: I’m a huge dog lover!
 
-**My metrics**
- 
 [![Citations](https://img.shields.io/badge/dynamic/json?label=Citations&query=$.citations&url=https://raw.githubusercontent.com/ftsiboe/ftsiboe/main/scholar-metrics.json)](https://scholar.google.com/citations?user=ox2t_YIAAAAJ&hl=en) 
 [![h‑index](https://img.shields.io/badge/dynamic/json?label=h‑index&query=$.h_index&url=https://raw.githubusercontent.com/ftsiboe/ftsiboe/main/scholar-metrics.json)](https://scholar.google.com/citations?user=ox2t_YIAAAAJ&hl=en) 
 [![i10‑index](https://img.shields.io/badge/dynamic/json?label=i10‑index&query=$.i10_index&url=https://raw.githubusercontent.com/ftsiboe/ftsiboe/main/scholar-metrics.json)](https://scholar.google.com/citations?user=ox2t_YIAAAAJ&hl=en) 
-
-
-**My publications**
 
 [Published work](https://github.com/ftsiboe/ftsiboe/wiki/My-published-work) | 
 [Working papers](https://github.com/ftsiboe/ftsiboe/wiki/My-working-papers)
