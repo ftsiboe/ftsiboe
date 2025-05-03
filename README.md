@@ -12,7 +12,8 @@
 ⚡ Fun fact: I’m a huge dog lover!  
 📂 Publications: [Google scholar profile](https://scholar.google.com/citations?user=ox2t_YIAAAAJ&hl=en) | 
 [Working papers](https://github.com/ftsiboe/ftsiboe/wiki/My-working-papers) 
- 
+
+[![ORCID](https://img.shields.io/badge/ORCID-0000_0001_5984_1072-green)](https://orcid.org/0000-0001-5984-1072)
 [![](https://img.shields.io/badge/GoogleScholar-Francis_Tsiboe-grey?style=flat-square&labelColor=4285F4&logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=ox2t_YIAAAAJ&hl=en) &ensp;
 [![Citations](https://img.shields.io/badge/dynamic/json?label=Citations&query=$.citations&url=https://raw.githubusercontent.com/ftsiboe/ftsiboe/main/scholar-metrics.json)](https://scholar.google.com/citations?user=ox2t_YIAAAAJ&hl=en) 
 [![h‑index](https://img.shields.io/badge/dynamic/json?label=h‑index&query=$.h_index&url=https://raw.githubusercontent.com/ftsiboe/ftsiboe/main/scholar-metrics.json)](https://scholar.google.com/citations?user=ox2t_YIAAAAJ&hl=en) 
