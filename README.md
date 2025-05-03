@@ -12,11 +12,12 @@
 ⚡ Fun fact: I’m a huge dog lover!  
 📂 Publications: [Google scholar profile](https://scholar.google.com/citations?user=ox2t_YIAAAAJ&hl=en) | 
 [Working papers](https://github.com/ftsiboe/ftsiboe/wiki/My-working-papers) 
-
+ 
+[![](https://img.shields.io/badge/GoogleScholar-Francis_Tsiboe-grey?style=flat-square&labelColor=4285F4&logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=ox2t_YIAAAAJ&hl=en) &ensp;
 [![Citations](https://img.shields.io/badge/dynamic/json?label=Citations&query=$.citations&url=https://raw.githubusercontent.com/ftsiboe/ftsiboe/main/scholar-metrics.json)](https://scholar.google.com/citations?user=ox2t_YIAAAAJ&hl=en) 
 [![h‑index](https://img.shields.io/badge/dynamic/json?label=h‑index&query=$.h_index&url=https://raw.githubusercontent.com/ftsiboe/ftsiboe/main/scholar-metrics.json)](https://scholar.google.com/citations?user=ox2t_YIAAAAJ&hl=en) 
 [![i10‑index](https://img.shields.io/badge/dynamic/json?label=i10‑index&query=$.i10_index&url=https://raw.githubusercontent.com/ftsiboe/ftsiboe/main/scholar-metrics.json)](https://scholar.google.com/citations?user=ox2t_YIAAAAJ&hl=en) 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-FrancisTsiboe-0A66C2?logo=linkedin)](https://www.linkedin.com/in/francis-tsiboe-02b97248/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Francis_Tsiboe-0A66C2?logo=linkedin)](https://www.linkedin.com/in/francis-tsiboe-02b97248/)
 
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=ftsiboe&show_icons=true)
 
