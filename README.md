@@ -16,9 +16,9 @@
 [![Citations](https://img.shields.io/badge/dynamic/json?label=Citations&query=$.citations&url=https://raw.githubusercontent.com/ftsiboe/ftsiboe/main/scholar-metrics.json)](https://scholar.google.com/citations?user=ox2t_YIAAAAJ&hl=en) 
 [![h‑index](https://img.shields.io/badge/dynamic/json?label=h‑index&query=$.h_index&url=https://raw.githubusercontent.com/ftsiboe/ftsiboe/main/scholar-metrics.json)](https://scholar.google.com/citations?user=ox2t_YIAAAAJ&hl=en) 
 [![i10‑index](https://img.shields.io/badge/dynamic/json?label=i10‑index&query=$.i10_index&url=https://raw.githubusercontent.com/ftsiboe/ftsiboe/main/scholar-metrics.json)](https://scholar.google.com/citations?user=ox2t_YIAAAAJ&hl=en) 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-FrancisTsiboe-0A66C2?logo=linkedin)](https://www.linkedin.com/in/francis-tsiboe-02b97248/)
 
-
-
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=ftsiboe&show_icons=true)
 
 > ⚠️ **Disclaimer:** This is my **personal** account. All views here are my own and **not** those of my employers.
 
