@@ -20,8 +20,6 @@
 [![i10‑index](https://img.shields.io/badge/dynamic/json?label=i10‑index&query=$.i10_index&url=https://raw.githubusercontent.com/ftsiboe/ftsiboe/main/scholar-metrics.json)](https://scholar.google.com/citations?user=ox2t_YIAAAAJ&hl=en) 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Francis_Tsiboe-0A66C2?logo=linkedin)](https://www.linkedin.com/in/francis-tsiboe-02b97248/)
 
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=ftsiboe&show_icons=true)
-
 > ⚠️ **Disclaimer:** This is my **personal** account. All views here are my own and **not** those of my employers.
 
 <!--
@@ -29,7 +27,7 @@
 
 Here are some ideas to get you started:
 
-
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=ftsiboe&show_icons=true)
 # Francis Tsiboe
 
 **Senior Research Economist @ ARPC, NDSU**
