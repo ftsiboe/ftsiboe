@@ -37,16 +37,19 @@ Leader](https://www.arpc-ndsu.com/team/francis-tsiboe) at the
 
 **📦 R Packages**
 
-- [fcipDemand](link) — demand modeling for U.S. crop insurance  
-- [fcipSim](link) — simulation tools for actuarial updates
+- [USFarmSafetyNetLab](https://github.com/ftsiboe/USFarmSafetyNetLab) —
+  Analytical tools and resources dedicated to United States agricultural
+  safety net programs.  
+- [fcipDemand](https://github.com/ftsiboe/rfcipDemand) — Tools to
+  estimate Federal Crop Insurance Program (FCIP) demand
 
 ------------------------------------------------------------------------
 
 **🔁 Replication Packages**
 
-- [Off-Farm Diets](link) — agrarian household diets & nutrition in
-  Ghana  
-- [Gender Wage Gaps](link) — employment compensation inequality in Ghana
+- [HiddenSafetynet2025](https://github.com/ftsiboe/HiddenSafetynet2025)
+  — Hidden Safety Net of Underutilized Supplemental Insurance in US
+  Agriculture
 
 ------------------------------------------------------------------------
 
