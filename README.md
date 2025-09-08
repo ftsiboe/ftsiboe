@@ -1,41 +1,56 @@
-\# 👋Hi & welcome to my page!
+\# 👋 Hi & Welcome!
 ================
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-**About me**
+I’m **Francis Tsiboe, Ph.D.** — [Senior Research Economist & Program
+Leader](https://www.arpc-ndsu.com/team/francis-tsiboe) at the  
+[Agricultural Risk Policy Center (ARPC)](https://www.arpc-ndsu.com/) \|
+[North Dakota State University](https://www.ndsu.edu/).
 
-🏢 I’m a [Senior Research Economist & Program
-Leader](https://www.arpc-ndsu.com/team/francis-tsiboe) @
-[ARPC](https://www.arpc-ndsu.com/) \| [NDSU](https://www.ndsu.edu/).  
-📈 My research focuses on applied microecon, with an emphasis on risk
-management strategies & U.S. agric policy.  
-🔭 I’m currently 80% of the time working on building a U.S. farm‑policy
-simulator.  
-🔭 I’m currently 20% of the time working on agric productivity in
-Ghana.  
-👯 I’m open to research or consulting collaborations on U.S. farm
-safety‑nets (FCIP, PLC, ARC).  
-💬 Ask me anything about farm safety‑nets.  
-🌱 I’m currently leveling up my Python skills.  
-⚡ Fun fact: I’m a huge dog lover!
+------------------------------------------------------------------------
 
-**Publications**
+**🔎 About Me**
 
-- [Google scholar
-  profile](https://scholar.google.com/citations?user=ox2t_YIAAAAJ&hl=en)
+- 🏢 Applied microeconomist specializing in **risk management** & **U.S.
+  agricultural policy**  
+- 📈 Research: actuarial updates in **Federal Crop Insurance**, farm
+  safety-nets, and policy evaluation  
+- 🔭 Projects:
+  - **80%** → Building an open-source **U.S. farm-policy simulator**  
+  - **20%** → Research on **agricultural productivity in Ghana**  
+- 👯 Open to collaborations on **FCIP, PLC, ARC**, and broader U.S. farm
+  safety-net policies  
+- 🌱 Currently sharpening my **Python** skills alongside R/Stata/SQL  
+- ⚡ Fun fact: proud **dog lover** 🐶
+
+------------------------------------------------------------------------
+
+**📚 Publications**
+
+- [Google Scholar
+  profile](https://scholar.google.com/citations?user=ox2t_YIAAAAJ&hl=en)  
 - [Working
   papers](https://github.com/ftsiboe/ftsiboe/wiki/My-working-papers)
 
-**R Packages**
+------------------------------------------------------------------------
 
-- [fcipDemand](link)
-- [fcipSim](link)
+**📦 R Packages**
 
-**Replication Packages**
+- [fcipDemand](link) — demand modeling for U.S. crop insurance  
+- [fcipSim](link) — simulation tools for actuarial updates
 
-- [Off-Farm Diets](link)
-- [Gender Wage Gaps](link)
+------------------------------------------------------------------------
+
+**🔁 Replication Packages**
+
+- [Off-Farm Diets](link) — agrarian household diets & nutrition in
+  Ghana  
+- [Gender Wage Gaps](link) — employment compensation inequality in Ghana
+
+------------------------------------------------------------------------
+
+**🔗 Connect**
 
 [![ORCID](https://img.shields.io/badge/ORCID-0000_0001_5984_1072-green)](https://orcid.org/0000-0001-5984-1072)
 [![](https://img.shields.io/badge/GoogleScholar-Francis_Tsiboe-grey?style=flat-square&labelColor=4285F4&logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=ox2t_YIAAAAJ&hl=en)
@@ -45,8 +60,10 @@ safety‑nets (FCIP, PLC, ARC).
 [![i10‑index](https://img.shields.io/badge/dynamic/json?label=i10‑index&query=$.i10_index&url=https://raw.githubusercontent.com/ftsiboe/ftsiboe/main/scholar-metrics.json)](https://scholar.google.com/citations?user=ox2t_YIAAAAJ&hl=en)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Francis_Tsiboe-0A66C2?logo=linkedin)](https://www.linkedin.com/in/francis-tsiboe-02b97248/)
 
-> ⚠️ **Disclaimer:** This is my **personal** account. All views here are
-> my own and **not** those of my employers.
+------------------------------------------------------------------------
+
+> ⚠️ **Disclaimer:** This is my **personal** account. Views expressed
+> here are my own and not those of my employer(s).
 
 <!--
 **ftsiboe/ftsiboe** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
