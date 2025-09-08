@@ -4,7 +4,7 @@
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
 I’m **Francis Tsiboe, Ph.D.** — [Senior Research Economist & Program
-Leader](https://www.arpc-ndsu.com/team/francis-tsiboe) at the  
+Leader](https://www.arpc-ndsu.com/team/francis-tsiboe) at the
 [Agricultural Risk Policy Center (ARPC)](https://www.arpc-ndsu.com/) \|
 [North Dakota State University](https://www.ndsu.edu/).
 
