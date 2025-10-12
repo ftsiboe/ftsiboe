@@ -3,11 +3,11 @@ name: Update Scholar Metrics
 on:
   workflow_dispatch: {}      # Manual trigger
   schedule:
-    # Weekly: Every Monday at 6 AM CST/CDT (local time)
-    - cron: "0 12 * * 1"     # 6 AM CST (UTC-6)
-    - cron: "0 11 * * 1"     # 6 AM CDT (UTC-5)
-    # Monthly: Run on the 1st of every month at 6 AM UTC
-    - cron: "0 6 1 * *"      # 6 AM UTC on day 1 of each month
+    # Weekly: every Monday at 6 AM CST/CDT (local time)
+    - cron: "0 12 * * 1"     # 6 AM CST (UTC−6)
+    - cron: "0 11 * * 1"     # 6 AM CDT (UTC−5)
+    # Monthly: run on the 1st of every month at 6 AM UTC
+    - cron: "0 6 1 * *"
   push:
     paths:
       - "data-raw/scripts/update_scholar_metrics.R"
@@ -24,20 +24,24 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Check out repository
+      - name: 📦 Check out repository
         uses: actions/checkout@v4
         with:
           persist-credentials: true
 
-      - name: Set up R
+      - name: 🧰 Set up R
         uses: r-lib/actions/setup-r@v2
         with:
-          r-version: '4.3.2'   # or '4.4.1' if you prefer latest stable
+          r-version: '4.3.2'   # or '4.4.1' for the latest stable release
 
-      - name: Run update script
+      - name: 🔧 Install R dependencies
+        run: |
+          Rscript -e 'install.packages("curl", repos="https://cloud.r-project.org")'
+
+      - name: 🚀 Run update script
         run: Rscript data-raw/scripts/update_scholar_metrics.R
 
-      - name: Commit and push changes (if any)
+      - name: 💾 Commit and push changes (if any)
         run: |
           if git diff --quiet --exit-code -- data-raw/scholar-metrics.json; then
             echo "No changes to commit."
@@ -49,7 +53,7 @@ jobs:
           git commit -m "Auto-update scholar metrics [skip ci]"
           git push
 
-      - name: Upload output artifact (for debugging/traceability)
+      - name: 📤 Upload output artifact (for debugging/traceability)
         if: always()
         uses: actions/upload-artifact@v4
         with:
