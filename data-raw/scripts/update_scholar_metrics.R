@@ -24,7 +24,7 @@ if (length(raw_cells) < 3) {
 }
 
 # Strip tags, commas, convert to integer
-nums <- as.integer(gsub(",", "", gsub("<[^>]+>", "", raw_cells[1:3])))
+nums <- as.integer(gsub(",", "", gsub("<[^>]+>", "", raw_cells[c(1,3,5)])))
 
 # Build JSON text manually
 json_txt <- sprintf(
