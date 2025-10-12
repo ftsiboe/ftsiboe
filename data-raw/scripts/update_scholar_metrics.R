@@ -2,7 +2,7 @@
 
 # URL of your Google Scholar profile
 SCHOLAR_URL <- "https://scholar.google.com/citations?user=ox2t_YIAAAAJ&hl=en"
-OUT_FILE    <- "scholar-metrics.json"
+OUT_FILE    <- "data-raw/scholar-metrics.json"
 
 # Fetch the HTML
 html <- tryCatch({
@@ -35,5 +35,3 @@ json_txt <- sprintf(
 # Write out
 cat(json_txt, file = OUT_FILE)
 message("✔ Updated ", OUT_FILE, ": ", nums[1], "/", nums[2], "/", nums[3])
-
-

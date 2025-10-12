@@ -36,6 +36,7 @@ I’m **Francis Tsiboe, Ph.D.** — [Senior Research Economist & Program Leader]
 
 - [USFarmSafetyNetLab](https://github.com/ftsiboe/USFarmSafetyNetLab) — Analytical tools and resources dedicated to United States agricultural safety net programs.  
 - [fcipDemand](https://github.com/ftsiboe/rfcipDemand) — Tools to estimate Federal Crop Insurance Program (FCIP) demand  
+- [rexcelbridge](https://github.com/ftsiboe/rexcelbridge) — Vendor-neutral helpers to evaluate Excel formulas from R via COM automation  
 
 ---
 
