@@ -8,8 +8,8 @@ BASE_WAIT   <- 2  # seconds (exponential backoff)
 
 # ---- Fetch HTML with headers & retries ----
 get_html <- function(url) {
-  if (!requireNamespace("curl", quietly = TRUE)) {
-    stop("Please install.packages('curl')")
+  if(!requireNamespace("curl", quietly = TRUE)) {
+    install.packages("curl", repos = "https://cloud.r-project.org")
   }
 
   h <- curl::new_handle()
