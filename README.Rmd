@@ -81,6 +81,7 @@ Here are some ideas to get you started:
 **Senior Research Economist @ ARPC, NDSU**
 
 - 🌱 Developing an open‑source U.S. farm policy simulator  
+- 🌱 Developing an open‑source U.S. farm policy simulator  
 - 📈 Modeling actuarial updates in Federal Crop Insurance  
 - 🛠️ Tech: R · Python · Stata · SQL  
 - 📂 Key repos: [GH‑Agric‑Productivity‑Lab](https://github.com/ftsiboe/GH-Agric-Productivity-Lab), [FCIP‑Actuarial‑Updates](https://github.com/ftsiboe/FCIP-Actuarial-Updates)  
