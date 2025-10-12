@@ -1,11 +1,13 @@
 name: Update Scholar Metrics
 
 on:
-  workflow_dispatch: {}
+  workflow_dispatch: {}      # Manual trigger
   schedule:
-    # Run at ~6:00 AM America/Chicago year-round:
-    - cron: "0 12 * * *"   # 6:00 AM CST (UTC-6)
-    - cron: "0 11 * * *"   # 6:00 AM CDT (UTC-5)
+    # Weekly: Every Monday at 6 AM CST/CDT (local time)
+    - cron: "0 12 * * 1"     # 6 AM CST (UTC-6)
+    - cron: "0 11 * * 1"     # 6 AM CDT (UTC-5)
+    # Monthly: Run on the 1st of every month at 6 AM UTC
+    - cron: "0 6 1 * *"      # 6 AM UTC on day 1 of each month
   push:
     paths:
       - "data-raw/scripts/update_scholar_metrics.R"
