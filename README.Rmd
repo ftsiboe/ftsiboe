@@ -53,22 +53,33 @@ I’m **Francis Tsiboe, Ph.D.** — [Senior Research Economist & Program Leader]
 
 **📦 R Packages - Private 🔒**  
 
-- rfcipCalcPass — R implementations of calculators and tables used in FCIP Policy Acceptance and Storage System (PASS)
-- rfcipCalibrate — R Tools for calibrating yield and preference models for farm-level Federal Crop Insurance Program (FCIP) experience
-- rfcipCalibrateExtended — Extended tools for rfcipCalibrate
-- rfcipReSim — R Modular Simulator for FCIP Reinsurance Outcomes
-- arpcPriceBasis — R Tools for Price and basis by Commodity and County/elevator
-- arpcCost — R Tools to calibrate and harmonize agricultural production costs by commodity and county
+- [rfcipCalcPass](https://github.com/ftsiboe/ftsiboe/data-raw/private_packages/rfcipCalcPass.pdf) — R implementations of FCIP premium and indemnity calculators.
+- [rfcipCalibrate](https://github.com/ftsiboe/ftsiboe/data-raw/private_packages/rfcipCalibrate.pdf) — R Tools for calibrating yield and preference models for farm-level FCIP experience.
+- [rfcipCalibrateExtended](https://github.com/ftsiboe/ftsiboe/data-raw/private_packages/rfcipCalibrateExtended.pdf) — Extended tools for rfcipCalibrate
+- [rfcipReSim](https://github.com/ftsiboe/ftsiboe/data-raw/private_packages/rfcipReSim.pdf) — R Modular Simulator for FCIP Reinsurance Outcomes
+- [arpcPriceBasis](https://github.com/ftsiboe/ftsiboe/data-raw/private_packages/arpcPriceBasis.pdf) — R Tools for Price and basis by Commodity and County/elevator
+- [arpcCost](https://github.com/ftsiboe/ftsiboe/data-raw/private_packages/arpcCost.pdf) — R Tools to calibrate and harmonize agricultural production costs by commodity and county
 
 ---
 
 **🔁 Replication Packages**  
 
-- [HiddenSafetynet2025](https://github.com/ftsiboe/HiddenSafetynet2025) — Hidden Safety Net of Underutilized Supplemental Insurance in US Agriculture  
-- fcipRateRevisions — Replication package for studies examining the impacts of rating revisions in United States agricultural insurance
-- fcipRevealedPreference — 
-- GHAgricProductivityLab —
-
+- [HiddenSafetynet2025](https://github.com/ftsiboe/HiddenSafetynet2025) 
+    * [Low Participation and Untapped Benefits of Supplemental Crop Insurance in the United States.](https://github.com/ftsiboe/HiddenSafetynet2025/data-raw/HiddenSafetynet2025.pdf)  
+- [fcipRateRevisions](https://github.com/ftsiboe/fcipRateRevisions) 
+    * Actuarial Impacts of Rating Revisions in United States Agricultural Insurance. 
+    * Actuarial Updates Cut Taxpayer Cost in Subsidized Agricultural Insurance.
+    * The Effect of Actuarial Updates on Private to Public Risk Transfers in Agricultural Insurance.
+- [fcipRevealedPreference](https://github.com/ftsiboe/fcipRevealedPreference) 
+    * Pseudo-Revealed Calibration of Farmer Preferences Over Agricultural Insurance Products.
+- [SafetyNetBasisRisk](https://github.com/ftsiboe/SafetyNetBasisRisk) 
+    * Quantifying Basis Risk in The United States Farm Safety Net Programs.
+- [GHAgricProductivityLab](https://github.com/ftsiboe/GH-Agric-Productivity-Lab) 
+    * [Production Gaps among Disabled Farmers is Associated with Limited Technology.](https://github.com/ftsiboe/GH-Agric-Productivity-Lab/blob/master/replications/tech_inefficiency_disability/DisabilityAgricProdGapGhana_public_version.pdf) 
+    * [Heterogeneous Effects of Farmer Education on Technology Adoption and Technical Efficiency in Ghana.](https://github.com/ftsiboe/GH-Agric-Productivity-Lab/tree/master/replications/tech_inefficiency_education#heterogeneous-impacts-of-farmer-education-on-technology-access-and-technical-efficiency-in-ghana)
+    * [Digging into the Linkages Between Resource Extraction and Farm Performance.](https://github.com/ftsiboe/GH-Agric-Productivity-Lab/tree/master/replications/tech_inefficiency_resource_extract#digging-into-the-linkages-between-resource-extraction-and-farm-performance)
+    * Financial Inclusion and Credit Impacts on Crop Production in Ghana.
+    * Land Ownership Appears Neither Necessary nor Sufficient for Superior Agricultural Performance in Ghana.
 
 <!--
 **ftsiboe/ftsiboe** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
