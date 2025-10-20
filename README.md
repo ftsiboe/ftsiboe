@@ -60,18 +60,18 @@ Leader](https://www.arpc-ndsu.com/team/francis-tsiboe) at the
 
 **📦 R Packages - Private 🔒**
 
-- [rfcipCalcPass](https://github.com/ftsiboe/ftsiboe/data-raw/private_packages/rfcipCalcPass.pdf)
+- [rfcipCalcPass](https://github.com/ftsiboe/ftsiboe/tree/main/data-raw/private_packages/rfcipCalcPass.pdf)
   — R implementations of FCIP premium and indemnity calculators.
-- [rfcipCalibrate](https://github.com/ftsiboe/ftsiboe/data-raw/private_packages/rfcipCalibrate.pdf)
+- [rfcipCalibrate](https://github.com/ftsiboe/ftsiboe/tree/main/data-raw/private_packages/rfcipCalibrate.pdf)
   — R Tools for calibrating yield and preference models for farm-level
   FCIP experience.
-- [rfcipCalibrateExtended](https://github.com/ftsiboe/ftsiboe/data-raw/private_packages/rfcipCalibrateExtended.pdf)
+- [rfcipCalibrateExtended](https://github.com/ftsiboe/ftsiboe/tree/main/data-raw/private_packages/rfcipCalibrateExtended.pdf)
   — Extended tools for rfcipCalibrate
-- [rfcipReSim](https://github.com/ftsiboe/ftsiboe/data-raw/private_packages/rfcipReSim.pdf)
+- [rfcipReSim](https://github.com/ftsiboe/ftsiboe/tree/main/data-raw/private_packages/rfcipReSim.pdf)
   — R Modular Simulator for FCIP Reinsurance Outcomes
-- [arpcPriceBasis](https://github.com/ftsiboe/ftsiboe/data-raw/private_packages/arpcPriceBasis.pdf)
+- [arpcPriceBasis](https://github.com/ftsiboe/ftsiboe/tree/main/data-raw/private_packages/arpcPriceBasis.pdf)
   — R Tools for Price and basis by Commodity and County/elevator
-- [arpcCost](https://github.com/ftsiboe/ftsiboe/data-raw/private_packages/arpcCost.pdf)
+- [arpcCost](https://github.com/ftsiboe/ftsiboe/tree/main/data-raw/private_packages/arpcCost.pdf)
   — R Tools to calibrate and harmonize agricultural production costs by
   commodity and county
 
