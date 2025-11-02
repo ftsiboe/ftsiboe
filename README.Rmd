@@ -53,12 +53,16 @@ I’m **Francis Tsiboe, Ph.D.** — [Senior Research Economist & Program Leader]
 
 **📦 R Packages - Private 🔒**  
 
-- [rfcipCalcPass](https://github.com/ftsiboe/ftsiboe/tree/main/data-raw/private_packages/rfcipCalcPass.pdf) — R implementations of FCIP premium and indemnity calculators.
-- [rfcipCalibrate](https://github.com/ftsiboe/ftsiboe/tree/main/data-raw/private_packages/rfcipCalibrate.pdf) — R Tools for calibrating yield and preference models for farm-level FCIP experience.
-- [rfcipCalibrateExtended](https://github.com/ftsiboe/ftsiboe/tree/main/data-raw/private_packages/rfcipCalibrateExtended.pdf) — Extended tools for rfcipCalibrate
-- [rfcipReSim](https://github.com/ftsiboe/ftsiboe/tree/main/data-raw/private_packages/rfcipReSim.pdf) — R Modular Simulator for FCIP Reinsurance Outcomes
-- [arpcPriceBasis](https://github.com/ftsiboe/ftsiboe/tree/main/data-raw/private_packages/arpcPriceBasis.pdf) — R Tools for Price and basis by Commodity and County/elevator
-- [arpcCost](https://github.com/ftsiboe/ftsiboe/tree/main/data-raw/private_packages/arpcCost.pdf) — R Tools to calibrate and harmonize agricultural production costs by commodity and county
+- [rfcipCalcPass](https://github.com/ftsiboe/ftsiboe/tree/main/data-raw/private_packages/rfcipCalcPass.md) — R implementations of FCIP premium and indemnity calculators.
+- [rfcipCalibrate](https://github.com/ftsiboe/ftsiboe/tree/main/data-raw/private_packages/rfcipCalibrate.md) — R Tools for calibrating yield and preference models for farm-level FCIP experience.
+- [rfcipCalibrateExtended](https://github.com/ftsiboe/ftsiboe/tree/main/data-raw/private_packages/rfcipCalibrateExtended.md) — Extended tools for rfcipCalibrate.
+- [rfcipReSim](https://github.com/ftsiboe/ftsiboe/tree/main/data-raw/private_packages/rfcipReSim.md) — R Modular Simulator for FCIP Reinsurance Outcomes.
+- [rfcipPRF](https://github.com/ftsiboe/ftsiboe/tree/main/data-raw/private_packages/rfcipPRF.md) — Tools for RMA Pasture, Rangeland, and Forage (PRF) Insurance Data and Policy Analysis.
+- [rkfmaData](https://github.com/ftsiboe/ftsiboe/tree/main/data-raw/private_packages/rkfmaData.md) — Tools for Kansas Farm Management Data Bank.
+- [rAgroClimate](https://github.com/ftsiboe/ftsiboe/tree/main/data-raw/private_packages/rAgroClimate.md) — Agroclimatic and Environmental Datasets for Agricultural Research.
+- [arpcPriceBasis](https://github.com/ftsiboe/ftsiboe/tree/main/data-raw/private_packages/arpcPriceBasis.md) — R Tools for Price and basis by Commodity and County/elevator.
+- [arpcCost](https://github.com/ftsiboe/ftsiboe/tree/main/data-raw/private_packages/arpcCost.md) — R Tools to calibrate and harmonize agricultural production costs by commodity and county.
+- [arpcFCIP](https://github.com/ftsiboe/ftsiboe/tree/main/data-raw/private_packages/arpcFCIP.md) — Simulate and Benchmark Federal Crop Insurance Program (FCIP) Outcomes.
 
 ---
 
