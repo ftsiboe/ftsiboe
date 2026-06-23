@@ -12,7 +12,10 @@ author:
   linkedin: "https://www.linkedin.com/in/francis-tsiboe-02b97248/"
   scholar: "https://scholar.google.com/citations?user=ox2t_YIAAAAJ&hl=en"
   orcid: "https://orcid.org/0000-0001-5984-1072"
+  researchgate: "https://www.researchgate.net/profile/Francis-Tsiboe"
+  webofscience: "https://www.webofscience.com/wos/author/record/A-6485-2018"
   email: "ftsiboe@hotmail.com"
+  cv: "/assets/cv.pdf"   # drop your current CV at docs/assets/cv.pdf
 
 # Custom layout (no external theme) applied to every page.
 defaults:
