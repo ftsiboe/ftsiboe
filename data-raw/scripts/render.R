@@ -21,10 +21,13 @@
 #
 #  * Your publications (add / remove / fix a paper or its link)
 #        -> edit the links.csv in that area:  data-raw/publications/<area>/links.csv
-#           columns:  topic , file , url
-#           - "file"  = the PDF's file name (kept locally; not pushed).
+#           columns:  topic , file , url , venue
+#           - "file"  = PDF file name, "YEAR[-issue] - Authors - Title.pdf"
+#                       (year first so files sort by date; outlet NOT in the name).
+#                       Kept locally; not pushed.
 #           - "url"   = the PUBLIC link (journal DOI / USDA-ERS / AgEcon / ARPC);
 #                       leave blank if none yet (paper shows without a link).
+#           - "venue" = journal/outlet shown in the citation (e.g. AEPP); may be blank.
 #           - "topic" = a topic key (must exist under publication_category: in
 #                       docs/_config.yml). EVERY area's links.csv is read.
 #

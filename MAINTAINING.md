@@ -40,19 +40,25 @@ git add -A && git commit -m "update site" && git push
 
 Each **area folder** under `data-raw/publications/` has its own `links.csv`
 (e.g. `risk-management/links.csv`, `cocoa/links.csv`, `production/links.csv`, …).
-`render.R` reads **all** of them and combines the rows. One row per paper, three
+`render.R` reads **all** of them and combines the rows. One row per paper, four
 columns:
 
 ```csv
-topic,file,url
-crop-insurance-demand,"AEPP 2022 - Turner & Tsiboe - The Crop Insurance Demand Response….pdf",https://doi.org/10.1002/aepp.13314
+topic,file,url,venue
+crop-insurance-demand,"2022 - Turner & Tsiboe - The Crop Insurance Demand Response….pdf",https://doi.org/10.1002/aepp.13314,AEPP
 ```
 
-- **`file`** — the PDF's file name. PDFs stay on your computer (they're git-ignored
-  for copyright); only the link is published.
+- **`file`** — the PDF's file name, using the convention
+  **`YEAR[-issue] - Authors - Title.pdf`** (year first so the files sort by date
+  on your computer; the outlet is *not* in the name). PDFs stay local (git-ignored
+  for copyright); only the link is published. *(Exception: presentation PDFs in
+  `data-raw/publications/presentations/` keep the conference abbreviation:
+  `YEAR - CONF - Title.pdf`. Presentations aren't listed on the site.)*
 - **`url`** — the **public** version (journal DOI, USDA-ERS, AgEcon, or ARPC page).
   Leave it **blank** if you don't have one yet — the paper still appears, just
   without a link.
+- **`venue`** — the journal/outlet shown in the citation on the site (e.g. `AEPP`,
+  `USDA ERS EIB`, `ARPC Brief`). Blank is fine — the citation just omits it.
 - **`topic`** — one of the topic keys (these become the headings on the
   Publications page). Each key must also exist under `publication_category:` in
   `docs/_config.yml`. Current topics:

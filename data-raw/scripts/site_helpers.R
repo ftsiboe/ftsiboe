@@ -35,27 +35,35 @@ pub_manifest <- function() {
   csvs <- list.files("data-raw/publications", pattern = "^links\\.csv$",
                      recursive = TRUE, full.names = TRUE)
   m <- do.call(rbind, lapply(csvs, function(f) {
-    d <- utils::read.csv(f, stringsAsFactors = FALSE)[, c("topic", "file", "url")]
+    d <- utils::read.csv(f, stringsAsFactors = FALSE)
+    if (!"venue" %in% names(d)) d$venue <- ""
+    d <- d[, c("topic", "file", "url", "venue")]
     d$area <- basename(dirname(f))
     d
   }))
-  m$url[is.na(m$url)] <- ""
+  m$url[is.na(m$url)]     <- ""
+  m$venue[is.na(m$venue)] <- ""
   m[nzchar(m$file), , drop = FALSE]
 }
 
-## Turn one "OUTLET YYYY[-n] - Authors - Title.pdf" (+ url) into a citation.
-## Returns list(year, md) so callers can sort then print `md`.
-pub_cite <- function(fname, url = "") {
-  stem    <- sub("\\.pdf$", "", fname, ignore.case = TRUE)
-  parts   <- trimws(strsplit(stem, " - ", fixed = TRUE)[[1]])
-  vtok    <- parts[1]                                   # outlet token, e.g. "ARPC 2024-3"
-  yr      <- regmatches(vtok, regexpr("(19|20)[0-9]{2}", vtok))
-  title   <- parts[length(parts)]
-  authors <- if (length(parts) >= 3) parts[2] else ""
-  venue   <- sub("\\s+[0-9]{4}.*$", "", vtok)           # outlet, year stripped
+## Turn one file name "YEAR[-issue] - Authors - Title.pdf" (+ url, + venue from the
+## manifest) into a citation. Returns list(year, md) so callers can sort by year.
+pub_cite <- function(fname, url = "", venue = "") {
+  stem  <- sub("\\.pdf$", "", fname, ignore.case = TRUE)
+  parts <- trimws(strsplit(stem, " - ", fixed = TRUE)[[1]])   # YEAR[-issue] - Authors - Title
+  ytok  <- parts[1]
+  yr    <- regmatches(ytok, regexpr("(19|20)[0-9]{2}", ytok))
+  if (length(parts) >= 3) {
+    authors <- parts[2]; title <- paste(parts[3:length(parts)], collapse = " - ")
+  } else if (length(parts) == 2) {
+    authors <- ""; title <- parts[2]
+  } else {
+    authors <- ""; title <- stem
+  }
   s <- paste0(if (nzchar(authors)) paste0(authors, " ") else "",
               if (length(yr)) sprintf("(%s). ", yr) else "",
-              sprintf("“%s.” *%s*.", title, venue))
+              sprintf("“%s.”", title),
+              if (nzchar(venue)) sprintf(" *%s*.", venue) else "")
   if (nzchar(url)) s <- paste0(s, " [Full text](", url, ")")
   list(year = if (length(yr)) as.integer(yr) else 0L, md = s)
 }
@@ -64,7 +72,7 @@ pub_cite <- function(fname, url = "") {
 pub_topic_list <- function(topic, manifest = pub_manifest()) {
   m <- manifest[manifest$topic == topic, , drop = FALSE]
   if (nrow(m) == 0) { cat("*(no publications in this topic yet)*\n"); return(invisible()) }
-  recs <- Map(pub_cite, m$file, m$url)
+  recs <- Map(pub_cite, m$file, m$url, m$venue)
   recs <- recs[order(vapply(recs, function(x) x$year, numeric(1)), decreasing = TRUE)]
   for (r in recs) cat("- ", r$md, "\n", sep = "")
 }
