@@ -1,5 +1,11 @@
 name: Update Scholar Metrics
 
+# Refreshes data-raw/scholar-metrics.json from Google Scholar.
+# The live shields badges on the Research Metrics page
+# (data-raw/scripts/pages/metrics.Rmd -> docs/metrics.md -> /metrics/) and the
+# root README read this JSON directly, so updating it here keeps both current
+# without rebuilding the site (render.R is run locally, where the PDFs exist).
+
 on:
   workflow_dispatch: {}      # Manual trigger
   schedule:

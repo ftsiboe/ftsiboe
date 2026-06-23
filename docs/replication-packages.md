@@ -1,0 +1,46 @@
+---
+title: "Replication Packages"
+permalink: /replication-packages/
+---
+
+
+<!-- Source for docs/replication-packages.md (GitHub Pages). Build with data-raw/scripts/render.R -->
+
+Code and data to reproduce my published studies.
+
+- [HiddenSafetynet2025](https://github.com/ftsiboe/HiddenSafetynet2025)
+  - [Low Participation and Untapped Benefits of Supplemental Crop
+    Insurance in the United
+    States.](https://github.com/ftsiboe/HiddenSafetynet2025/data-raw/HiddenSafetynet2025.pdf)
+- [fcipRateRevisions](https://github.com/ftsiboe/fcipRateRevisions)
+  - Actuarial Impacts of Rating Revisions in United States Agricultural
+    Insurance.
+  - Actuarial Updates Cut Taxpayer Cost in Subsidized Agricultural
+    Insurance.
+  - The Effect of Actuarial Updates on Private to Public Risk Transfers
+    in Agricultural Insurance.
+- [fcipRevealedPreference](https://github.com/ftsiboe/fcipRevealedPreference)
+  - Pseudo-Revealed Calibration of Farmer Preferences Over Agricultural
+    Insurance Products.
+- [SafetyNetBasisRisk](https://github.com/ftsiboe/SafetyNetBasisRisk)
+  - Quantifying Basis Risk in The United States Farm Safety Net
+    Programs.
+- [GHAgricProductivityLab](https://github.com/ftsiboe/GH-Agric-Productivity-Lab)
+  - [Production Gaps among Disabled Farmers is Associated with Limited
+    Technology.](https://github.com/ftsiboe/GH-Agric-Productivity-Lab/blob/master/replications/tech_inefficiency_disability/DisabilityAgricProdGapGhana_public_version.pdf)
+  - [Heterogeneous Effects of Farmer Education on Technology Adoption
+    and Technical Efficiency in
+    Ghana.](https://github.com/ftsiboe/GH-Agric-Productivity-Lab/tree/master/replications/tech_inefficiency_education#heterogeneous-impacts-of-farmer-education-on-technology-access-and-technical-efficiency-in-ghana)
+  - [Digging into the Linkages Between Resource Extraction and Farm
+    Performance.](https://github.com/ftsiboe/GH-Agric-Productivity-Lab/tree/master/replications/tech_inefficiency_resource_extract#digging-into-the-linkages-between-resource-extraction-and-farm-performance)
+  - Financial Inclusion and Credit Impacts on Crop Production in Ghana.
+  - Land Ownership Appears Neither Necessary nor Sufficient for Superior
+    Agricultural Performance in Ghana.
+
+------------------------------------------------------------------------
+
+[Home](https://ftsiboe.github.io/ftsiboe/) ·
+[Publications](https://ftsiboe.github.io/ftsiboe/risk-management/) ·
+[Working Papers](https://ftsiboe.github.io/ftsiboe/working-papers/) · [R
+Packages](https://ftsiboe.github.io/ftsiboe/r-packages/) · [Research
+Metrics](https://ftsiboe.github.io/ftsiboe/metrics/)

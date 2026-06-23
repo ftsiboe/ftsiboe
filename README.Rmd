@@ -1,114 +1,13 @@
----
-title: "# 👋 Hi & Welcome!"
-output:
-  github_document:
-    toc: false
-    toc_depth: 3
----
-
-<!-- README.md is generated from README.Rmd. Please edit that file -->
-
-> ⚠️ **Disclaimer:** This is my **personal** account. Views expressed here are my own and not those of my employer(s).  
-
-I’m **Francis Tsiboe, Ph.D.** — [Senior Research Economist & Program Leader](https://www.arpc-ndsu.com/team/francis-tsiboe) at the [Agricultural Risk Policy Center (ARPC)](https://www.arpc-ndsu.com/) | [North Dakota State University](https://www.ndsu.edu/).
-
----
-
-**🔎 About Me**   
-
-- 🏢 Applied microeconomist specializing in **risk management** & **U.S. agricultural policy**  
-- 📈 Research: actuarial updates in **Federal Crop Insurance**, farm safety-nets, and policy evaluation  
-- 🔭 Projects:
-  - **80%** → Building an open-source **U.S. farm-policy simulator**  
-  - **20%** → Research on **agricultural productivity in Ghana**  
-- 👯 Open to collaborations on **FCIP, PLC, ARC**, and broader U.S. farm safety-net policies  
-- 🌱 Currently sharpening my **Python** skills alongside R/Stata/SQL  
-- ⚡ Fun fact: proud **dog lover** 🐶  
-
-
-**🔗 Connect**  
-
-[![ORCID](https://img.shields.io/badge/ORCID-0000_0001_5984_1072-green)](https://orcid.org/0000-0001-5984-1072)
-[![](https://img.shields.io/badge/GoogleScholar-Francis_Tsiboe-grey?style=flat-square&labelColor=4285F4&logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=ox2t_YIAAAAJ&hl=en)
-![Citations](https://img.shields.io/badge/dynamic/json?label=Citations&query=$.citations&url=https://raw.githubusercontent.com/ftsiboe/ftsiboe/main/data-raw/scholar-metrics.json)
-![h-index](https://img.shields.io/badge/dynamic/json?label=h-index&query=$.h_index&url=https://raw.githubusercontent.com/ftsiboe/ftsiboe/main/data-raw/scholar-metrics.json)
-![i10-index](https://img.shields.io/badge/dynamic/json?label=i10-index&query=$.i10_index&url=https://raw.githubusercontent.com/ftsiboe/ftsiboe/main/data-raw/scholar-metrics.json)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Francis_Tsiboe-0A66C2?logo=linkedin)](https://www.linkedin.com/in/francis-tsiboe-02b97248/)
-
----
-
-**📚 Publications**  
-
-- [Google Scholar profile](https://scholar.google.com/citations?user=ox2t_YIAAAAJ&hl=en)  
-- [Working papers](https://github.com/ftsiboe/ftsiboe/wiki/My-working-papers)  
-
----
-
-**📦 R Packages - Public 🔓**  
-
-- [USFarmSafetyNetLab](https://github.com/ftsiboe/USFarmSafetyNetLab) — Analytical tools and resources dedicated to United States agricultural safety net programs.  
-- [fcipDemand](https://github.com/ftsiboe/rfcipDemand) — Tools to estimate Federal Crop Insurance Program (FCIP) demand  
-- [rexcelbridge](https://github.com/ftsiboe/rexcelbridge) — Vendor-neutral helpers to evaluate Excel formulas from R via COM automation  
-
-
-**📦 R Packages - Private 🔒**  
-
-- [rfcipCalcPass](https://github.com/ftsiboe/ftsiboe/tree/main/data-raw/private_packages/rfcipCalcPass.md) — R implementations of FCIP premium and indemnity calculators.
-- [rfcipCalibrate](https://github.com/ftsiboe/ftsiboe/tree/main/data-raw/private_packages/rfcipCalibrate.md) — R Tools for calibrating yield and preference models for farm-level FCIP experience.
-- [rfcipCalibrateExtended](https://github.com/ftsiboe/ftsiboe/tree/main/data-raw/private_packages/rfcipCalibrateExtended.md) — Extended tools for rfcipCalibrate.
-- [rfcipReSim](https://github.com/ftsiboe/ftsiboe/tree/main/data-raw/private_packages/rfcipReSim.md) — R Modular Simulator for FCIP Reinsurance Outcomes.
-- [rfcipPRF](https://github.com/ftsiboe/ftsiboe/tree/main/data-raw/private_packages/rfcipPRF.md) — Tools for RMA Pasture, Rangeland, and Forage (PRF) Insurance Data and Policy Analysis.
-- [rkfmaData](https://github.com/ftsiboe/ftsiboe/tree/main/data-raw/private_packages/rkfmaData.md) — Tools for Kansas Farm Management Data Bank.
-- [rAgroClimate](https://github.com/ftsiboe/ftsiboe/tree/main/data-raw/private_packages/rAgroClimate.md) — Agroclimatic and Environmental Datasets for Agricultural Research.
-- [arpcPriceBasis](https://github.com/ftsiboe/ftsiboe/tree/main/data-raw/private_packages/arpcPriceBasis.md) — R Tools for Price and basis by Commodity and County/elevator.
-- [arpcCost](https://github.com/ftsiboe/ftsiboe/tree/main/data-raw/private_packages/arpcCost.md) — R Tools to calibrate and harmonize agricultural production costs by commodity and county.
-- [arpcFCIP](https://github.com/ftsiboe/ftsiboe/tree/main/data-raw/private_packages/arpcFCIP.md) — Simulate and Benchmark Federal Crop Insurance Program (FCIP) Outcomes.
-
----
-
-**🔁 Replication Packages**  
-
-- [HiddenSafetynet2025](https://github.com/ftsiboe/HiddenSafetynet2025) 
-    * [Low Participation and Untapped Benefits of Supplemental Crop Insurance in the United States.](https://github.com/ftsiboe/HiddenSafetynet2025/data-raw/HiddenSafetynet2025.pdf)  
-- [fcipRateRevisions](https://github.com/ftsiboe/fcipRateRevisions) 
-    * Actuarial Impacts of Rating Revisions in United States Agricultural Insurance. 
-    * Actuarial Updates Cut Taxpayer Cost in Subsidized Agricultural Insurance.
-    * The Effect of Actuarial Updates on Private to Public Risk Transfers in Agricultural Insurance.
-- [fcipRevealedPreference](https://github.com/ftsiboe/fcipRevealedPreference) 
-    * Pseudo-Revealed Calibration of Farmer Preferences Over Agricultural Insurance Products.
-- [SafetyNetBasisRisk](https://github.com/ftsiboe/SafetyNetBasisRisk) 
-    * Quantifying Basis Risk in The United States Farm Safety Net Programs.
-- [GHAgricProductivityLab](https://github.com/ftsiboe/GH-Agric-Productivity-Lab) 
-    * [Production Gaps among Disabled Farmers is Associated with Limited Technology.](https://github.com/ftsiboe/GH-Agric-Productivity-Lab/blob/master/replications/tech_inefficiency_disability/DisabilityAgricProdGapGhana_public_version.pdf) 
-    * [Heterogeneous Effects of Farmer Education on Technology Adoption and Technical Efficiency in Ghana.](https://github.com/ftsiboe/GH-Agric-Productivity-Lab/tree/master/replications/tech_inefficiency_education#heterogeneous-impacts-of-farmer-education-on-technology-access-and-technical-efficiency-in-ghana)
-    * [Digging into the Linkages Between Resource Extraction and Farm Performance.](https://github.com/ftsiboe/GH-Agric-Productivity-Lab/tree/master/replications/tech_inefficiency_resource_extract#digging-into-the-linkages-between-resource-extraction-and-farm-performance)
-    * Financial Inclusion and Credit Impacts on Crop Production in Ghana.
-    * Land Ownership Appears Neither Necessary nor Sufficient for Superior Agricultural Performance in Ghana.
-
 <!--
-**ftsiboe/ftsiboe** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+  MOVED. Page sources are now centralized under:
+      data-raw/scripts/pages/
 
-Here are some ideas to get you started:
+  This profile page's source is:
+      data-raw/scripts/pages/README.Rmd
 
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=ftsiboe&show_icons=true)
-# Francis Tsiboe
+  Rebuild every page (root README.md, docs/*.md, the risk-management index,
+  and the wiki) with a single command from the repository root:
+      Rscript data-raw/scripts/render.R
 
-**Senior Research Economist @ ARPC, NDSU**
-
-- 🌱 Developing an open‑source U.S. farm policy simulator  
-- 🌱 Developing an open‑source U.S. farm policy simulator  
-- 📈 Modeling actuarial updates in Federal Crop Insurance  
-- 🛠️ Tech: R · Python · Stata · SQL  
-- 📂 Key repos: [GH‑Agric‑Productivity‑Lab](https://github.com/ftsiboe/GH-Agric-Productivity-Lab), [FCIP‑Actuarial‑Updates](https://github.com/ftsiboe/FCIP-Actuarial-Updates)  
-- 📫 francis.tsiboe@ndsu.edu · [LinkedIn](https://linkedin.com/in/francis-tsiboe) · [Twitter](https://twitter.com/ftsiboe)
-
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+  Do not edit this file or README.md directly — edit the source above.
 -->

@@ -1,4 +1,21 @@
+# R / RStudio session files
 .Rproj.user
 .Rhistory
 .RData
 .Ruserdata
+
+# R package build artifacts
+*.tar.gz
+*.Rcheck/
+
+# Copyrighted publication PDFs — kept local only, NOT pushed to GitHub.
+# (Working papers in data-raw/working-papers/ are PUBLIC and ARE tracked.)
+data-raw/publications/**/*.pdf
+
+# R Markdown render / preview artifacts (we commit the .md, never the .html)
+*.html
+*_files/
+*_cache/
+
+# Scratch / leftover folders
+**/hold/
