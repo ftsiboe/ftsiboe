@@ -1,7 +1,10 @@
 
-<!-- Source for the publications index. Builds to docs/index.md (GitHub Pages)
-     and publications/risk-management/README.md via data-raw/scripts/render.R.
-     knit_root_dir is set to the repo root by render.R, so relative paths work. -->
+<!-- Source for the publications index. Builds to docs/risk-management.md (GitHub
+     Pages) and data-raw/publications/risk-management/README.md via render.R.
+     The index is built ENTIRELY from links.csv (the tracked manifest:
+     columns topic, file, url) — it does NOT read the PDF folders, so it
+     rebuilds correctly in CI where the copyrighted PDFs are absent.
+     knit_root_dir is set to the repo root by render.R. -->
 
 Publications on **agricultural risk management and the farm safety net**
 sole/co-authored by **Francis Tsiboe, Ph.D.**, grouped by *broad topic

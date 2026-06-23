@@ -1,34 +1,34 @@
-name: Update Scholar Metrics
+name: Build site & refresh metrics
 
-# Refreshes data-raw/scholar-metrics.json from Google Scholar.
-# The live shields badges on the Research Metrics page
-# (data-raw/scripts/pages/metrics.Rmd -> docs/metrics.md -> /metrics/) and the
-# root README read this JSON directly, so updating it here keeps both current
-# without rebuilding the site (render.R is run locally, where the PDFs exist).
+# One workflow that keeps the GitHub Pages site current:
+#   1. refreshes data-raw/scholar-metrics.json from Google Scholar (live badges read it),
+#   2. rebuilds every page from its .Rmd source via data-raw/scripts/render.R, and
+#   3. commits any changes.
+# The index builds from data-raw/publications/risk-management/links.csv (tracked),
+# so it works in CI without the (gitignored) PDFs.
 
 on:
-  workflow_dispatch: {}      # Manual trigger
+  workflow_dispatch: {}
   schedule:
-    # Weekly: every Monday at 6 AM CST/CDT (local time)
-    - cron: "0 12 * * 1"     # 6 AM CST (UTC−6)
-    - cron: "0 11 * * 1"     # 6 AM CDT (UTC−5)
-    # Monthly: 1st of each month at 6 AM UTC
-    - cron: "0 6 1 * *"
+    - cron: "0 12 * * 1"        # weekly, Monday 06:00 CST
   push:
+    branches: [main]
     paths:
-      - "data-raw/scripts/update_scholar_metrics.R"
+      - "data-raw/scripts/**"
+      - "data-raw/publications/**/links.csv"
+      - "data-raw/working-papers/**"
+      - "data-raw/private-packages/**"
 
 permissions:
   contents: write
 
 concurrency:
-  group: scholar-metrics
+  group: build-site
   cancel-in-progress: true
 
 jobs:
-  update:
+  build:
     runs-on: ubuntu-latest
-
     steps:
       - name: 📦 Check out repository
         uses: actions/checkout@v4
@@ -38,40 +38,34 @@ jobs:
       - name: 🧰 Set up R
         uses: r-lib/actions/setup-r@v2
         with:
-          r-version: '4.3.2'   # or '4.4.1' for latest
+          r-version: '4.4.1'
 
-      # --- NEW: system libraries needed for the curl R package ---
-      - name: 🔧 Install system dependencies
+      - name: 📝 Set up Pandoc
+        uses: r-lib/actions/setup-pandoc@v2
+
+      - name: 🔧 System dependencies
         run: |
           sudo apt-get update -y
-          sudo apt-get install -y \
-            libcurl4-openssl-dev \
-            libssl-dev \
-            libxml2-dev
+          sudo apt-get install -y libcurl4-openssl-dev libssl-dev libxml2-dev
 
-      # Install the R package used by your script
-      - name: 📚 Install R dependencies
+      - name: 📚 Install R packages
+        run: Rscript -e 'install.packages(c("rmarkdown","curl"), repos="https://cloud.r-project.org")'
+
+      - name: 📊 Refresh Scholar metrics (non-fatal)
+        run: Rscript data-raw/scripts/update_scholar_metrics.R || echo "metrics refresh skipped"
+
+      - name: 🚀 Build all pages
+        run: Rscript data-raw/scripts/render.R
+
+      - name: 💾 Commit & push (if changed)
         run: |
-          Rscript -e 'install.packages("curl", repos="https://cloud.r-project.org")'
-
-      - name: 🚀 Run update script
-        run: Rscript data-raw/scripts/update_scholar_metrics.R
-
-      - name: 💾 Commit and push changes (if any)
-        run: |
-          if git diff --quiet --exit-code -- data-raw/scholar-metrics.json; then
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md docs data-raw/scholar-metrics.json \
+                  data-raw/publications/risk-management/README.md
+          if git diff --cached --quiet; then
             echo "No changes to commit."
             exit 0
           fi
-          git config user.name  "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data-raw/scholar-metrics.json
-          git commit -m "Auto-update scholar metrics [skip ci]"
+          git commit -m "Auto-build pages & metrics [skip ci]"
           git push
-
-      - name: 📤 Upload output artifact (for debugging/traceability)
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: scholar-metrics
-          path: data-raw/scholar-metrics.json

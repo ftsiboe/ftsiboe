@@ -17,5 +17,8 @@ data-raw/publications/**/*.pdf
 *_files/
 *_cache/
 
+# Legacy GitHub-wiki build output (publish to the separate .wiki repo, not here)
+data-raw/publications/risk-management/wiki/
+
 # Scratch / leftover folders
 **/hold/

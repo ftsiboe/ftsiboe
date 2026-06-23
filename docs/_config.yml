@@ -1,3 +1,22 @@
 title: "Francis Tsiboe, Ph.D."
 description: "Agricultural risk management & U.S. farm-policy research"
-theme: jekyll-theme-cayman
+url: "https://ftsiboe.github.io"
+baseurl: "/ftsiboe"
+
+author:
+  name: "Francis Tsiboe, Ph.D."
+  role: "Senior Research Economist & Program Leader"
+  affiliation: "Agricultural Risk Policy Center · NDSU"
+  avatar: "https://github.com/ftsiboe.png"
+  github: "https://github.com/ftsiboe"
+  linkedin: "https://www.linkedin.com/in/francis-tsiboe-02b97248/"
+  scholar: "https://scholar.google.com/citations?user=ox2t_YIAAAAJ&hl=en"
+  orcid: "https://orcid.org/0000-0001-5984-1072"
+  email: "ftsiboe@hotmail.com"
+
+# Custom layout (no external theme) applied to every page.
+defaults:
+  - scope: { path: "" }
+    values: { layout: "default" }
+
+markdown: kramdown

@@ -30,8 +30,8 @@ fm_page <- function(title, permalink = NULL) {
 jobs <- list(
   list(src = "README.Rmd",               out = file.path(root, "README.md"),
        front = NULL),
-  list(src = "README.Rmd",               out = file.path(root, "docs", "index.md"),
-       front = fm_page("Francis Tsiboe")),
+  list(src = "home.Rmd",                 out = file.path(root, "docs", "index.md"),
+       front = fm_page("About me")),
   list(src = "publication-risk-management.Rmd", out = file.path(root, "docs", "risk-management.md"),
        front = fm_page("Risk Management — Publications", "/risk-management/")),
   list(src = "publication-risk-management.Rmd", out = file.path(root, "data-raw", "publications", "risk-management", "README.md"),
@@ -66,16 +66,8 @@ render_one <- function(job) {
 
 invisible(lapply(jobs, render_one))
 
-## Multi-page GitHub wiki (uses the package function) ---------------------------
-rm_dir <- file.path(root, "data-raw", "publications", "risk-management")
-if (requireNamespace("ftsiboe", quietly = TRUE)) {
-  ftsiboe::build_wiki(rm_dir)
-} else if (requireNamespace("devtools", quietly = TRUE) &&
-           file.exists(file.path(root, "DESCRIPTION"))) {
-  devtools::load_all(root, quiet = TRUE)
-  build_wiki(rm_dir)
-} else {
-  message("(Skipped wiki: install the package or 'devtools' to build wiki/.)")
-}
-
 message("\nAll pages rendered.")
+
+# Note: the standalone GitHub wiki is no longer built here — the GitHub Pages
+# site (/risk-management/) is the published index. To (re)build the legacy wiki
+# manually, run: Rscript data-raw/publications/risk-management/build-wiki.R

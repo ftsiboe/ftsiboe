@@ -1,65 +1,41 @@
 ---
-title: "Francis Tsiboe"
+title: "About me"
 ---
 
-\# 👋 Hi & Welcome!
-================
 
-<!-- Source for the repo's root README.md. Build with data-raw/scripts/render.R -->
+<!-- Source for docs/index.md (the GitHub Pages landing / "About me").
+     This is intentionally separate from the GitHub profile README
+     (data-raw/scripts/pages/README.Rmd). Build with data-raw/scripts/render.R. -->
 
-> ⚠️ **Disclaimer:** This is my **personal** account. Views expressed
-> here are my own and not those of my employer(s).
+I am a **Senior Research Economist and Program Leader** at the
+[Agricultural Risk Policy Center (ARPC)](https://www.arpc-ndsu.com/),
+[North Dakota State University](https://www.ndsu.edu/) — an applied
+microeconomist working at the intersection of **agricultural risk
+management** and **U.S. farm policy**.
 
-I’m **Francis Tsiboe, Ph.D.** — [Senior Research Economist & Program
-Leader](https://www.arpc-ndsu.com/team/francis-tsiboe) at the
-[Agricultural Risk Policy Center (ARPC)](https://www.arpc-ndsu.com/) \|
-[North Dakota State University](https://www.ndsu.edu/).
+My research evaluates the federal farm safety net — the Federal Crop
+Insurance Program (FCIP), Price Loss Coverage (PLC), Agriculture Risk
+Coverage (ARC), and ad hoc disaster assistance. I study how these
+programs are priced and how routine actuarial updates affect taxpayer
+cost, producer participation, and the transfer of risk between the
+public and private sectors.
 
-------------------------------------------------------------------------
+Much of my work is computational. I am building an open-source **U.S.
+farm-policy simulator** and maintain a family of R packages for
+crop-insurance premium and indemnity calculation, yield and preference
+calibration, and reinsurance simulation. I program primarily in **R**,
+alongside Python, Stata, and SQL.
 
-**🔎 About Me**
+I also study **agricultural productivity and technology adoption in
+Ghana**, with work on technical efficiency, farmer education,
+disability, financial inclusion, and the linkages between resource
+extraction and farm performance.
 
-- 🏢 Applied microeconomist specializing in **risk management** & **U.S.
-  agricultural policy**
-- 📈 Research: actuarial updates in **Federal Crop Insurance**, farm
-  safety-nets, and policy evaluation
-- 🔭 Projects:
-  - **80%** → Building an open-source **U.S. farm-policy simulator**
-  - **20%** → Research on **agricultural productivity in Ghana**
-- 👯 Open to collaborations on **FCIP, PLC, ARC**, and broader U.S. farm
-  safety-net policies
-- 🌱 Currently sharpening my **Python** skills alongside R/Stata/SQL
-- ⚡ Fun fact: proud **dog lover** 🐶
-
-**🔗 Connect**
-
-[![ORCID](https://img.shields.io/badge/ORCID-0000_0001_5984_1072-green)](https://orcid.org/0000-0001-5984-1072)
-[![](https://img.shields.io/badge/GoogleScholar-Francis_Tsiboe-grey?style=flat-square&labelColor=4285F4&logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=ox2t_YIAAAAJ&hl=en)
-![Citations](https://img.shields.io/badge/dynamic/json?label=Citations&query=$.citations&url=https://raw.githubusercontent.com/ftsiboe/ftsiboe/main/data-raw/scholar-metrics.json)
-![h-index](https://img.shields.io/badge/dynamic/json?label=h-index&query=$.h_index&url=https://raw.githubusercontent.com/ftsiboe/ftsiboe/main/data-raw/scholar-metrics.json)
-![i10-index](https://img.shields.io/badge/dynamic/json?label=i10-index&query=$.i10_index&url=https://raw.githubusercontent.com/ftsiboe/ftsiboe/main/data-raw/scholar-metrics.json)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Francis_Tsiboe-0A66C2?logo=linkedin)](https://www.linkedin.com/in/francis-tsiboe-02b97248/)
-
-------------------------------------------------------------------------
-
-**🧭 Explore**
-
-- 📚 **[Publications — Risk
-  Management](https://ftsiboe.github.io/ftsiboe/risk-management/)** — my
-  publications organized by broad topic area, each linked to its
-  publicly available version (journal DOI, USDA-ERS, or ARPC).
-- 📝 **[Working
-  Papers](https://ftsiboe.github.io/ftsiboe/working-papers/)** —
-  pre-prints and works in progress (PDFs hosted in this repo).
-- 📦 **[R Packages](https://ftsiboe.github.io/ftsiboe/r-packages/)** —
-  public and in-development R packages for agricultural risk and policy
-  analysis.
-- 🔁 **[Replication
-  Packages](https://ftsiboe.github.io/ftsiboe/replication-packages/)** —
-  code and data to reproduce my published studies.
-- 📊 **[Research Metrics](https://ftsiboe.github.io/ftsiboe/metrics/)**
-  — live citation counts, h-index, and i10-index from Google Scholar.
-
-<!--
-**ftsiboe/ftsiboe** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
--->
+Browse my
+[publications](https://ftsiboe.github.io/ftsiboe/risk-management/) and
+[working papers](https://ftsiboe.github.io/ftsiboe/working-papers/),
+explore my [R packages](https://ftsiboe.github.io/ftsiboe/r-packages/)
+and [replication
+code](https://ftsiboe.github.io/ftsiboe/replication-packages/), or reach
+out — I’m always open to collaborations on FCIP, PLC/ARC, and the
+broader U.S. farm safety net.
