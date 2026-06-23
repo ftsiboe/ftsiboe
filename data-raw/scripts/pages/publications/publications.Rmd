@@ -1,0 +1,17 @@
+---
+output: github_document
+---
+
+<!-- SOURCE for docs/publications.md (the Publications index). Edit the prose;
+     pub_topic_index() lists each AREA (and risk-management's sub-topics as
+     sub-bullets) from docs/_config.yml + the links.csv manifests. -->
+
+My publications are organized by area. Risk-management work is further broken
+into sub-topics (shown as sub-bullets). Select an area to see its papers and links.
+
+```{r index, echo=FALSE, results="asis"}
+source("data-raw/scripts/site_helpers.R")
+pub_topic_index()
+```
+
+You can also find my articles on my [Google Scholar profile](https://scholar.google.com/citations?user=ox2t_YIAAAAJ&hl=en).

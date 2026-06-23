@@ -22,11 +22,12 @@ git add -A && git commit -m "update site" && git push
 
 | I want to change… | Edit this | Then |
 |---|---|---|
-| Wording of any page (About, Working Papers, R Packages, Replication, Metrics, Publications, a topic page) | the matching `data-raw/scripts/pages/*.Rmd` | run `render.R` |
+| Wording of a top-level page (About, Working Papers, R Packages, Replication, Metrics) | the matching `data-raw/scripts/pages/*.Rmd` | run `render.R` |
 | The GitHub **profile** page | `data-raw/scripts/pages/README.Rmd` | run `render.R` |
 | **Publications** (add/remove/fix a paper or link) | the `links.csv` in that area folder, e.g. `data-raw/publications/<area>/links.csv` | run `render.R` |
-| A single **topic page**'s layout/prose | that topic's `data-raw/scripts/pages/pub-<topic>.Rmd` | run `render.R` |
-| The Publications **topic index** | `data-raw/scripts/pages/publications.Rmd` | run `render.R` |
+| A single **area page**'s layout/prose | `data-raw/scripts/pages/publications/pub-<area>.Rmd` | run `render.R` |
+| The Publications **index** (areas + sub-bullets) | `data-raw/scripts/pages/publications/publications.Rmd` | run `render.R` |
+| How a citation/list is **formatted** everywhere | `data-raw/scripts/site_helpers.R` (shared helpers) | run `render.R` |
 | Sidebar **profile** (name, photo, bio, email, Scholar/ORCID/…) | `docs/_config.yml` → `author:` block | commit |
 | Top **navigation** menu | `docs/_data/navigation.yml` | commit |
 | **Theme / look** (colors, layout) | `docs/_sass/`, `docs/_includes/`, `docs/_layouts/` | commit |
@@ -63,38 +64,47 @@ crop-insurance-demand,"AEPP 2022 - Turner & Tsiboe - The Crop Insurance Demand R
   `demand-and-markets`, `sustainability`, `food-security-and-poverty`,
   `biotechnology`, `rice`, `impact-evaluation`
 
-The **Publications** page has two layers, each from its own editable `.Rmd`:
+### Structure: areas, sub-topics, and pages
 
-- **Topic index** — `pages/publications.Rmd` → `docs/publications.md` (permalink
-  `/publications/`). Shows only the list of *topics* (in `_config.yml` order, with
-  a paper count each); each links to its topic page.
-- **Topic pages** — one self-contained source per topic,
-  `pages/pub-<topic>.Rmd` → `docs/_pages/topic-<topic>.md` (permalink
-  `/publications/<topic>/`). Each reads the `links.csv` manifests, lists that
-  topic's papers, and links each to its public version ("Full text"). Edit any of
-  these independently (prose, ordering, formatting).
+The Publications section is organized by **area** (each = a folder in
+`data-raw/publications/`). Every area gets:
 
-(`render.R` renders all `pages/*.Rmd`; the title/order of each topic still come
-from `publication_category:` in `_config.yml`.)
+- an entry under `publication_category:` in `docs/_config.yml` (no `group:`),
+- a self-contained source `data-raw/scripts/pages/publications/pub-<area>.Rmd`
+  → `docs/_pages/topic-<area>.md` (permalink `/publications/<area>/`).
+
+One area, **risk-management**, is split into **sub-topics**. A sub-topic is a
+`publication_category:` entry with `group: risk-management`; its papers live in
+`data-raw/publications/risk-management/links.csv` with that sub-topic key in the
+`topic` column. The risk-management page shows one `## section` per sub-topic.
+
+The **index**, `data-raw/scripts/pages/publications/publications.Rmd` →
+`docs/publications.md` (permalink `/publications/`), lists each area as a bullet,
+with risk-management's sub-topics as sub-bullets linking to that page's sections.
+
+All the page sources just call helpers from `data-raw/scripts/site_helpers.R`
+(`pub_area_page()`, `pub_topic_index()`), so the manifest reading and citation
+formatting live in **one** place — edit there to change how every paper renders.
 
 ### Add a new publication
 1. Add the PDF to the right area folder under
    `data-raw/publications/<area>/` (optional, for your records).
-2. Add a row to that area's `links.csv` (set `topic` to a valid topic key).
+2. Add a row to that area's `links.csv` (`topic` = the area key, or a sub-topic
+   key for risk-management).
 3. `Rscript data-raw/scripts/render.R` → commit → push.
 
-### Add a new topic (new heading + page)
-1. Use the new topic key in the `topic` column of any `links.csv` rows.
-2. Add it under `publication_category:` in `docs/_config.yml`
-   (key = topic key, `title:` = the heading shown). Order there = order on index.
-3. Copy an existing `pages/pub-<topic>.Rmd` to `pages/pub-<newkey>.Rmd` and change
-   the `topic <- "<newkey>"` line near the top.
+### Add a new AREA (new bullet + page)
+1. Create `data-raw/publications/<area>/links.csv` with its papers.
+2. Add the area under `publication_category:` in `docs/_config.yml`
+   (key = `<area>`, `title:` = heading shown). Order there = order on the index.
+3. Copy an existing `pages/publications/pub-<area>.Rmd` to `pub-<newarea>.Rmd`
+   and change the `pub_area_page("<newarea>")` line.
 4. Re-run `render.R`.
 
-### Add a whole new area folder
-1. Create `data-raw/publications/<area>/` and drop a `links.csv` inside it.
-2. Make sure each `topic` you use is registered in `_config.yml`.
-3. Re-run `render.R` — it auto-discovers the new `links.csv`.
+### Add a sub-topic to risk-management
+1. Add the sub-topic under `publication_category:` with `group: risk-management`.
+2. Use that key in the `topic` column of `risk-management/links.csv` rows.
+3. Re-run `render.R` (no new page needed — it becomes a section on the risk page).
 
 ---
 
@@ -140,7 +150,7 @@ Put your current CV at `docs/assets/cv.pdf`; the **CV** menu item links to it.
 
 | Sources (edit these) | Generated (leave alone) |
 |---|---|
-| `data-raw/scripts/pages/*.Rmd` (incl. `publications.Rmd`, `pub-<topic>.Rmd`) | `README.md`, `docs/index.md`, `docs/*.md` |
+| `data-raw/scripts/pages/*.Rmd` + `pages/publications/*.Rmd` + `data-raw/scripts/site_helpers.R` | `README.md`, `docs/index.md`, `docs/*.md` |
 | `data-raw/publications/*/links.csv` (one per area) | `docs/publications.md`, `docs/_pages/topic-*.md` |
 | `docs/_config.yml`, `docs/_data/navigation.yml` | `data-raw/scholar-metrics.json` (auto) |
 | `data-raw/private-packages-inventory.csv` | `data-raw/private-packages/*.md` |

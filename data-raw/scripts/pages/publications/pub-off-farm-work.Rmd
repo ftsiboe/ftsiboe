@@ -1,0 +1,17 @@
+---
+output: github_document
+---
+
+<!-- SOURCE for the "Off-farm work & welfare" area page (docs/_pages/topic-off-farm-work.md).
+     Self-contained & independently editable. pub_area_page() lists this area's
+     papers from the links.csv manifests; for an area with sub-topics (e.g.
+     risk-management) it prints one section per sub-topic. Build with render.R. -->
+
+[&larr; All publications](https://ftsiboe.github.io/ftsiboe/publications/)
+
+```{r off-farm-work, echo=FALSE, results="asis"}
+source("data-raw/scripts/site_helpers.R")
+pub_area_page("off-farm-work")
+```
+
+[&larr; All publications](https://ftsiboe.github.io/ftsiboe/publications/)

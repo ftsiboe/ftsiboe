@@ -28,17 +28,21 @@
 #           - "topic" = a topic key (must exist under publication_category: in
 #                       docs/_config.yml). EVERY area's links.csv is read.
 #
-#  * The Publications page is built from .Rmd sources you can edit independently:
-#        - pages/publications.Rmd          -> docs/publications.md  (the topic index)
-#        - pages/pub-<topic>.Rmd           -> docs/_pages/topic-<topic>.md (one per topic)
-#      Each pub-<topic>.Rmd lists its own topic's papers from the manifests.
+#  * The Publications pages are .Rmd sources you can edit independently, all
+#    under  data-raw/scripts/pages/publications/ :
+#        - publications.Rmd        -> docs/publications.md  (the AREA index)
+#        - pub-<area>.Rmd          -> docs/_pages/topic-<area>.md (one per area)
+#      Each pub-<area>.Rmd just calls pub_area_page("<area>") from site_helpers.R;
+#      risk-management is the one area split into sub-topic sections.
 #
-#  * Add a NEW publication TOPIC (a new heading + its own page)
-#        1. use the new topic key in links.csv rows,
-#        2. add it under  publication_category:  in  docs/_config.yml
-#           (key = topic key, title = the heading shown), AND
-#        3. copy an existing pages/pub-<topic>.Rmd to pages/pub-<newkey>.Rmd and
-#           change the `topic <- "<newkey>"` line inside.  Re-run this script.
+#  * Add a NEW AREA (its own bullet on the index + its own page)
+#        1. create  data-raw/publications/<area>/links.csv  with its papers,
+#        2. add the area under  publication_category:  in  docs/_config.yml
+#           (key = <area>, title = the heading shown), AND
+#        3. copy an existing pages/publications/pub-<area>.Rmd to pub-<newarea>.Rmd
+#           and change the pub_area_page("<newarea>") line.  Re-run this script.
+#      To make an area have SUB-TOPICS (like risk-management), give its sub-topic
+#      entries  group: <area>  in _config.yml and use those topic keys in links.csv.
 #
 #  * Your sidebar profile (name, photo, bio, email, Scholar/ORCID/GitHub/...)
 #        -> edit  docs/_config.yml   (the  author:  block).  NOT this script.
@@ -80,18 +84,13 @@ if (length(file_arg) > 0) {
   root <- normalizePath(getwd())
 }
 pages <- file.path(root, "data-raw", "scripts", "pages")   # <- the .Rmd sources
+setwd(root)   # so helpers that read relative paths (docs/_config.yml) resolve
 
-## --- Front-matter helper -----------------------------------------------------
-# Writes the YAML header that makes a page use the AcademicPages theme
-# (sidebar + masthead). You normally don't touch this.
-fm_ap <- function(title, permalink, layout = "single") {
-  c("---",
-    sprintf("layout: %s", layout),
-    sprintf('title: "%s"', title),
-    sprintf("permalink: %s", permalink),
-    "author_profile: true",
-    "---")
-}
+## --- Shared helpers ----------------------------------------------------------
+##     ALL shared logic (front matter, manifest reading, citation formatting,
+##     the topic index, area pages) lives in ONE documented file. The page .Rmd
+##     sources `source()` the same file, so nothing is duplicated.
+source(file.path(root, "data-raw", "scripts", "site_helpers.R"))   # provides fm_ap(), pub_*()
 
 ## --- BUILD PLAN: one row per page.  src (.Rmd) -> out (.md) -> front matter ---
 ##     To add a page, copy a line and point it at a new pages/*.Rmd source.
@@ -103,7 +102,7 @@ jobs <- list(
   list(src = "r-packages.Rmd",          out = file.path(root, "docs", "r-packages.md"),           front = fm_ap("R Packages", "/r-packages/")),
   list(src = "replication-packages.Rmd",out = file.path(root, "docs", "replication-packages.md"), front = fm_ap("Replication Packages", "/replication-packages/")),
   list(src = "metrics.Rmd",             out = file.path(root, "docs", "metrics.md"),              front = fm_ap("Research Metrics", "/metrics/")),
-  list(src = "publications.Rmd",        out = file.path(root, "docs", "publications.md"),         front = fm_ap("Publications", "/publications/", "archive"))
+  list(src = "publications/publications.Rmd", out = file.path(root, "docs", "publications.md"),    front = fm_ap("Publications", "/publications/", "archive"))
 )
 
 ## --- Renderer (knits one .Rmd -> .md and prepends its front matter) ----------
@@ -126,31 +125,22 @@ render_one <- function(job) {
 }
 invisible(lapply(jobs, render_one))
 
-## --- PUBLICATIONS TOPIC PAGES: render each pages/pub-<topic>.Rmd --------------
-##     Each topic has its OWN self-contained source, pages/pub-<topic>.Rmd, which
-##     reads the links.csv manifests and lists that topic's papers (edit those
-##     files independently). They render to docs/_pages/topic-<topic>.md.
-##     The landing index (pages/publications.Rmd -> docs/publications.md) is in
-##     the `jobs` list above. Display titles/order come from `publication_category:`
-##     in docs/_config.yml (single source of truth for headings).
-pubcat_titles <- local({
-  cfg <- readLines(file.path(root, "docs", "_config.yml"), warn = FALSE)
-  i0  <- grep("^publication_category:", cfg)
-  if (!length(i0)) return(setNames(character(0), character(0)))
-  rest <- cfg[(i0 + 1):length(cfg)]
-  endi <- which(grepl("^[^[:space:]#]", rest))[1]
-  block <- if (is.na(endi)) rest else rest[seq_len(endi - 1)]
-  keys   <- sub("^\\s{2}([A-Za-z0-9-]+):\\s*$", "\\1", grep("^\\s{2}[A-Za-z0-9-]+:\\s*$", block, value = TRUE))
-  titles <- sub("^\\s{4}title:\\s*'(.*)'\\s*$", "\\1", grep("^\\s{4}title:", block, value = TRUE))
-  setNames(titles, keys)
-})
-
-topic_srcs <- list.files(pages, pattern = "^pub-.*\\.Rmd$")
-for (src in topic_srcs) {
-  key <- sub("^pub-(.*)\\.Rmd$", "\\1", src)
-  ttl <- if (key %in% names(pubcat_titles)) unname(pubcat_titles[[key]]) else key
+## --- PUBLICATIONS AREA PAGES: render each pages/publications/pub-<area>.Rmd ----
+##     One self-contained source per AREA (a folder in data-raw/publications/),
+##     each sourcing site_helpers.R to list its papers; risk-management is grouped
+##     into sub-topic sections. They render to docs/_pages/topic-<area>.md.
+##     Area titles come from publication_category: in docs/_config.yml.
+##     To add an area: create data-raw/publications/<area>/links.csv, register the
+##     area under publication_category:, and copy a pub-<area>.Rmd (change the key).
+cats        <- pub_categories()
+area_titles <- setNames(cats$title, cats$key)
+pubdir      <- file.path(pages, "publications")
+unlink(list.files(file.path(root, "docs", "_pages"), pattern = "^topic-.*\\.md$", full.names = TRUE))
+for (f in list.files(pubdir, pattern = "^pub-.*\\.Rmd$")) {
+  key <- sub("^pub-(.*)\\.Rmd$", "\\1", f)
+  ttl <- if (key %in% names(area_titles)) unname(area_titles[[key]]) else key
   render_one(list(
-    src   = src,
+    src   = file.path("publications", f),
     out   = file.path(root, "docs", "_pages", sprintf("topic-%s.md", key)),
     front = fm_ap(ttl, sprintf("/publications/%s/", key), "archive")
   ))

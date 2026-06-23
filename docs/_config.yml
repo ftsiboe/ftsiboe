@@ -84,26 +84,41 @@ author:
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
+  # AREAS are top-level entries (no `group`); each gets its own page + index bullet.
+  # Sub-topics carry `group: <area-key>` -> they render as sub-bullets on the index
+  # and as sections within that area's page. (Only risk-management has sub-topics.)
+  risk-management:
+    title: 'Risk management & the U.S. farm safety net'
   background-and-policy:
     title: 'Background & policy'
+    group: risk-management
   crop-insurance-demand:
     title: 'Crop insurance demand'
+    group: risk-management
   crop-insurance-rating:
     title: 'Crop insurance rating'
+    group: risk-management
   prevented-planting:
     title: 'Prevented planting'
+    group: risk-management
   premium-and-interest-deferrals:
     title: 'Premium & interest deferrals'
+    group: risk-management
   yield-modeling:
     title: 'Yield modeling'
+    group: risk-management
   index-insurance:
     title: 'Index insurance'
+    group: risk-management
   impacts-of-crop-insurance:
     title: 'Impacts of crop insurance'
+    group: risk-management
   safety-net-simulation:
     title: 'Safety-net simulation'
+    group: risk-management
   climate-and-environment:
     title: 'Climate & environment'
+    group: risk-management
   cocoa:
     title: 'Cocoa & farmer field schools'
   production:
