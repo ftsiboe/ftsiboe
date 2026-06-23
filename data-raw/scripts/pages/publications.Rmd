@@ -1,0 +1,36 @@
+---
+output: github_document
+---
+
+<!-- SOURCE for docs/publications.md (the Publications landing / topic index).
+     Self-contained: edit the prose freely; the R chunk lists each topic (from
+     publication_category in docs/_config.yml) with a paper count + link to its
+     own topic page. Build with data-raw/scripts/render.R (knit_root_dir = root). -->
+
+My publications are organized by broad topic area. Select a topic to see the
+papers and links to their publicly available versions.
+
+```{r pub-index, echo=FALSE, results="asis"}
+base <- "https://ftsiboe.github.io/ftsiboe/publications"
+
+## topics + display titles, in order, parsed from docs/_config.yml
+cfg  <- readLines("docs/_config.yml", warn = FALSE)
+i0   <- grep("^publication_category:", cfg)
+rest <- cfg[(i0 + 1):length(cfg)]
+endi <- which(grepl("^[^[:space:]#]", rest))[1]
+block  <- if (is.na(endi)) rest else rest[seq_len(endi - 1)]
+keys   <- sub("^\\s{2}([A-Za-z0-9-]+):\\s*$", "\\1", grep("^\\s{2}[A-Za-z0-9-]+:\\s*$", block, value = TRUE))
+titles <- sub("^\\s{4}title:\\s*'(.*)'\\s*$", "\\1", grep("^\\s{4}title:", block, value = TRUE))
+
+## paper counts per topic, from every links.csv
+csvs <- list.files("data-raw/publications", pattern = "^links\\.csv$", recursive = TRUE, full.names = TRUE)
+m <- do.call(rbind, lapply(csvs, function(f) utils::read.csv(f, stringsAsFactors = FALSE)[, c("topic","file","url")]))
+m <- m[nzchar(m$file), , drop = FALSE]
+
+for (j in seq_along(keys)) {
+  n <- sum(m$topic == keys[j])
+  if (n > 0) cat(sprintf("- [%s](%s/%s/) (%d)\n", titles[j], base, keys[j], n))
+}
+```
+
+You can also find my articles on my [Google Scholar profile](https://scholar.google.com/citations?user=ox2t_YIAAAAJ&hl=en).

@@ -9,8 +9,8 @@
 #  main / docs) rebuilds the site at https://ftsiboe.github.io/ftsiboe/ .
 #
 #  GOLDEN RULE: only edit the *sources* listed below, then re-run this script.
-#  Everything in docs/*.md and docs/_publications/ is GENERATED — don't hand-edit
-#  those (your changes would be overwritten on the next run).
+#  Everything in docs/*.md and docs/_pages/topic-*.md is GENERATED from the .Rmd
+#  sources — don't hand-edit those (changes are overwritten on the next run).
 #
 # -----------------------------------------------------------------------------
 #  WHAT DO I EDIT TO CHANGE ... ?
@@ -20,17 +20,25 @@
 #           (README.Rmd = the GitHub profile page; home.Rmd = the site "About").
 #
 #  * Your publications (add / remove / fix a paper or its link)
-#        -> edit   data-raw/publications/risk-management/links.csv
+#        -> edit the links.csv in that area:  data-raw/publications/<area>/links.csv
 #           columns:  topic , file , url
 #           - "file"  = the PDF's file name (kept locally; not pushed).
-#           - "url"   = the PUBLIC link (journal DOI / USDA-ERS / AgEcon / ARPC).
-#           - "topic" = one of the topic folder names (see TOPICS below).
-#           render.R turns each row into docs/_publications/<date>-<slug>.md .
+#           - "url"   = the PUBLIC link (journal DOI / USDA-ERS / AgEcon / ARPC);
+#                       leave blank if none yet (paper shows without a link).
+#           - "topic" = a topic key (must exist under publication_category: in
+#                       docs/_config.yml). EVERY area's links.csv is read.
 #
-#  * Add a NEW publication TOPIC (a new heading on the Publications page)
-#        1. use the new topic name in links.csv rows, AND
+#  * The Publications page is built from .Rmd sources you can edit independently:
+#        - pages/publications.Rmd          -> docs/publications.md  (the topic index)
+#        - pages/pub-<topic>.Rmd           -> docs/_pages/topic-<topic>.md (one per topic)
+#      Each pub-<topic>.Rmd lists its own topic's papers from the manifests.
+#
+#  * Add a NEW publication TOPIC (a new heading + its own page)
+#        1. use the new topic key in links.csv rows,
 #        2. add it under  publication_category:  in  docs/_config.yml
-#           (key = topic name, title = the heading shown).  No code change here.
+#           (key = topic key, title = the heading shown), AND
+#        3. copy an existing pages/pub-<topic>.Rmd to pages/pub-<newkey>.Rmd and
+#           change the `topic <- "<newkey>"` line inside.  Re-run this script.
 #
 #  * Your sidebar profile (name, photo, bio, email, Scholar/ORCID/GitHub/...)
 #        -> edit  docs/_config.yml   (the  author:  block).  NOT this script.
@@ -94,7 +102,8 @@ jobs <- list(
   list(src = "working-papers.Rmd",      out = file.path(root, "docs", "working-papers.md"),       front = fm_ap("Working Papers", "/working-papers/")),
   list(src = "r-packages.Rmd",          out = file.path(root, "docs", "r-packages.md"),           front = fm_ap("R Packages", "/r-packages/")),
   list(src = "replication-packages.Rmd",out = file.path(root, "docs", "replication-packages.md"), front = fm_ap("Replication Packages", "/replication-packages/")),
-  list(src = "metrics.Rmd",             out = file.path(root, "docs", "metrics.md"),              front = fm_ap("Research Metrics", "/metrics/"))
+  list(src = "metrics.Rmd",             out = file.path(root, "docs", "metrics.md"),              front = fm_ap("Research Metrics", "/metrics/")),
+  list(src = "publications.Rmd",        out = file.path(root, "docs", "publications.md"),         front = fm_ap("Publications", "/publications/", "archive"))
 )
 
 ## --- Renderer (knits one .Rmd -> .md and prepends its front matter) ----------
@@ -117,63 +126,34 @@ render_one <- function(job) {
 }
 invisible(lapply(jobs, render_one))
 
-## --- PUBLICATIONS: build docs/_publications/*.md from links.csv ---------------
-##     Driven entirely by the manifests — to add a paper, add a row to the
-##     links.csv in its area folder, e.g. data-raw/publications/<area>/links.csv
-##     (do NOT edit this code). EVERY area's links.csv is read and combined.
-##     TOPICS (the `topic` column) must match the keys under
-##     `publication_category:` in docs/_config.yml (risk-management sub-topics +
-##     cocoa, production, gender, off-farm-work, demand-and-markets, sustainability,
-##     food-security-and-poverty, biotechnology, rice, impact-evaluation).
-##     A blank `url` is fine — the paper appears without a link.
-gen_publications <- function(root) {
-  pubroot <- file.path(root, "data-raw", "publications")
-  out <- file.path(root, "docs", "_publications")
-  dir.create(out, showWarnings = FALSE, recursive = TRUE)
-  unlink(list.files(out, pattern = "\\.md$", full.names = TRUE))   # rebuild clean
-  # read EVERY area's links.csv (columns: topic, file, url) and combine
-  csvs <- list.files(pubroot, pattern = "^links\\.csv$", recursive = TRUE, full.names = TRUE)
-  m <- do.call(rbind, lapply(csvs, function(f) {
-    d <- utils::read.csv(f, stringsAsFactors = FALSE)
-    d[, c("topic", "file", "url")]
-  }))
+## --- PUBLICATIONS TOPIC PAGES: render each pages/pub-<topic>.Rmd --------------
+##     Each topic has its OWN self-contained source, pages/pub-<topic>.Rmd, which
+##     reads the links.csv manifests and lists that topic's papers (edit those
+##     files independently). They render to docs/_pages/topic-<topic>.md.
+##     The landing index (pages/publications.Rmd -> docs/publications.md) is in
+##     the `jobs` list above. Display titles/order come from `publication_category:`
+##     in docs/_config.yml (single source of truth for headings).
+pubcat_titles <- local({
+  cfg <- readLines(file.path(root, "docs", "_config.yml"), warn = FALSE)
+  i0  <- grep("^publication_category:", cfg)
+  if (!length(i0)) return(setNames(character(0), character(0)))
+  rest <- cfg[(i0 + 1):length(cfg)]
+  endi <- which(grepl("^[^[:space:]#]", rest))[1]
+  block <- if (is.na(endi)) rest else rest[seq_len(endi - 1)]
+  keys   <- sub("^\\s{2}([A-Za-z0-9-]+):\\s*$", "\\1", grep("^\\s{2}[A-Za-z0-9-]+:\\s*$", block, value = TRUE))
+  titles <- sub("^\\s{4}title:\\s*'(.*)'\\s*$", "\\1", grep("^\\s{4}title:", block, value = TRUE))
+  setNames(titles, keys)
+})
 
-  slug <- function(s) { s <- sub("\\.pdf$", "", s, ignore.case = TRUE); s <- tolower(s)
-    s <- gsub("[^a-z0-9]+", "-", s); s <- gsub("(^-|-$)", "", s); substr(s, 1, 80) }
-  esc <- function(x) gsub('"', '\\\\"', x)
-
-  for (i in seq_len(nrow(m))) {
-    topic <- m$topic[i]; fname <- m$file[i]; url <- m$url[i]
-    if (is.na(url)) url <- ""
-    stem  <- sub("\\.pdf$", "", fname, ignore.case = TRUE)
-    parts <- trimws(strsplit(stem, " - ", fixed = TRUE)[[1]])  # "OUTLET YYYY - Authors - Title"
-    title   <- parts[length(parts)]                            # title = text after last " - "
-    authors <- if (length(parts) >= 3) parts[2] else ""
-    vtok <- parts[1]                                          # outlet token only, e.g. "ARPC 2024-3"
-    yr <- regmatches(vtok, regexpr("(19|20)[0-9]{2}", vtok)); year <- if (length(yr)) as.integer(yr) else 2025L
-    mm <- regmatches(vtok, regexec("(?:19|20)[0-9]{2}-([0-9]+)", vtok, perl = TRUE))[[1]]
-    issue <- if (length(mm) >= 2) as.integer(mm[2]) else 0L     # ARPC issue # (for ordering)
-    venue <- sub("\\s+[0-9]{4}$", "", parts[1])                # outlet, year stripped
-    d <- as.Date(sprintf("%d-01-01", year)) + (if (issue > 0) issue else 150L)  # date -> sort order
-    sl <- slug(fname)
-    cite <- if (nzchar(authors))
-      sprintf('%s (%d). &quot;%s.&quot; <i>%s</i>.', esc(authors), year, esc(title), esc(venue))
-    else
-      sprintf('(%d). &quot;%s.&quot; <i>%s</i>.', year, esc(title), esc(venue))
-    md <- c("---",
-            sprintf('title: "%s"', esc(title)),
-            "collection: publications",
-            sprintf("category: %s", topic),
-            sprintf("permalink: /publication/%s", sl),
-            sprintf("date: %s", format(d, "%Y-%m-%d")),
-            sprintf('venue: "%s"', esc(venue)),
-            if (nzchar(url)) sprintf('paperurl: "%s"', url) else NULL,  # omit when blank
-            sprintf("citation: '%s'", cite),
-            "---", "")
-    writeLines(md, file.path(out, sprintf("%s-%s.md", format(d, "%Y-%m-%d"), sl)), useBytes = TRUE)
-  }
-  message(sprintf("- generated %d publications -> docs/_publications/", nrow(m)))
+topic_srcs <- list.files(pages, pattern = "^pub-.*\\.Rmd$")
+for (src in topic_srcs) {
+  key <- sub("^pub-(.*)\\.Rmd$", "\\1", src)
+  ttl <- if (key %in% names(pubcat_titles)) unname(pubcat_titles[[key]]) else key
+  render_one(list(
+    src   = src,
+    out   = file.path(root, "docs", "_pages", sprintf("topic-%s.md", key)),
+    front = fm_ap(ttl, sprintf("/publications/%s/", key), "archive")
+  ))
 }
-gen_publications(root)
 
 message("\nAll pages rendered. Commit & push, then check https://ftsiboe.github.io/ftsiboe/")

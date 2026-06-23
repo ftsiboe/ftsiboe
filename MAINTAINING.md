@@ -22,9 +22,11 @@ git add -A && git commit -m "update site" && git push
 
 | I want to change… | Edit this | Then |
 |---|---|---|
-| Wording of a page (About, Working Papers, R Packages, Replication, Metrics) | the matching `data-raw/scripts/pages/*.Rmd` | run `render.R` |
+| Wording of any page (About, Working Papers, R Packages, Replication, Metrics, Publications, a topic page) | the matching `data-raw/scripts/pages/*.Rmd` | run `render.R` |
 | The GitHub **profile** page | `data-raw/scripts/pages/README.Rmd` | run `render.R` |
 | **Publications** (add/remove/fix a paper or link) | the `links.csv` in that area folder, e.g. `data-raw/publications/<area>/links.csv` | run `render.R` |
+| A single **topic page**'s layout/prose | that topic's `data-raw/scripts/pages/pub-<topic>.Rmd` | run `render.R` |
+| The Publications **topic index** | `data-raw/scripts/pages/publications.Rmd` | run `render.R` |
 | Sidebar **profile** (name, photo, bio, email, Scholar/ORCID/…) | `docs/_config.yml` → `author:` block | commit |
 | Top **navigation** menu | `docs/_data/navigation.yml` | commit |
 | **Theme / look** (colors, layout) | `docs/_sass/`, `docs/_includes/`, `docs/_layouts/` | commit |
@@ -61,8 +63,19 @@ crop-insurance-demand,"AEPP 2022 - Turner & Tsiboe - The Crop Insurance Demand R
   `demand-and-markets`, `sustainability`, `food-security-and-poverty`,
   `biotechnology`, `rice`, `impact-evaluation`
 
-`render.R` turns each row into a file in `docs/_publications/`, and the
-Publications page lists them grouped by topic (in the `_config.yml` order).
+The **Publications** page has two layers, each from its own editable `.Rmd`:
+
+- **Topic index** — `pages/publications.Rmd` → `docs/publications.md` (permalink
+  `/publications/`). Shows only the list of *topics* (in `_config.yml` order, with
+  a paper count each); each links to its topic page.
+- **Topic pages** — one self-contained source per topic,
+  `pages/pub-<topic>.Rmd` → `docs/_pages/topic-<topic>.md` (permalink
+  `/publications/<topic>/`). Each reads the `links.csv` manifests, lists that
+  topic's papers, and links each to its public version ("Full text"). Edit any of
+  these independently (prose, ordering, formatting).
+
+(`render.R` renders all `pages/*.Rmd`; the title/order of each topic still come
+from `publication_category:` in `_config.yml`.)
 
 ### Add a new publication
 1. Add the PDF to the right area folder under
@@ -70,11 +83,13 @@ Publications page lists them grouped by topic (in the `_config.yml` order).
 2. Add a row to that area's `links.csv` (set `topic` to a valid topic key).
 3. `Rscript data-raw/scripts/render.R` → commit → push.
 
-### Add a new topic (new heading)
-1. Use the new topic name in the `topic` column of any `links.csv` rows.
+### Add a new topic (new heading + page)
+1. Use the new topic key in the `topic` column of any `links.csv` rows.
 2. Add it under `publication_category:` in `docs/_config.yml`
-   (key = topic name, `title:` = the heading shown). Order there = order on page.
-3. Re-run `render.R`.
+   (key = topic key, `title:` = the heading shown). Order there = order on index.
+3. Copy an existing `pages/pub-<topic>.Rmd` to `pages/pub-<newkey>.Rmd` and change
+   the `topic <- "<newkey>"` line near the top.
+4. Re-run `render.R`.
 
 ### Add a whole new area folder
 1. Create `data-raw/publications/<area>/` and drop a `links.csv` inside it.
@@ -125,7 +140,7 @@ Put your current CV at `docs/assets/cv.pdf`; the **CV** menu item links to it.
 
 | Sources (edit these) | Generated (leave alone) |
 |---|---|
-| `data-raw/scripts/pages/*.Rmd` | `README.md`, `docs/index.md`, `docs/*.md` |
-| `data-raw/publications/*/links.csv` (one per area) | `docs/_publications/*.md` |
+| `data-raw/scripts/pages/*.Rmd` (incl. `publications.Rmd`, `pub-<topic>.Rmd`) | `README.md`, `docs/index.md`, `docs/*.md` |
+| `data-raw/publications/*/links.csv` (one per area) | `docs/publications.md`, `docs/_pages/topic-*.md` |
 | `docs/_config.yml`, `docs/_data/navigation.yml` | `data-raw/scholar-metrics.json` (auto) |
 | `data-raw/private-packages-inventory.csv` | `data-raw/private-packages/*.md` |
