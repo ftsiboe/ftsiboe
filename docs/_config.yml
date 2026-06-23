@@ -104,6 +104,26 @@ publication_category:
     title: 'Safety-net simulation'
   climate-and-environment:
     title: 'Climate & environment'
+  cocoa:
+    title: 'Cocoa & farmer field schools'
+  production:
+    title: 'Agricultural productivity (Ghana)'
+  gender:
+    title: 'Gender & empowerment'
+  off-farm-work:
+    title: 'Off-farm work & welfare'
+  demand-and-markets:
+    title: 'Markets & prices'
+  sustainability:
+    title: 'Sustainability & environment'
+  food-security-and-poverty:
+    title: 'Food security & poverty'
+  biotechnology:
+    title: 'Biotechnology & consumer acceptance'
+  rice:
+    title: 'Rice production & environment (US)'
+  impact-evaluation:
+    title: 'Impact evaluation'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
