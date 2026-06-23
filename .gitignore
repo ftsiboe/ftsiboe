@@ -13,9 +13,9 @@
 data-raw/publications/**/*.pdf
 
 # R Markdown render / preview artifacts (we commit the .md, never the .html)
-*.html
-*_files/
-*_cache/
+# *.html
+# *_files/
+# *_cache/
 
 # Legacy GitHub-wiki build output (publish to the separate .wiki repo, not here)
 data-raw/publications/risk-management/wiki/
