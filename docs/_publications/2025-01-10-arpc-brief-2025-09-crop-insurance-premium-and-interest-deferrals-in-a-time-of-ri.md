@@ -8,3 +8,4 @@ venue: "ARPC Brief 2025-09"
 paperurl: "https://www.arpc-ndsu.com/briefs"
 citation: '(2025). &quot;Crop Insurance Premium and Interest Deferrals in a Time of Rising Farm Costs.&quot; <i>ARPC Brief 2025-09</i>.'
 ---
+

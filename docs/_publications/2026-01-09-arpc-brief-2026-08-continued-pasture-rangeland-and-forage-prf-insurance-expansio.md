@@ -8,3 +8,4 @@ venue: "ARPC Brief 2026-08"
 paperurl: "https://www.arpc-ndsu.com/post/continued-pasture-rangeland-and-forage-prf-insurance-expansion-in-2026"
 citation: '(2026). &quot;Continued Pasture, Rangeland, and Forage (PRF) Insurance Expansion in 2026.&quot; <i>ARPC Brief 2026-08</i>.'
 ---
+

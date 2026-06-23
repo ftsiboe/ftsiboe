@@ -8,3 +8,4 @@ venue: "JAAE"
 paperurl: "https://doi.org/10.1017/aae.2025.12"
 citation: 'Turner et al. (2025). &quot;Crop Insurance Participation and Cover Crop Use.&quot; <i>JAAE</i>.'
 ---
+

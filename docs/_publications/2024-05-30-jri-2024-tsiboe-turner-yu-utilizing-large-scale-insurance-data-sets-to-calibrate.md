@@ -8,3 +8,4 @@ venue: "JRI"
 paperurl: "https://doi.org/10.1111/jori.12494"
 citation: 'Tsiboe, Turner & Yu (2024). &quot;Utilizing Large-scale Insurance Data Sets to Calibrate Sub-county Level Crop Yields.&quot; <i>JRI</i>.'
 ---
+

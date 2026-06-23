@@ -8,3 +8,4 @@ venue: "USDA ERS EIB"
 paperurl: "https://doi.org/10.22004/ag.econ.333549"
 citation: 'Baldwin (2023). &quot;US Agricultural Policy Review 2021.&quot; <i>USDA ERS EIB</i>.'
 ---
+

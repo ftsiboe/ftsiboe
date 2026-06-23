@@ -8,3 +8,4 @@ venue: "ARPC Brief 2025-11"
 paperurl: "https://doi.org/10.22004/ag.econ.388967"
 citation: 'Rising Costs, Falling Prices (2025). &quot;Regional Disparities Deepen Farm Financial Stress.&quot; <i>ARPC Brief 2025-11</i>.'
 ---
+

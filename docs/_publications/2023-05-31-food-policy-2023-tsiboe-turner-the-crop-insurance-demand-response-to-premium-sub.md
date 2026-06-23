@@ -8,3 +8,4 @@ venue: "Food Policy"
 paperurl: "https://doi.org/10.1016/j.foodpol.2023.102505"
 citation: 'Tsiboe & Turner (2023). &quot;The Crop Insurance Demand Response to Premium Subsidies (US).&quot; <i>Food Policy</i>.'
 ---
+

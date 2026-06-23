@@ -8,3 +8,4 @@ venue: "AEPP"
 paperurl: "https://doi.org/10.1002/aepp.13513"
 citation: 'Tsiboe et al. (2025). &quot;Risk Reduction Impacts of Crop Insurance in the United States.&quot; <i>AEPP</i>.'
 ---
+

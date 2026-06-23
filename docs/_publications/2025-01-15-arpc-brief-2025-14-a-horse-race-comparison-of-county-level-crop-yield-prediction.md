@@ -8,3 +8,4 @@ venue: "ARPC Brief 2025-14"
 paperurl: "https://www.arpc-ndsu.com/briefs"
 citation: '(2025). &quot;A Horse Race Comparison of County-Level Crop Yield Prediction Methods.&quot; <i>ARPC Brief 2025-14</i>.'
 ---
+

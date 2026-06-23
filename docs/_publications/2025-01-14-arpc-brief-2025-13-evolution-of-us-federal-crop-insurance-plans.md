@@ -8,3 +8,4 @@ venue: "ARPC Brief 2025-13"
 paperurl: "https://www.arpc-ndsu.com/briefs"
 citation: '(2025). &quot;Evolution of US Federal Crop-Insurance Plans.&quot; <i>ARPC Brief 2025-13</i>.'
 ---
+

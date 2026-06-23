@@ -8,3 +8,4 @@ venue: "ARPC White Paper 2025-04"
 paperurl: "https://doi.org/10.22004/ag.econ.364685"
 citation: 'When Disaster Strikes the Billing Date (2025). &quot;A Scoping Review of Crop Insurance Interest Deferrals.&quot; <i>ARPC White Paper 2025-04</i>.'
 ---
+
