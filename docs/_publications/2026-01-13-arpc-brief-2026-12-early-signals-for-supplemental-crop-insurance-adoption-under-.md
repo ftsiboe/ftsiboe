@@ -8,3 +8,4 @@ venue: "ARPC Brief 2026-12"
 paperurl: "https://www.arpc-ndsu.com/briefs"
 citation: '(2026). &quot;Early Signals for Supplemental Crop Insurance Adoption Under Partial OBBBA Implementation.&quot; <i>ARPC Brief 2026-12</i>.'
 ---
+

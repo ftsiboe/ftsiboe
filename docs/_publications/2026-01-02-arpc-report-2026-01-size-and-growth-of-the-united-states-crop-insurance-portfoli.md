@@ -8,3 +8,4 @@ venue: "ARPC Report 2026-01"
 paperurl: "https://www.arpc-ndsu.com/publications"
 citation: '(2026). &quot;Size and Growth of the United States Crop Insurance Portfolio, 2025.&quot; <i>ARPC Report 2026-01</i>.'
 ---
+

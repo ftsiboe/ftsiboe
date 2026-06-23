@@ -8,3 +8,4 @@ venue: "JAAEA"
 paperurl: "https://doi.org/10.1002/jaa2.77"
 citation: 'Tsiboe, Tack & Yu (2023). &quot;Farm-level Evaluation of Area- and Agroclimatic-based Index Insurance.&quot; <i>JAAEA</i>.'
 ---
+

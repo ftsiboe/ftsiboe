@@ -1,7 +1,7 @@
 ---
+layout: single
 title: "Research Metrics"
 permalink: /metrics/
-layout: single
 author_profile: true
 ---
 
@@ -23,4 +23,13 @@ The badges above read
 [`data-raw/scholar-metrics.json`](https://github.com/ftsiboe/ftsiboe/blob/main/data-raw/scholar-metrics.json),
 which the **Update Scholar Metrics** GitHub Actions workflow
 (`.github/workflows/R-google-scholar-profile.yaml`) refreshes from
-Google Scholar on a weekly and monthly schedule. Because the b
+Google Scholar on a weekly and monthly schedule. Because the badges are
+read live, the numbers stay current without rebuilding this site.
+
+------------------------------------------------------------------------
+
+[Home](https://ftsiboe.github.io/ftsiboe/) ·
+[Publications](https://ftsiboe.github.io/ftsiboe/risk-management/) ·
+[Working Papers](https://ftsiboe.github.io/ftsiboe/working-papers/) · [R
+Packages](https://ftsiboe.github.io/ftsiboe/r-packages/) · [Replication
+Packages](https://ftsiboe.github.io/ftsiboe/replication-packages/)

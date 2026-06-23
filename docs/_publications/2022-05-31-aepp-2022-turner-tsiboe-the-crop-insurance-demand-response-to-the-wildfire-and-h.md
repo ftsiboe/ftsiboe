@@ -8,3 +8,4 @@ venue: "AEPP"
 paperurl: "https://doi.org/10.1002/aepp.13314"
 citation: 'Turner & Tsiboe (2022). &quot;The Crop Insurance Demand Response to the Wildfire and Hurricane Indemnity.&quot; <i>AEPP</i>.'
 ---
+

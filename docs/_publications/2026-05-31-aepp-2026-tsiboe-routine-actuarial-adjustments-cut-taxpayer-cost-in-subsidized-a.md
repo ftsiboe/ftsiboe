@@ -8,3 +8,4 @@ venue: "AEPP"
 paperurl: "https://doi.org/10.1002/aepp.70052"
 citation: 'Tsiboe (2026). &quot;Routine Actuarial Adjustments Cut Taxpayer Cost in Subsidized Agricultural Insurance.&quot; <i>AEPP</i>.'
 ---
+

@@ -8,3 +8,4 @@ venue: "ARPC Brief 2026-06"
 paperurl: "https://www.arpc-ndsu.com/post/routine-pricing-adjustments-help-keep-crop-insurance-costs-in-check"
 citation: '(2026). &quot;Routine Pricing Adjustments Help Keep Crop Insurance Costs in Check.&quot; <i>ARPC Brief 2026-06</i>.'
 ---
+

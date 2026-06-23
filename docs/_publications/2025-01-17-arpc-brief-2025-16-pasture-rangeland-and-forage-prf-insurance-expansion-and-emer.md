@@ -8,3 +8,4 @@ venue: "ARPC Brief 2025-16"
 paperurl: "https://doi.org/10.22004/ag.econ.391345"
 citation: '(2025). &quot;Pasture, Rangeland, and Forage (PRF) Insurance Expansion and Emerging Limits to Growth.&quot; <i>ARPC Brief 2025-16</i>.'
 ---
+

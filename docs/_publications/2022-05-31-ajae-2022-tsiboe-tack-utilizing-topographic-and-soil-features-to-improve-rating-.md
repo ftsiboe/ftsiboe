@@ -8,3 +8,4 @@ venue: "AJAE"
 paperurl: "https://doi.org/10.1111/ajae.12218"
 citation: 'Tsiboe & Tack (2022). &quot;Utilizing Topographic and Soil Features to Improve Rating for Farm-level Insurance.&quot; <i>AJAE</i>.'
 ---
+

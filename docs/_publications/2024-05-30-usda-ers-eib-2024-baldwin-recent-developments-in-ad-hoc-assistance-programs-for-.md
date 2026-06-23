@@ -8,3 +8,4 @@ venue: "USDA ERS EIB"
 paperurl: "https://doi.org/10.32747/2024.8633521.ers"
 citation: 'Baldwin (2024). &quot;Recent Developments in Ad Hoc Assistance Programs for Agricultural Producers.&quot; <i>USDA ERS EIB</i>.'
 ---
+

@@ -8,3 +8,4 @@ venue: "ARPC Brief 2026-01"
 paperurl: "https://doi.org/10.22004/ag.econ.387586"
 citation: '(2026). &quot;The Actuarial Performance of Prevented Planting Buy-Up Coverage.&quot; <i>ARPC Brief 2026-01</i>.'
 ---
+
