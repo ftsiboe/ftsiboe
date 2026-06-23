@@ -7,3 +7,4 @@ date: 2017-05-31
 venue: "World Development"
 citation: 'Zereyesus et al (2017). &quot;Implications of Non-farm Work to Vulnerability to Food Poverty in Northern Ghana.&quot; <i>World Development</i>.'
 ---
+

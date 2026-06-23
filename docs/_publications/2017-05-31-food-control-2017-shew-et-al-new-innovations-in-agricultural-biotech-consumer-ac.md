@@ -7,3 +7,4 @@ date: 2017-05-31
 venue: "Food Control"
 citation: 'Shew et al (2017). &quot;Consumer Acceptance of Topical RNAi in Rice Production.&quot; <i>Food Control</i>.'
 ---
+

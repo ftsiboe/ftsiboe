@@ -7,3 +7,4 @@ date: 2019-05-31
 venue: "Journal of Soil and Water Conservation"
 citation: 'Kovacs et al (2019). &quot;Factors Influencing the Willingness to Pay for On-farm Water Infrastructure.&quot; <i>Journal of Soil and Water Conservation</i>.'
 ---
+

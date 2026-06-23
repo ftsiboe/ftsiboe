@@ -7,3 +7,4 @@ date: 2017-05-31
 venue: "Agronomy Journal"
 citation: 'Tsiboe et al (2017). &quot;Profitability of Alternative Management Practices in a Wheat-Soybean Double-Crop Production System in Arkansas.&quot; <i>Agronomy Journal</i>.'
 ---
+

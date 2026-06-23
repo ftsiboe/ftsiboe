@@ -7,3 +7,4 @@ date: 2022-05-31
 venue: "ARER"
 citation: 'Tsiboe et al (2022). &quot;Production Technology, Efficiency, and Productivity of Cereal Farms in Ghana.&quot; <i>ARER</i>.'
 ---
+

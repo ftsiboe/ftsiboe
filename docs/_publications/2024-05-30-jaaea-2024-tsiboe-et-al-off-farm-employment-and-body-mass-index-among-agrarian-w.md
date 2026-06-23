@@ -7,3 +7,4 @@ date: 2024-05-30
 venue: "JAAEA"
 citation: 'Tsiboe et al (2024). &quot;Off-farm Employment and Body Mass Index Among Agrarian Women in Sub-Saharan Africa.&quot; <i>JAAEA</i>.'
 ---
+

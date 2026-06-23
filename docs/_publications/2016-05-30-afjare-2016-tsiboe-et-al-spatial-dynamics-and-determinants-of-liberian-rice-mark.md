@@ -7,3 +7,4 @@ date: 2016-05-30
 venue: "AfJARE"
 citation: 'Tsiboe et al (2016). &quot;Spatial Dynamics and Determinants of Liberian Rice Market Integration.&quot; <i>AfJARE</i>.'
 ---
+

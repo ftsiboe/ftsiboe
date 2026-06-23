@@ -7,3 +7,4 @@ date: 2016-05-30
 venue: "Journal of Rural Studies"
 citation: 'Tsiboe et al (2016). &quot;Non-farm Work, Food Poverty, and Nutrient Availability in Northern Ghana.&quot; <i>Journal of Rural Studies</i>.'
 ---
+

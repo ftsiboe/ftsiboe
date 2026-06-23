@@ -7,3 +7,4 @@ date: 2020-05-30
 venue: "SSRN"
 citation: 'Tsiboe (2020). &quot;Nationally Representative Farm-Household Level Dataset on Crop Production in Ghana, 1987-2017.&quot; <i>SSRN</i>.'
 ---
+

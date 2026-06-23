@@ -7,3 +7,4 @@ date: 2017-05-31
 venue: "Agronomy Journal"
 citation: 'Nalley et al (2017). &quot;The Production, Consumption, and Environmental Impacts of Rice Hybridization in the United States.&quot; <i>Agronomy Journal</i>.'
 ---
+

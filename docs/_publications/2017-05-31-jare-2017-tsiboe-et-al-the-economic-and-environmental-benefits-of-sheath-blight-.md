@@ -7,3 +7,4 @@ date: 2017-05-31
 venue: "JARE"
 citation: 'Tsiboe et al (2017). &quot;The Economic and Environmental Benefits of Sheath Blight Resistance in Rice.&quot; <i>JARE</i>.'
 ---
+

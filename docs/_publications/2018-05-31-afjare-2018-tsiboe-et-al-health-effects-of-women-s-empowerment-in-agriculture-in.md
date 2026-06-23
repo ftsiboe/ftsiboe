@@ -7,3 +7,4 @@ date: 2018-05-31
 venue: "AfJARE"
 citation: 'Tsiboe et al (2018). &quot;Health Effects of Women's Empowerment in Agriculture in Northern Ghana.&quot; <i>AfJARE</i>.'
 ---
+

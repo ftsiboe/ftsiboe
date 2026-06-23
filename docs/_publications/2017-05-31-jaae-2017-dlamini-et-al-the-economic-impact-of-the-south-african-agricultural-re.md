@@ -7,3 +7,4 @@ date: 2017-05-31
 venue: "JAAE"
 citation: 'Dlamini et al (2017). &quot;The Economic Impact of the South African Agricultural Research Council's Dry Beans Breeding Program.&quot; <i>JAAE</i>.'
 ---
+
