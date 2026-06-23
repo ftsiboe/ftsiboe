@@ -1,6 +1,8 @@
 ---
 title: "R Packages"
 permalink: /r-packages/
+layout: single
+author_profile: true
 ---
 
 
@@ -47,11 +49,4 @@ agricultural risk and policy analysis.
   — Simulate and benchmark Federal Crop Insurance Program (FCIP)
   outcomes.
 
-------------------------------------------------------------------------
-
-[Home](https://ftsiboe.github.io/ftsiboe/) ·
-[Publications](https://ftsiboe.github.io/ftsiboe/risk-management/) ·
-[Working Papers](https://ftsiboe.github.io/ftsiboe/working-papers/) ·
-[Replication
-Packages](https://ftsiboe.github.io/ftsiboe/replication-packages/) ·
-[Research Metrics](https://ftsiboe.github.io/ftsiboe/metrics/)
+------------------------------------

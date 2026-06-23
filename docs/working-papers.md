@@ -1,6 +1,8 @@
 ---
 title: "Working Papers"
 permalink: /working-papers/
+layout: single
+author_profile: true
 ---
 
 
@@ -19,10 +21,4 @@ free to read or download.
 - [Risk Reduction Impacts of Crop Insurance in the United
   States](https://github.com/ftsiboe/ftsiboe/blob/main/data-raw/working-papers/risk_reduction_impacts_of_crop_insurance_in_the_united_states.pdf)
 
-------------------------------------------------------------------------
-
-[Home](https://ftsiboe.github.io/ftsiboe/) ·
-[Publications](https://ftsiboe.github.io/ftsiboe/risk-management/) · [R
-Packages](https://ftsiboe.github.io/ftsiboe/r-packages/) · [Replication
-Packages](https://ftsiboe.github.io/ftsiboe/replication-packages/) ·
-[Research Metrics](https://ftsiboe.github.io/ftsiboe/metrics/)
+------------------------------------------------

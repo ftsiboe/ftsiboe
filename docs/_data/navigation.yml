@@ -1,0 +1,15 @@
+main:
+  - title: "About"
+    url: /
+  - title: "Publications"
+    url: /publications/
+  - title: "Working Papers"
+    url: /working-papers/
+  - title: "R Packages"
+    url: /r-packages/
+  - title: "Replication"
+    url: /replication-packages/
+  - title: "Metrics"
+    url: /metrics/
+  - title: "CV"
+    url: /assets/cv.pdf

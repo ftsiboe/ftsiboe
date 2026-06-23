@@ -1,6 +1,8 @@
 ---
 title: "Replication Packages"
 permalink: /replication-packages/
+layout: single
+author_profile: true
 ---
 
 
@@ -37,10 +39,4 @@ Code and data to reproduce my published studies.
   - Land Ownership Appears Neither Necessary nor Sufficient for Superior
     Agricultural Performance in Ghana.
 
-------------------------------------------------------------------------
-
-[Home](https://ftsiboe.github.io/ftsiboe/) ·
-[Publications](https://ftsiboe.github.io/ftsiboe/risk-management/) ·
-[Working Papers](https://ftsiboe.github.io/ftsiboe/working-papers/) · [R
-Packages](https://ftsiboe.github.io/ftsiboe/r-packages/) · [Research
-Metrics](https://ftsiboe.github.io/ftsiboe/metrics/)
+------

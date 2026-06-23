@@ -1,5 +1,8 @@
 ---
+permalink: /
 title: "About me"
+layout: single
+author_profile: true
 ---
 
 I am a **Senior Research Economist and Program Leader** at the
