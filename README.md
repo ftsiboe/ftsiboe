@@ -44,17 +44,16 @@ Leader](https://www.arpc-ndsu.com/team/francis-tsiboe) at the
   Management](https://ftsiboe.github.io/risk-management/)** — my
   publications organized by broad topic area, each linked to its
   publicly available version (journal DOI, USDA-ERS, or ARPC).
-- 📝 **[Working
-  Papers](https://ftsiboe.github.io/working-papers/)** —
+- 📝 **[Working Papers](https://ftsiboe.github.io/working-papers/)** —
   pre-prints and works in progress (PDFs hosted in this repo).
-- 📦 **[R Packages](https://ftsiboe.github.io/r-packages/)** —
-  public and in-development R packages for agricultural risk and policy
+- 📦 **[R Packages](https://ftsiboe.github.io/r-packages/)** — public
+  and in-development R packages for agricultural risk and policy
   analysis.
 - 🔁 **[Replication
-  Packages](https://ftsiboe.github.io/replication-packages/)** —
-  code and data to reproduce my published studies.
-- 📊 **[Research Metrics](https://ftsiboe.github.io/metrics/)**
-  — live citation counts, h-index, and i10-index from Google Scholar.
+  Packages](https://ftsiboe.github.io/replication-packages/)** — code
+  and data to reproduce my published studies.
+- 📊 **[Research Metrics](https://ftsiboe.github.io/metrics/)** — live
+  citation counts, h-index, and i10-index from Google Scholar.
 
 <!--
 **ftsiboe/ftsiboe** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.

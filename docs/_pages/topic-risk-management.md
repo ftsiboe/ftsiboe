@@ -11,7 +11,7 @@ author_profile: true
      papers from the links.csv manifests; for an area with sub-topics (e.g.
      risk-management) it prints one section per sub-topic. Build with render.R. -->
 
-[← All publications](https://ftsiboe.github.io/ftsiboe/publications/)
+[← All publications](https://ftsiboe.github.io/publications/)
 
 ## Background & policy
 
@@ -146,4 +146,4 @@ author_profile: true
   Fertilizer Prices.” *ARPC White Paper*. [Full
   text](https://www.arpc-ndsu.com/outreach/publications/crop-insurance-and-nitrogen-reduction-under-elevated-fertilizer-prices)
 
-[← All publications](https://ftsiboe.github.io/ftsiboe/publications/)
+[← All publications](https://ftsiboe.github.io/publications/)

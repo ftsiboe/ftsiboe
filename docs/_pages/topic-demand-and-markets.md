@@ -11,7 +11,7 @@ author_profile: true
      papers from the links.csv manifests; for an area with sub-topics (e.g.
      risk-management) it prints one section per sub-topic. Build with render.R. -->
 
-[← All publications](https://ftsiboe.github.io/ftsiboe/publications/)
+[← All publications](https://ftsiboe.github.io/publications/)
 
 - Peterson-Wilhelm et al (2023). “Quality Determinants of Rice Price in
   Open Bag Markets in Sub-Saharan Africa.” *JADEE*.
@@ -21,4 +21,4 @@ author_profile: true
   Effects on the Marketing of Cassava in Ghana.” *Journal of
   Agricultural Science*.
 
-[← All publications](https://ftsiboe.github.io/ftsiboe/publications/)
+[← All publications](https://ftsiboe.github.io/publications/)

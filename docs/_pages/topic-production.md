@@ -11,7 +11,7 @@ author_profile: true
      papers from the links.csv manifests; for an area with sub-topics (e.g.
      risk-management) it prints one section per sub-topic. Build with render.R. -->
 
-[← All publications](https://ftsiboe.github.io/ftsiboe/publications/)
+[← All publications](https://ftsiboe.github.io/publications/)
 
 - Asravor et al (2024). “Technology and Managerial Performance of Farm
   Operators by Age in Ghana.” *JPA*.
@@ -30,4 +30,4 @@ author_profile: true
 - Tsiboe et al (2019). “Vegetable Production Technical Efficiency and
   Technology Gaps in Ghana.” *AfJARE*.
 
-[← All publications](https://ftsiboe.github.io/ftsiboe/publications/)
+[← All publications](https://ftsiboe.github.io/publications/)

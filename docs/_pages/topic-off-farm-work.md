@@ -11,7 +11,7 @@ author_profile: true
      papers from the links.csv manifests; for an area with sub-topics (e.g.
      risk-management) it prints one section per sub-topic. Build with render.R. -->
 
-[← All publications](https://ftsiboe.github.io/ftsiboe/publications/)
+[← All publications](https://ftsiboe.github.io/publications/)
 
 - Tsiboe et al (2024). “Off-farm Employment and Body Mass Index Among
   Agrarian Women in Sub-Saharan Africa.” *JAAEA*.
@@ -20,4 +20,4 @@ author_profile: true
 - Tsiboe et al (2016). “Non-farm Work, Food Poverty, and Nutrient
   Availability in Northern Ghana.” *Journal of Rural Studies*.
 
-[← All publications](https://ftsiboe.github.io/ftsiboe/publications/)
+[← All publications](https://ftsiboe.github.io/publications/)

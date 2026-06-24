@@ -11,11 +11,11 @@ author_profile: true
      papers from the links.csv manifests; for an area with sub-topics (e.g.
      risk-management) it prints one section per sub-topic. Build with render.R. -->
 
-[← All publications](https://ftsiboe.github.io/ftsiboe/publications/)
+[← All publications](https://ftsiboe.github.io/publications/)
 
 - Dlamini et al (2017). “The Economic Impact of the South African
   Agricultural Research Council’s Dry Beans Breeding Program.” *JAAE*.
 - Musliu et al (2017). “Evaluating the Impact of the Value Added Tax
   Reform on Raw Milk Collection in Kosovo.” *New Medit*.
 
-[← All publications](https://ftsiboe.github.io/ftsiboe/publications/)
+[← All publications](https://ftsiboe.github.io/publications/)

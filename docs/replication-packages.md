@@ -41,8 +41,8 @@ Code and data to reproduce my published studies.
 
 ------------------------------------------------------------------------
 
-[Home](https://ftsiboe.github.io/ftsiboe/) ·
-[Publications](https://ftsiboe.github.io/ftsiboe/risk-management/) ·
-[Working Papers](https://ftsiboe.github.io/ftsiboe/working-papers/) · [R
-Packages](https://ftsiboe.github.io/ftsiboe/r-packages/) · [Research
-Metrics](https://ftsiboe.github.io/ftsiboe/metrics/)
+[Home](https://ftsiboe.github.io/) ·
+[Publications](https://ftsiboe.github.io/risk-management/) · [Working
+Papers](https://ftsiboe.github.io/working-papers/) · [R
+Packages](https://ftsiboe.github.io/r-packages/) · [Research
+Metrics](https://ftsiboe.github.io/metrics/)

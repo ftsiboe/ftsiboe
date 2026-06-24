@@ -11,7 +11,7 @@ author_profile: true
      papers from the links.csv manifests; for an area with sub-topics (e.g.
      risk-management) it prints one section per sub-topic. Build with render.R. -->
 
-[← All publications](https://ftsiboe.github.io/ftsiboe/publications/)
+[← All publications](https://ftsiboe.github.io/publications/)
 
 - Nalley et al (2017). “The Production, Consumption, and Environmental
   Impacts of Rice Hybridization in the United States.” *Agronomy
@@ -21,4 +21,4 @@ author_profile: true
 - Nalley et al (2016). “Economic and Environmental Impact of Rice Blast
   Pathogen Alleviation in the United States.” *PLOS ONE*.
 
-[← All publications](https://ftsiboe.github.io/ftsiboe/publications/)
+[← All publications](https://ftsiboe.github.io/publications/)

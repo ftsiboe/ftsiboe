@@ -11,7 +11,7 @@ author_profile: true
      papers from the links.csv manifests; for an area with sub-topics (e.g.
      risk-management) it prints one section per sub-topic. Build with render.R. -->
 
-[← All publications](https://ftsiboe.github.io/ftsiboe/publications/)
+[← All publications](https://ftsiboe.github.io/publications/)
 
 - Tsiboe et al (2018). “Health Effects of Women’s Empowerment in
   Agriculture in Northern Ghana.” *AfJARE*.
@@ -19,4 +19,4 @@ author_profile: true
   on Household Nutrition and Food Poverty in Northern Ghana.” *Social
   Indicators Research*.
 
-[← All publications](https://ftsiboe.github.io/ftsiboe/publications/)
+[← All publications](https://ftsiboe.github.io/publications/)
