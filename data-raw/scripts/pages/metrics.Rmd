@@ -18,4 +18,4 @@ The badges above read [`data-raw/scholar-metrics.json`](https://github.com/ftsib
 
 ---
 
-[Home](https://ftsiboe.github.io/ftsiboe/) · [Publications](https://ftsiboe.github.io/ftsiboe/risk-management/) · [Working Papers](https://ftsiboe.github.io/ftsiboe/working-papers/) · [R Packages](https://ftsiboe.github.io/ftsiboe/r-packages/) · [Replication Packages](https://ftsiboe.github.io/ftsiboe/replication-packages/)
+[Home](https://ftsiboe.github.io/) · [Publications](https://ftsiboe.github.io/risk-management/) · [Working Papers](https://ftsiboe.github.io/working-papers/) · [R Packages](https://ftsiboe.github.io/r-packages/) · [Replication Packages](https://ftsiboe.github.io/replication-packages/)

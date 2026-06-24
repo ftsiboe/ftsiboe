@@ -18,11 +18,11 @@ Scholar](https://scholar.google.com/citations?user=ox2t_YIAAAAJ&hl=en) ·
 [ORCID](https://orcid.org/0000-0001-5984-1072) ·
 [LinkedIn](https://www.linkedin.com/in/francis-tsiboe-02b97248/)
 
-**Browse:** [Home](https://ftsiboe.github.io/ftsiboe/) · [Working
-Papers](https://ftsiboe.github.io/ftsiboe/working-papers/) · [R
-Packages](https://ftsiboe.github.io/ftsiboe/r-packages/) · [Replication
-Packages](https://ftsiboe.github.io/ftsiboe/replication-packages/) ·
-[Research Metrics](https://ftsiboe.github.io/ftsiboe/metrics/)
+**Browse:** [Home](https://ftsiboe.github.io/) · [Working
+Papers](https://ftsiboe.github.io/working-papers/) · [R
+Packages](https://ftsiboe.github.io/r-packages/) · [Replication
+Packages](https://ftsiboe.github.io/replication-packages/) ·
+[Research Metrics](https://ftsiboe.github.io/metrics/)
 
 ## Contents
 

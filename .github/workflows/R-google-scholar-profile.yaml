@@ -2,10 +2,18 @@ name: Build site & refresh metrics
 
 # One workflow that keeps the GitHub Pages site current:
 #   1. refreshes data-raw/scholar-metrics.json from Google Scholar (live badges read it),
-#   2. rebuilds every page from its .Rmd source via data-raw/scripts/render.R, and
-#   3. commits any changes.
+#   2. rebuilds every page from its .Rmd source via data-raw/scripts/render.R,
+#   3. commits any changes here (this repo = R package + GitHub profile README), and
+#   4. deploys the built site (docs/) to the ftsiboe/ftsiboe.github.io repo, which
+#      serves at the root URL https://ftsiboe.github.io/ .
 # The index builds from data-raw/publications/risk-management/links.csv (tracked),
 # so it works in CI without the (gitignored) PDFs.
+#
+# CROSS-REPO DEPLOY: step 4 pushes docs/ into the separate user-page repo using an
+# SSH deploy key. One-time setup (see MAINTAINING.md):
+#   - generate a keypair; add the PUBLIC key as a write-enabled Deploy Key on
+#     ftsiboe/ftsiboe.github.io, and the PRIVATE key as the secret ACTIONS_DEPLOY_KEY
+#     on THIS repo (ftsiboe/ftsiboe).
 
 on:
   workflow_dispatch: {}
@@ -74,3 +82,14 @@ jobs:
           fi
           git commit -m "Auto-build pages & metrics [skip ci]"
           git push
+
+      - name: 🌐 Deploy site to ftsiboe.github.io (root user-page)
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+          external_repository: ftsiboe/ftsiboe.github.io
+          publish_branch: master          # user pages serve from the default branch
+          publish_dir: ./docs              # the built Jekyll site (source, not pre-built HTML)
+          enable_jekyll: true              # IMPORTANT: let GitHub Pages run Jekyll (no .nojekyll)
+          force_orphan: true               # keep the deploy repo a single clean snapshot
+          full_commit_message: "Deploy site from ftsiboe@${{ github.sha }}"

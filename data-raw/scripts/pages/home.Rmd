@@ -46,9 +46,9 @@ performance.
 
 ## Connect
 
-Browse my [publications](https://ftsiboe.github.io/ftsiboe/risk-management/) and
-[working papers](https://ftsiboe.github.io/ftsiboe/working-papers/), explore my
-[R packages](https://ftsiboe.github.io/ftsiboe/r-packages/) and
-[replication code](https://ftsiboe.github.io/ftsiboe/replication-packages/), or
+Browse my [publications](https://ftsiboe.github.io/risk-management/) and
+[working papers](https://ftsiboe.github.io/working-papers/), explore my
+[R packages](https://ftsiboe.github.io/r-packages/) and
+[replication code](https://ftsiboe.github.io/replication-packages/), or
 [email me](mailto:ftsiboe@hotmail.com). I'm always open to collaborations on
 FCIP, PLC/ARC, and the broader U.S. farm safety net.

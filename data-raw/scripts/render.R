@@ -6,7 +6,7 @@
 #  RUN IT (from the repository root):
 #      Rscript data-raw/scripts/render.R
 #  then commit & push. GitHub Pages (Settings > Pages > Deploy from branch >
-#  main / docs) rebuilds the site at https://ftsiboe.github.io/ftsiboe/ .
+#  main / docs) rebuilds the site at https://ftsiboe.github.io/ .
 #
 #  GOLDEN RULE: only edit the *sources* listed below, then re-run this script.
 #  Everything in docs/*.md and docs/_pages/topic-*.md is GENERATED from the .Rmd
@@ -149,4 +149,4 @@ for (f in list.files(pubdir, pattern = "^pub-.*\\.Rmd$")) {
   ))
 }
 
-message("\nAll pages rendered. Commit & push, then check https://ftsiboe.github.io/ftsiboe/")
+message("\nAll pages rendered. Commit & push, then check https://ftsiboe.github.io/")

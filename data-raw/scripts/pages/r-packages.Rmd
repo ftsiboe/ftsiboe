@@ -28,4 +28,4 @@ and policy analysis.
 
 ---
 
-[Home](https://ftsiboe.github.io/ftsiboe/) · [Publications](https://ftsiboe.github.io/ftsiboe/risk-management/) · [Working Papers](https://ftsiboe.github.io/ftsiboe/working-papers/) · [Replication Packages](https://ftsiboe.github.io/ftsiboe/replication-packages/) · [Research Metrics](https://ftsiboe.github.io/ftsiboe/metrics/)
+[Home](https://ftsiboe.github.io/) · [Publications](https://ftsiboe.github.io/risk-management/) · [Working Papers](https://ftsiboe.github.io/working-papers/) · [Replication Packages](https://ftsiboe.github.io/replication-packages/) · [Research Metrics](https://ftsiboe.github.io/metrics/)

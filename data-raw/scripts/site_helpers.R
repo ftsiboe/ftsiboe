@@ -120,7 +120,7 @@ pub_area_page <- function(area, manifest = pub_manifest(), cats = pub_categories
 ## `group`) become bullets linking to their page; their sub-topics become
 ## sub-bullets linking to the matching section on that page (#anchor). Counts
 ## come from the manifests; empty areas/sub-topics are skipped. Use results="asis".
-pub_topic_index <- function(base = "https://ftsiboe.github.io/ftsiboe/publications") {
+pub_topic_index <- function(base = "https://ftsiboe.github.io/publications") {
   m <- pub_manifest(); cats <- pub_categories()
   ct <- function(k) sum(m$topic == k)
   areas <- cats[!nzchar(cats$group), , drop = FALSE]

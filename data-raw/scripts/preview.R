@@ -6,7 +6,7 @@
 #  your browser, so you can check content/links/ordering WITHOUT installing
 #  Jekyll. NOTE: this shows the page CONTENT only — it does NOT show the
 #  AcademicPages theme (sidebar, top nav, styling). For the fully themed site,
-#  push and view https://ftsiboe.github.io/ftsiboe/ (GitHub builds it for you).
+#  push and view https://ftsiboe.github.io/ (GitHub builds it for you).
 #
 #  USAGE (from the repository root):
 #    Rscript data-raw/scripts/preview.R                 # preview the Publications index

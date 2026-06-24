@@ -7,11 +7,11 @@ output: github_document
      papers from the links.csv manifests; for an area with sub-topics (e.g.
      risk-management) it prints one section per sub-topic. Build with render.R. -->
 
-[&larr; All publications](https://ftsiboe.github.io/ftsiboe/publications/)
+[&larr; All publications](https://ftsiboe.github.io/publications/)
 
 ```{r demand-and-markets, echo=FALSE, results="asis"}
 source("data-raw/scripts/site_helpers.R")
 pub_area_page("demand-and-markets")
 ```
 
-[&larr; All publications](https://ftsiboe.github.io/ftsiboe/publications/)
+[&larr; All publications](https://ftsiboe.github.io/publications/)

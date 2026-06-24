@@ -4,7 +4,7 @@ This repo holds two things:
 
 1. **The GitHub profile page** — `README.md` (shown on your GitHub profile).
 2. **The website** — `docs/` → published by GitHub Pages at
-   <https://ftsiboe.github.io/ftsiboe/> using the **AcademicPages** theme.
+   <https://ftsiboe.github.io/> using the **AcademicPages** theme.
 
 Both are **generated** from a few source files by one script:
 
@@ -145,12 +145,60 @@ Put your current CV at `docs/assets/cv.pdf`; the **CV** menu item links to it.
 
 ## How it deploys
 
-- **Pages source:** Settings → Pages → *Deploy from a branch* → `main` / `docs`
-  (classic build — **not** GitHub Actions). The AcademicPages theme here uses
-  only GitHub-Pages-allowed plugins, so the classic build works.
-- **Automatic rebuilds:** the workflow `.github/workflows/R-google-scholar-profile.yaml`
-  refreshes `data-raw/scholar-metrics.json` and re-runs `render.R` on a schedule
-  and on pushes to the sources, committing any changes.
+The site lives in **two repos**:
+
+- **`ftsiboe/ftsiboe`** (this repo) — the R package **and** the GitHub profile
+  README, plus all the website *sources* and the build script. The site is
+  **built** here into `docs/`.
+- **`ftsiboe/ftsiboe.github.io`** — a **generated** mirror of `docs/`. This is
+  the repo GitHub Pages serves at the root URL <https://ftsiboe.github.io/>.
+  Don't hand-edit it; every deploy overwrites it.
+
+**The pipeline** (`.github/workflows/R-google-scholar-profile.yaml`) runs weekly,
+on `workflow_dispatch`, and on pushes that touch the sources. It:
+
+1. refreshes `data-raw/scholar-metrics.json` from Google Scholar,
+2. re-runs `render.R` to rebuild `README.md` (your profile) and `docs/`,
+3. commits any changes **here**, then
+4. pushes `docs/` into `ftsiboe.github.io` (step "🌐 Deploy site…", via
+   `peaceiris/actions-gh-pages`, using an SSH **deploy key**).
+
+So you still only ever edit sources in **this** repo and push. The root site
+updates itself.
+
+### One-time setup: the deploy key
+
+The cross-repo push needs an SSH key pair — the private half stored as a secret
+on this repo, the public half registered as a write-enabled deploy key on the
+target repo.
+
+1. **Generate a key pair** (no passphrase):
+   ```bash
+   ssh-keygen -t ed25519 -C "ftsiboe-pages-deploy" -f gh-pages-deploy -N ""
+   ```
+   This writes `gh-pages-deploy` (private) and `gh-pages-deploy.pub` (public).
+2. **Public key → target repo:** `ftsiboe/ftsiboe.github.io` → *Settings → Deploy
+   keys → Add deploy key*. Title e.g. `ftsiboe deploy`, paste the contents of
+   `gh-pages-deploy.pub`, and **check "Allow write access."**
+3. **Private key → this repo:** `ftsiboe/ftsiboe` → *Settings → Secrets and
+   variables → Actions → New repository secret*. Name it **`ACTIONS_DEPLOY_KEY`**
+   and paste the contents of `gh-pages-deploy` (the private file, including the
+   `-----BEGIN/END-----` lines).
+4. **Delete the local key files** (`gh-pages-deploy*`) — GitHub now holds both
+   halves.
+
+### Pages settings on the target repo
+
+`ftsiboe/ftsiboe.github.io` → *Settings → Pages → Build and deployment →
+Source: **Deploy from a branch** → `master` / `(root)`*. After the first deploy
+(or your initial commit) it serves at <https://ftsiboe.github.io/>.
+
+### Retire the old project-site URL
+
+This repo's own Pages (the old `main` / `docs` build that served at
+`…/ftsiboe/`) should be **turned off** so there's one canonical site:
+`ftsiboe/ftsiboe` → *Settings → Pages → Source: **None***. (The `docs/` folder
+stays — it's now just the build/staging area that gets deployed.)
 
 ## Sources vs generated (don't edit the generated side)
 
