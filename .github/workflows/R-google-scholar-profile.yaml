@@ -42,6 +42,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           persist-credentials: true
+          fetch-depth: 0          # full history so the rebase-before-push below works
 
       - name: 🧰 Set up R
         uses: r-lib/actions/setup-r@v2
@@ -70,19 +71,8 @@ jobs:
       - name: 🚀 Build all pages
         run: Rscript data-raw/scripts/render.R
 
-      - name: 💾 Commit & push (if changed)
-        run: |
-          git config user.name  "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add README.md docs data-raw/scholar-metrics.json \
-                  data-raw/publications/risk-management/README.md
-          if git diff --cached --quiet; then
-            echo "No changes to commit."
-            exit 0
-          fi
-          git commit -m "Auto-build pages & metrics [skip ci]"
-          git push
-
+      # PRIMARY OUTCOME: publish the live site first, so a hiccup committing the
+      # generated files back to this repo (below) can never block the deploy.
       - name: 🌐 Deploy site to ftsiboe.github.io (root user-page)
         uses: peaceiris/actions-gh-pages@v4
         with:
@@ -93,3 +83,24 @@ jobs:
           enable_jekyll: true              # IMPORTANT: let GitHub Pages run Jekyll (no .nojekyll)
           force_orphan: true               # keep the deploy repo a single clean snapshot
           full_commit_message: "Deploy site from ftsiboe@${{ github.sha }}"
+
+      - name: 💾 Commit built pages back to this repo (if changed)
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md docs data-raw/scholar-metrics.json \
+                  data-raw/publications/risk-management/README.md
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Auto-build pages & metrics [skip ci]"
+          fi
+          # Push resiliently: if the branch advanced since checkout (concurrent
+          # run or a manual push), rebase onto it and retry instead of failing.
+          for i in 1 2 3; do
+            git pull --rebase --autostash origin main \
+              && git push origin main \
+              && { echo "Pushed on attempt $i."; exit 0; }
+            echo "Push attempt $i failed; refetching and retrying…"; sleep 5
+          done
+          echo "Could not push after 3 attempts." >&2; exit 1
