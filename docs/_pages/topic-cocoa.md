@@ -11,7 +11,7 @@ author_profile: true
      papers from the links.csv manifests; for an area with sub-topics (e.g.
      risk-management) it prints one section per sub-topic. Build with render.R. -->
 
-[← All publications](https://ftsiboe.github.io/ftsiboe/publications/)
+[← All publications](https://ftsiboe.github.io/publications/)
 
 - Tsiboe (2021). “Chronic Sources of Low Cocoa Production in Ghana.”
   *ARER*.
@@ -26,4 +26,4 @@ author_profile: true
 - Tsiboe et al (2016). “Estimating the Impact of Farmer Field Schools in
   Sub-Saharan Africa - The Case of Cocoa.” *Agricultural Economics*.
 
-[← All publications](https://ftsiboe.github.io/ftsiboe/publications/)
+[← All publications](https://ftsiboe.github.io/publications/)
