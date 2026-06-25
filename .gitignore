@@ -22,3 +22,6 @@ data-raw/publications/risk-management/wiki/
 
 # Scratch / leftover folders
 **/hold/
+
+# Cached OpenAlex API responses for the research-metrics script
+data-raw/metrics/cache/
