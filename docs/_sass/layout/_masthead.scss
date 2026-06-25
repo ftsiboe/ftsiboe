@@ -79,3 +79,72 @@
   border-bottom: 2px solid var(--global-text-color);
   /* No need to repeat pointer-events and cursor here */
 }
+
+/* Dropdown submenu (e.g. About -> My Research / Outreach / Teaching) */
+.masthead__menu-item--has-children {
+  position: relative;
+
+  > a .masthead__caret {
+    font-size: 0.75em;
+    margin-left: 0.15em;
+    transition: transform 0.15s ease;
+  }
+
+  &:hover > a .masthead__caret,
+  &:focus-within > a .masthead__caret {
+    transform: rotate(180deg);
+  }
+}
+
+.masthead__submenu {
+  position: absolute;
+  left: 0;
+  top: 100%;
+  min-width: 14em;
+  margin: 0;
+  padding: 0.25em 0;
+  list-style: none;
+  background: var(--global-bg-color);
+  border: 1px solid var(--global-border-color);
+  border-radius: 4px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(6px);
+  transition: opacity 0.15s ease, transform 0.15s ease, visibility 0.15s;
+  z-index: 30;
+
+  .masthead__menu-item {
+    display: block;
+    padding: 0;
+    white-space: nowrap;
+  }
+
+  .masthead__menu-item a {
+    display: block;
+    padding: 0.4em 1em;
+  }
+
+  .masthead__menu-item a:hover {
+    background: var(--global-border-color);
+  }
+}
+
+.masthead__menu-item--has-children:hover .masthead__submenu,
+.masthead__menu-item--has-children:focus-within .masthead__submenu {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+/* On the collapsed (hamburger) nav, show the submenu inline */
+.greedy-nav .hidden-links .masthead__submenu {
+  position: static;
+  opacity: 1;
+  visibility: visible;
+  transform: none;
+  box-shadow: none;
+  border: 0;
+  min-width: 0;
+  padding-left: 1em;
+}

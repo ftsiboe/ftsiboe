@@ -105,6 +105,7 @@ jobs <- list(
   list(src = "aboutme/leadership.Rmd",  out = file.path(root, "docs", "leadership.md"),           front = fm_ap("My Leadership", "/leadership/", "single")),
   list(src = "aboutme/outreach.Rmd",    out = file.path(root, "docs", "outreach.md"),             front = fm_ap("My Outreach & Extension", "/outreach/", "single")),
   list(src = "aboutme/teaching.Rmd",    out = file.path(root, "docs", "teaching.md"),             front = fm_ap("My Teaching & Mentoring", "/teaching/", "single")),
+  list(src = "aboutme/ai.Rmd",          out = file.path(root, "docs", "ai-integration.md"),       front = fm_ap("Why AI Isn't Helping Your Research as Much as It Should", "/ai-integration/", "single")),
   list(src = "working-papers.Rmd",      out = file.path(root, "docs", "working-papers.md"),       front = fm_ap("Working Papers", "/working-papers/")),
   list(src = "r-packages.Rmd",          out = file.path(root, "docs", "r-packages.md"),           front = fm_ap("Software", "/r-packages/")),
   list(src = "replication-packages.Rmd",out = file.path(root, "docs", "replication-packages.md"), front = fm_ap("Replication Packages", "/replication-packages/")),

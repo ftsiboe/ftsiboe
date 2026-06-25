@@ -1,10 +1,3 @@
----
-layout: single
-title: "About me"
-permalink: /
-author_profile: true
----
-
 
 <!-- Source for docs/index.md (the GitHub Pages landing / "About me").
      Separate from the GitHub profile README (pages/README.Rmd).
@@ -59,9 +52,32 @@ between resource extraction and farm performance.
 
 Learn more about my [research](https://ftsiboe.github.io/research/),
 [leadership](https://ftsiboe.github.io/leadership/), [outreach and
-extension](https://ftsiboe.github.io/outreach/), [teaching and
-mentoring](https://ftsiboe.github.io/teaching/), and how I [integrate AI
-into my research](https://ftsiboe.github.io/ai-integration/).
+extension](https://ftsiboe.github.io/outreach/), and [teaching and
+mentoring](https://ftsiboe.github.io/teaching/).
+
+## My AI Integration
+
+I write about how I integrate AI into my applied research, and my core
+argument is that AI’s usefulness depends less on the model than on the
+structure you give it. A chat window with a few pasted snippets is a
+weak working environment; a well-organized GitHub repository with
+reusable functions, clean data pipelines, and version-controlled history
+is a powerful one. For me, **functional coding and reproducible
+repositories have become the harness** that lets AI act like a research
+collaborator rather than a clever autocomplete.
+
+In practice, I organize each project as a structured repository, such as
+[USFarmSafetyNetLab](https://github.com/ftsiboe/USFarmSafetyNetLab),
+keep large raw data local, and run AI-assisted changes on experimental
+Git branches so every edit can be reviewed, tested, and audited before
+it reaches the main workflow. The goal is not to hand research over to
+AI, but to keep pipelines that are sound, reproducible, and portable on
+their own, and that become easier to maintain and extend with AI
+assistance.
+
+I make the full case in a recent LinkedIn article, “Why AI Isn’t Helping
+Your Research as Much as It Should” (see my
+[LinkedIn](https://www.linkedin.com/in/francis-tsiboe-02b97248/)).
 
 ## Education
 

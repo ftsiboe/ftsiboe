@@ -120,8 +120,8 @@ benchmarking), [`arpcCost`](https://github.com/ftsiboe/arpcCost)
 (production-cost calibration),
 [`arpcPriceBasis`](https://github.com/ftsiboe/arpcPriceBasis) (price and
 basis), and [`arpcAgPerils`](https://github.com/ftsiboe/arpcAgPerils)
-(agricultural peril metrics). Browse my [R
-packages](https://ftsiboe.github.io/r-packages/) and [replication
+(agricultural peril metrics). Browse my
+[software](https://ftsiboe.github.io/r-packages/) and [replication
 code](https://ftsiboe.github.io/replication-packages/).
 
 ## Agricultural development in Ghana

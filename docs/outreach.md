@@ -56,8 +56,8 @@ others reproduce and build on the analysis. I lead or contribute to
 open-source R packages (for FCIP simulation, price and basis,
 production-cost calibration, agricultural peril metrics, and editorial
 workflows) that are deployed across the Center’s publications and now
-form part of its analytical backbone. Explore my [R
-packages](https://ftsiboe.github.io/r-packages/).
+form part of its analytical backbone. Explore my
+[software](https://ftsiboe.github.io/r-packages/).
 
 Interested in a briefing, panel, or collaboration? [Email
 me](mailto:ftsiboe@hotmail.com).

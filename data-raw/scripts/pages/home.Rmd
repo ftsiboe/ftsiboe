@@ -50,8 +50,9 @@ performance.
 
 Learn more about my [research](https://ftsiboe.github.io/research/),
 [leadership](https://ftsiboe.github.io/leadership/),
-[outreach and extension](https://ftsiboe.github.io/outreach/), and
-[teaching and mentoring](https://ftsiboe.github.io/teaching/).
+[outreach and extension](https://ftsiboe.github.io/outreach/),
+[teaching and mentoring](https://ftsiboe.github.io/teaching/), and how I
+[integrate AI into my research](https://ftsiboe.github.io/ai-integration/).
 
 ## Education
 
@@ -71,7 +72,7 @@ Learn more about my [research](https://ftsiboe.github.io/research/),
 
 Browse my [publications](https://ftsiboe.github.io/risk-management/) and
 [working papers](https://ftsiboe.github.io/working-papers/), explore my
-[R packages](https://ftsiboe.github.io/r-packages/) and
+[software](https://ftsiboe.github.io/r-packages/) and
 [replication code](https://ftsiboe.github.io/replication-packages/), or
 [email me](mailto:ftsiboe@hotmail.com). I'm always open to collaborations on
 FCIP, PLC/ARC, and the broader U.S. farm safety net.

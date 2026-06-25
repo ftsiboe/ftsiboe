@@ -31,10 +31,9 @@ I build systems that outlast any single project. I develop **internal
 tools** (a press log and a centralized NDSU resources and workflow
 reference, integrated into ARPC’s Slack) that strengthen transparency
 and institutional memory. I also lead ARPC’s **analytical backbone**: a
-family of open-source [R
-packages](https://ftsiboe.github.io/r-packages/) for FCIP simulation,
-price and basis, cost calibration, peril metrics, and editorial
-workflows, and I run internal trainings (such as the FCIP
+family of open-source [software](https://ftsiboe.github.io/r-packages/)
+for FCIP simulation, price and basis, cost calibration, peril metrics,
+and editorial workflows, and I run internal trainings (such as the FCIP
 baseline-simulation pipeline) so the team applies them consistently.
 
 ## Partnerships
