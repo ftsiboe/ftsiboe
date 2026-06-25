@@ -1,0 +1,15 @@
+<style>
+.explore-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:0.75rem;margin:1.25rem 0;}
+.explore-card{display:block;text-decoration:none;border:1px solid var(--global-border-color);border-radius:8px;padding:1rem;color:var(--global-text-color);transition:border-color .15s ease,transform .15s ease;}
+.explore-card:hover{border-color:var(--global-link-color);transform:translateY(-2px);}
+.explore-card i{font-size:1.4rem;color:var(--global-link-color);}
+.explore-card .t{font-weight:700;margin-top:0.5rem;}
+.explore-card .d{font-size:0.85rem;color:var(--global-text-color-light);}
+</style>
+<div class="explore-grid">
+<a class="explore-card" href="{{ '/research/' | relative_url }}"><i class="fa-solid fa-chart-line" aria-hidden="true"></i><div class="t">Research</div><div class="d">From FCIP rating to policy design</div></a>
+<a class="explore-card" href="{{ '/leadership/' | relative_url }}"><i class="fa-solid fa-users" aria-hidden="true"></i><div class="t">Leadership</div><div class="d">Steering ARPC's applied-policy mission</div></a>
+<a class="explore-card" href="{{ '/outreach/' | relative_url }}"><i class="fa-solid fa-bullhorn" aria-hidden="true"></i><div class="t">Outreach</div><div class="d">Briefings, briefs, and field engagement</div></a>
+<a class="explore-card" href="{{ '/teaching/' | relative_url }}"><i class="fa-solid fa-user-graduate" aria-hidden="true"></i><div class="t">Mentoring</div><div class="d">Co-authoring with graduate students</div></a>
+<a class="explore-card" href="{{ '/ai-integration/' | relative_url }}"><i class="fa-solid fa-robot" aria-hidden="true"></i><div class="t">AI</div><div class="d">Structure as the harness for AI</div></a>
+</div>

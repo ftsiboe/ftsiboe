@@ -19,6 +19,18 @@ profile](https://scholar.google.com/citations?user=ox2t_YIAAAAJ&hl=en).
 ![h-index](https://img.shields.io/badge/dynamic/json?label=h-index&query=$.h_index&url=https://raw.githubusercontent.com/ftsiboe/ftsiboe/main/data-raw/scholar-metrics.json&color=brightgreen&style=for-the-badge)
 ![i10-index](https://img.shields.io/badge/dynamic/json?label=i10--index&query=$.i10_index&url=https://raw.githubusercontent.com/ftsiboe/ftsiboe/main/data-raw/scholar-metrics.json&color=informational&style=for-the-badge)
 
+## Honors & awards
+
+- **2025.** JAAE Outstanding Journal Article of the Year, for
+  “Mitigating Structural Inequities in U.S. Agricultural Risk
+  Management” (*Journal of Agricultural and Applied Economics*).
+- **2022.** Best Paper in Applied Risk Analysis, Agricultural & Applied
+  Economics Association (AAEA), for my *American Journal of Agricultural
+  Economics* paper incorporating soil and topographic data into
+  crop-insurance rating.
+- **2022.** Outstanding Published Research, Western Agricultural
+  Economics Association (WAEA), for the same paper.
+
 ------------------------------------------------------------------------
 
 [Home](https://ftsiboe.github.io/) ·

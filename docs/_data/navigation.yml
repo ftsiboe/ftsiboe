@@ -2,18 +2,29 @@ main:
   - title: "About"
     url: /
     children:
-      - title: "My Research"
+      - title: "Research"
         url: /research/
-      - title: "My Leadership"
+      - title: "Leadership"
         url: /leadership/
-      - title: "My Outreach & Extension"
+      - title: "Outreach"
         url: /outreach/
-      - title: "My Teaching & Mentoring"
+      - title: "Mentoring"
         url: /teaching/
-      - title: "My AI Integration"
+      - title: "AI"
         url: /ai-integration/
   - title: "Publications"
     url: /publications/
+    children:
+      - title: "Risk Management"
+        url: /publications/risk-management/
+      - title: "Production"
+        url: /publications/production/
+      - title: "Off-farm work & welfare"
+        url: /publications/off-farm-work/
+      - title: "Markets & prices"
+        url: /publications/demand-and-markets/
+      - title: "Other"
+        url: /publications/
   - title: "Working Papers"
     url: /working-papers/
   - title: "Software"
