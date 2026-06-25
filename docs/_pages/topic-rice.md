@@ -13,6 +13,13 @@ author_profile: true
 
 [← All publications](https://ftsiboe.github.io/publications/)
 
+- Nalley et al (2022). “Comparative Economic and Environmental
+  Assessments of Furrow- and Flood-Irrigated Rice Production Systems.”
+  *Agricultural Water Management*. [Full
+  text](https://doi.org/10.1016/j.agwat.2022.107964)
+- Tsiboe et al (2018). “Estimating Spatial Differences in Methane
+  Emissions to Identify Sustainable Rice Sources.” *Agronomy Journal*.
+  [Full text](https://doi.org/10.2134/agronj2017.11.0637)
 - Nalley et al (2017). “The Production, Consumption, and Environmental
   Impacts of Rice Hybridization in the United States.” *Agronomy
   Journal*.

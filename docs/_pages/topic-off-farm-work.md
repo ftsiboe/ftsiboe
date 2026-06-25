@@ -13,6 +13,9 @@ author_profile: true
 
 [← All publications](https://ftsiboe.github.io/publications/)
 
+- Armah et al (2025). “Dietary Shifts in Agrarian Households -
+  Population-based Evidence from Off-farm Work in Ghana.” *JAAEA*. [Full
+  text](https://doi.org/10.1002/jaa2.70014)
 - Tsiboe et al (2024). “Off-farm Employment and Body Mass Index Among
   Agrarian Women in Sub-Saharan Africa.” *JAAEA*.
 - Zereyesus et al (2017). “Implications of Non-farm Work to

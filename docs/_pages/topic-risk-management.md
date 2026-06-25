@@ -23,9 +23,17 @@ author_profile: true
   text](https://doi.org/10.22004/ag.econ.388967)
 - (2025). “Evolution of US Federal Crop-Insurance Plans.” *ARPC Brief*.
   [Full text](https://www.arpc-ndsu.com/briefs)
+- Hagerman et al (2025). “Mitigating Structural Inequities in US
+  Agricultural Risk Management.” *JAAE*. [Full
+  text](https://doi.org/10.1017/aae.2024.29)
+- (2025). “Analysis of the US Sugar Safety Net and A Potential Sugar
+  Beet Revenue Protection Program.” *ARPC Report*. [Full
+  text](https://doi.org/10.22004/ag.econ.364764)
 - Baldwin (2024). “Recent Developments in Ad Hoc Assistance Programs for
   Agricultural Producers.” *USDA ERS EIB*. [Full
   text](https://doi.org/10.32747/2024.8633521.ers)
+- Baldwin (2024). “US Agricultural Policy Review 2023.” *USDA ERS EIB*.
+  [Full text](https://doi.org/10.32747/2024.8754393.ers)
 - Baldwin (2023). “US Agricultural Policy Review 2021.” *USDA ERS EIB*.
   [Full text](https://doi.org/10.22004/ag.econ.333549)
 - Baldwin (2023). “US Agricultural Policy Review 2022.” *USDA ERS EIB*.
@@ -87,6 +95,8 @@ author_profile: true
 - Prevented Planting Buy-Up Coverage (2025). “Payments and Policy
   Changes.” *ARPC Brief*. [Full
   text](https://doi.org/10.22004/ag.econ.386094)
+- Turner et al (2025). “Actuarial Implications of Prevented Planting
+  Coverage.” *AEPP*. [Full text](https://doi.org/10.1002/aepp.13471)
 
 ## Premium & interest deferrals
 
@@ -145,5 +155,8 @@ author_profile: true
 - (2026). “Crop Insurance and Nitrogen Reduction Under Elevated
   Fertilizer Prices.” *ARPC White Paper*. [Full
   text](https://www.arpc-ndsu.com/outreach/publications/crop-insurance-and-nitrogen-reduction-under-elevated-fertilizer-prices)
+- Turner (2024). “Potential Budgetary Impacts of Climate Change on the
+  Pasture, Rangeland, and Forage Insurance Plan.” *USDA ERS EB*. [Full
+  text](https://www.ers.usda.gov/publications/pub-details?pubid=110544)
 
 [← All publications](https://ftsiboe.github.io/publications/)

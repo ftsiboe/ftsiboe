@@ -13,6 +13,12 @@ author_profile: true
 
 [← All publications](https://ftsiboe.github.io/publications/)
 
+- Tsiboe et al (2026). “Production Gaps Among Farmers With Disabilities
+  Are Associated With Limited Technology.” *Agricultural Economics*.
+  [Full text](https://doi.org/10.1111/agec.70115)
+- Asravor et al (2025). “Charting the Path to Increased Oil Palm Output
+  in Ghana.” *Agribusiness*. [Full
+  text](https://doi.org/10.1002/agr.22054)
 - Asravor et al (2024). “Technology and Managerial Performance of Farm
   Operators by Age in Ghana.” *JPA*.
 - Adaku et al (2023). “Taking Stock of Gender Gaps in Crop Production

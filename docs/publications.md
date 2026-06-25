@@ -15,10 +15,10 @@ broken into sub-topics (shown as sub-bullets). Select an area to see its
 papers and links.
 
 - [Risk management & the U.S. farm safety
-  net](https://ftsiboe.github.io/publications/risk-management/) (36)
+  net](https://ftsiboe.github.io/publications/risk-management/) (41)
   - [Background &
     policy](https://ftsiboe.github.io/publications/risk-management/#background-and-policy)
-    (7)
+    (10)
   - [Crop insurance
     demand](https://ftsiboe.github.io/publications/risk-management/#crop-insurance-demand)
     (6)
@@ -27,7 +27,7 @@ papers and links.
     (3)
   - [Prevented
     planting](https://ftsiboe.github.io/publications/risk-management/#prevented-planting)
-    (6)
+    (7)
   - [Premium & interest
     deferrals](https://ftsiboe.github.io/publications/risk-management/#premium-and-interest-deferrals)
     (3)
@@ -45,28 +45,28 @@ papers and links.
     (3)
   - [Climate &
     environment](https://ftsiboe.github.io/publications/risk-management/#climate-and-environment)
-    (1)
+    (2)
 - [Cocoa & farmer field
-  schools](https://ftsiboe.github.io/publications/cocoa/) (6)
+  schools](https://ftsiboe.github.io/publications/cocoa/) (7)
 - [Agricultural productivity
-  (Ghana)](https://ftsiboe.github.io/publications/production/) (8)
+  (Ghana)](https://ftsiboe.github.io/publications/production/) (10)
 - [Gender & empowerment](https://ftsiboe.github.io/publications/gender/)
-  (2)
+  (4)
 - [Off-farm work &
-  welfare](https://ftsiboe.github.io/publications/off-farm-work/) (3)
+  welfare](https://ftsiboe.github.io/publications/off-farm-work/) (4)
 - [Markets &
   prices](https://ftsiboe.github.io/publications/demand-and-markets/)
-  (3)
+  (6)
 - [Sustainability &
   environment](https://ftsiboe.github.io/publications/sustainability/)
   (2)
 - [Food security &
   poverty](https://ftsiboe.github.io/publications/food-security-and-poverty/)
-  (1)
+  (2)
 - [Biotechnology & consumer
   acceptance](https://ftsiboe.github.io/publications/biotechnology/) (3)
 - [Rice production & environment
-  (US)](https://ftsiboe.github.io/publications/rice/) (3)
+  (US)](https://ftsiboe.github.io/publications/rice/) (5)
 - [Impact
   evaluation](https://ftsiboe.github.io/publications/impact-evaluation/)
   (2)

@@ -21,6 +21,9 @@ author_profile: true
   Production.” *JAAE*.
 - Tsiboe et al (2018). “Market Effects of Farmer Field Schools in
   Sub-Saharan Africa - The Case for Cocoa.” *RoDE*.
+- Tsiboe et al (2018). “Economic Incentives Necessary for Adoption of
+  Environmentally Friendly Cocoa Production in Ghana.” *SAEA*. [Full
+  text](https://doi.org/10.22004/ag.econ.266614)
 - Tsiboe & Nalley (2016). “Effects of Biotic and Abiotic Stress on
   Household Cocoa Yields in Ghana.” *AfJARE*.
 - Tsiboe et al (2016). “Estimating the Impact of Farmer Field Schools in

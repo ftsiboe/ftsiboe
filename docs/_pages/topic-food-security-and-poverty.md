@@ -13,6 +13,9 @@ author_profile: true
 
 [← All publications](https://ftsiboe.github.io/publications/)
 
+- Tsiboe et al (2023). “Food Poverty Assessment in Ghana - A Closer Look
+  at the Spatial and Temporal Dimensions of Poverty.” *Scientific
+  African*. [Full text](https://doi.org/10.1016/j.sciaf.2022.e01518)
 - Tsiboe (2022). “Nationally Representative Household-level Food
   Consumption and Nutrient Availability Data for Ghana, 2005-2017.”
   *SSRN*.
