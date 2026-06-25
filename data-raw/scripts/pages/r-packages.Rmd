@@ -7,6 +7,12 @@ output: github_document
 Open-source and in-development R packages I maintain for U.S. agricultural risk
 and policy analysis.
 
+## GitHub achievements 🏅
+
+[![Pull Shark](https://img.shields.io/badge/GitHub-Pull_Shark-181717?logo=github&logoColor=white)](https://github.com/users/ftsiboe/achievements/pull-shark)
+[![Pair Extraordinaire](https://img.shields.io/badge/GitHub-Pair_Extraordinaire-181717?logo=github&logoColor=white)](https://github.com/users/ftsiboe/achievements/pair-extraordinaire)
+[![YOLO](https://img.shields.io/badge/GitHub-YOLO-181717?logo=github&logoColor=white)](https://github.com/users/ftsiboe/achievements/yolo)
+
 ## Public 🔓
 
 - [USFarmSafetyNetLab](https://github.com/ftsiboe/USFarmSafetyNetLab): Analytical tools and resources dedicated to United States agricultural safety net programs.

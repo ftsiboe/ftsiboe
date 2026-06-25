@@ -16,4 +16,4 @@ Citation metrics from my [Google Scholar profile](https://scholar.google.com/cit
 
 ---
 
-[Home](https://ftsiboe.github.io/) · [Publications](https://ftsiboe.github.io/risk-management/) · [Working Papers](https://ftsiboe.github.io/working-papers/) · [R Packages](https://ftsiboe.github.io/r-packages/) · [Replication Packages](https://ftsiboe.github.io/replication-packages/)
+[Home](https://ftsiboe.github.io/) · [Publications](https://ftsiboe.github.io/risk-management/) · [Working Papers](https://ftsiboe.github.io/working-papers/) · [Software](https://ftsiboe.github.io/r-packages/) · [Replication Packages](https://ftsiboe.github.io/replication-packages/)

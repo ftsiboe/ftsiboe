@@ -46,7 +46,7 @@ Leader](https://www.arpc-ndsu.com/team/francis-tsiboe) at the
   publicly available version (journal DOI, USDA-ERS, or ARPC).
 - 📝 **[Working Papers](https://ftsiboe.github.io/working-papers/)**:
   pre-prints and works in progress (PDFs hosted in this repo).
-- 📦 **[R Packages](https://ftsiboe.github.io/r-packages/)**: public and
+- 📦 **[Software](https://ftsiboe.github.io/r-packages/)**: public and
   in-development R packages for agricultural risk and policy analysis.
 - 🔁 **[Replication
   Packages](https://ftsiboe.github.io/replication-packages/)**: code and

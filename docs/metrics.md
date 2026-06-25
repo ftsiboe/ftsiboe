@@ -23,6 +23,6 @@ profile](https://scholar.google.com/citations?user=ox2t_YIAAAAJ&hl=en).
 
 [Home](https://ftsiboe.github.io/) ·
 [Publications](https://ftsiboe.github.io/risk-management/) · [Working
-Papers](https://ftsiboe.github.io/working-papers/) · [R
-Packages](https://ftsiboe.github.io/r-packages/) · [Replication
+Papers](https://ftsiboe.github.io/working-papers/) ·
+[Software](https://ftsiboe.github.io/r-packages/) · [Replication
 Packages](https://ftsiboe.github.io/replication-packages/)

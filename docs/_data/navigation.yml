@@ -1,20 +1,11 @@
 main:
   - title: "About"
     url: /
-    children:
-      - title: "My Research"
-        url: /research/
-      - title: "My Leadership"
-        url: /leadership/
-      - title: "My Outreach & Extension"
-        url: /outreach/
-      - title: "My Teaching & Mentoring"
-        url: /teaching/
   - title: "Publications"
     url: /publications/
   - title: "Working Papers"
     url: /working-papers/
-  - title: "R Packages"
+  - title: "Software"
     url: /r-packages/
   - title: "Replication"
     url: /replication-packages/

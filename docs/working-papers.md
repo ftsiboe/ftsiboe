@@ -24,7 +24,7 @@ free to read or download.
 ------------------------------------------------------------------------
 
 [Home](https://ftsiboe.github.io/) ·
-[Publications](https://ftsiboe.github.io/risk-management/) · [R
-Packages](https://ftsiboe.github.io/r-packages/) · [Replication
+[Publications](https://ftsiboe.github.io/risk-management/) ·
+[Software](https://ftsiboe.github.io/r-packages/) · [Replication
 Packages](https://ftsiboe.github.io/replication-packages/) · [Research
 Metrics](https://ftsiboe.github.io/metrics/)

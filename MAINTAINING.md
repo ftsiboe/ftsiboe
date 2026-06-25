@@ -22,7 +22,7 @@ git add -A && git commit -m "update site" && git push
 
 | I want to change… | Edit this | Then |
 |---|---|---|
-| Wording of a top-level page (About, Working Papers, R Packages, Replication, Metrics) | the matching `data-raw/scripts/pages/*.Rmd` | run `render.R` |
+| Wording of a top-level page (About, Working Papers, Software, Replication, Metrics) | the matching `data-raw/scripts/pages/*.Rmd` | run `render.R` |
 | The GitHub **profile** page | `data-raw/scripts/pages/README.Rmd` | run `render.R` |
 | **Publications** (add/remove/fix a paper or link) | the `links.csv` in that area folder, e.g. `data-raw/publications/<area>/links.csv` | run `render.R` |
 | A single **area page**'s layout/prose | `data-raw/scripts/pages/publications/pub-<area>.Rmd` | run `render.R` |

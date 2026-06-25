@@ -106,7 +106,7 @@ jobs <- list(
   list(src = "aboutme/outreach.Rmd",    out = file.path(root, "docs", "outreach.md"),             front = fm_ap("My Outreach & Extension", "/outreach/", "single")),
   list(src = "aboutme/teaching.Rmd",    out = file.path(root, "docs", "teaching.md"),             front = fm_ap("My Teaching & Mentoring", "/teaching/", "single")),
   list(src = "working-papers.Rmd",      out = file.path(root, "docs", "working-papers.md"),       front = fm_ap("Working Papers", "/working-papers/")),
-  list(src = "r-packages.Rmd",          out = file.path(root, "docs", "r-packages.md"),           front = fm_ap("R Packages", "/r-packages/")),
+  list(src = "r-packages.Rmd",          out = file.path(root, "docs", "r-packages.md"),           front = fm_ap("Software", "/r-packages/")),
   list(src = "replication-packages.Rmd",out = file.path(root, "docs", "replication-packages.md"), front = fm_ap("Replication Packages", "/replication-packages/")),
   list(src = "metrics.Rmd",             out = file.path(root, "docs", "metrics.md"),              front = fm_ap("Research Metrics", "/metrics/")),
   list(src = "publications/publications.Rmd", out = file.path(root, "docs", "publications.md"),    front = fm_ap("Publications", "/publications/", "archive"))

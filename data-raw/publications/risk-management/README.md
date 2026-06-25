@@ -19,8 +19,7 @@ Scholar](https://scholar.google.com/citations?user=ox2t_YIAAAAJ&hl=en) ·
 [LinkedIn](https://www.linkedin.com/in/francis-tsiboe-02b97248/)
 
 **Browse:** [Home](https://ftsiboe.github.io/) · [Working
-Papers](https://ftsiboe.github.io/working-papers/) · [R
-Packages](https://ftsiboe.github.io/r-packages/) · [Replication
+Papers](https://ftsiboe.github.io/working-papers/) · [Software](https://ftsiboe.github.io/r-packages/) · [Replication
 Packages](https://ftsiboe.github.io/replication-packages/) ·
 [Research Metrics](https://ftsiboe.github.io/metrics/)
 

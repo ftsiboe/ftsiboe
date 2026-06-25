@@ -1,10 +1,3 @@
----
-layout: single
-title: "Software"
-permalink: /r-packages/
-author_profile: true
----
-
 
 <!-- Source for docs/r-packages.md (GitHub Pages). Build with data-raw/scripts/render.R -->
 
