@@ -9,7 +9,7 @@ author_profile: true
 <!-- Source for docs/metrics.md (GitHub Pages).
      The numbers are shown via dynamic shields.io badges that read
      data-raw/scholar-metrics.json at view time, so they stay current as long
-     as the .github "Update Scholar Metrics" workflow keeps that JSON fresh —
+     as the .github "Update Scholar Metrics" workflow keeps that JSON fresh,
      no site re-render needed when the metrics change. -->
 
 Citation metrics from my [Google Scholar

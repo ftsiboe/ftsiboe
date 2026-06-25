@@ -6,7 +6,7 @@
 > ⚠️ **Disclaimer:** This is my **personal** account. Views expressed
 > here are my own and not those of my employer(s).
 
-I’m **Francis Tsiboe, Ph.D.** — [Senior Research Economist & Program
+I’m **Francis Tsiboe, Ph.D.**, [Senior Research Economist & Program
 Leader](https://www.arpc-ndsu.com/team/francis-tsiboe) at the
 [Agricultural Risk Policy Center (ARPC)](https://www.arpc-ndsu.com/) \|
 [North Dakota State University](https://www.ndsu.edu/).
@@ -40,19 +40,18 @@ Leader](https://www.arpc-ndsu.com/team/francis-tsiboe) at the
 
 **🧭 Explore**
 
-- 📚 **[Publications — Risk
-  Management](https://ftsiboe.github.io/risk-management/)** — my
+- 📚 **[Publications: Risk
+  Management](https://ftsiboe.github.io/risk-management/)**: my
   publications organized by broad topic area, each linked to its
   publicly available version (journal DOI, USDA-ERS, or ARPC).
-- 📝 **[Working Papers](https://ftsiboe.github.io/working-papers/)** —
+- 📝 **[Working Papers](https://ftsiboe.github.io/working-papers/)**:
   pre-prints and works in progress (PDFs hosted in this repo).
-- 📦 **[R Packages](https://ftsiboe.github.io/r-packages/)** — public
-  and in-development R packages for agricultural risk and policy
-  analysis.
+- 📦 **[R Packages](https://ftsiboe.github.io/r-packages/)**: public and
+  in-development R packages for agricultural risk and policy analysis.
 - 🔁 **[Replication
-  Packages](https://ftsiboe.github.io/replication-packages/)** — code
-  and data to reproduce my published studies.
-- 📊 **[Research Metrics](https://ftsiboe.github.io/metrics/)** — live
+  Packages](https://ftsiboe.github.io/replication-packages/)**: code and
+  data to reproduce my published studies.
+- 📊 **[Research Metrics](https://ftsiboe.github.io/metrics/)**: live
   citation counts, h-index, and i10-index from Google Scholar.
 
 <!--

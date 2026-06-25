@@ -101,6 +101,10 @@ source(file.path(root, "data-raw", "scripts", "site_helpers.R"))   # provides fm
 jobs <- list(
   list(src = "README.Rmd",              out = file.path(root, "README.md"),                       front = NULL),
   list(src = "home.Rmd",                out = file.path(root, "docs", "index.md"),                front = fm_ap("About me", "/", "single")),
+  list(src = "aboutme/research.Rmd",    out = file.path(root, "docs", "research.md"),             front = fm_ap("My Research", "/research/", "single")),
+  list(src = "aboutme/leadership.Rmd",  out = file.path(root, "docs", "leadership.md"),           front = fm_ap("My Leadership", "/leadership/", "single")),
+  list(src = "aboutme/outreach.Rmd",    out = file.path(root, "docs", "outreach.md"),             front = fm_ap("My Outreach & Extension", "/outreach/", "single")),
+  list(src = "aboutme/teaching.Rmd",    out = file.path(root, "docs", "teaching.md"),             front = fm_ap("My Teaching & Mentoring", "/teaching/", "single")),
   list(src = "working-papers.Rmd",      out = file.path(root, "docs", "working-papers.md"),       front = fm_ap("Working Papers", "/working-papers/")),
   list(src = "r-packages.Rmd",          out = file.path(root, "docs", "r-packages.md"),           front = fm_ap("R Packages", "/r-packages/")),
   list(src = "replication-packages.Rmd",out = file.path(root, "docs", "replication-packages.md"), front = fm_ap("Replication Packages", "/replication-packages/")),

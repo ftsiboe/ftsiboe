@@ -4,6 +4,8 @@
 .RData
 .Ruserdata
 
+data-raw/bio/*
+
 # R package build artifacts
 *.tar.gz
 *.Rcheck/

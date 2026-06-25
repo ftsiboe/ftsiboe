@@ -1,0 +1,58 @@
+---
+output:
+  word_document: default
+  github_document: default
+  html_document: default
+---
+
+<!-- Source for docs/outreach.md ("My Outreach & Extension").
+     Built from data-raw/bio/ extension statement + 2025 ARPC narrative.
+     Build with data-raw/scripts/render.R. -->
+
+A core part of my work is **translating rigorous analysis into decision-ready
+products** for farmers, agribusiness, and policymakers, and engaging directly
+with the people who use it. My outreach spans policy briefings, stakeholder-facing
+publications, podcasts and panels, and reusable software, alongside earlier
+extension experience built around farm and agribusiness fieldwork.
+
+## Policy briefings and interagency engagement
+
+While at the USDA Economic Research Service, I delivered briefings on USDA-ERS
+reports to the **Under Secretary for Farm Production and Conservation**, the Farm
+Production and Conservation Business Center (FPAC), the Office of Management and
+Budget (OMB), and the Office of the Chief Economist (OCE). I presented on the
+size, scope, and market penetration of the FCIP to an audience of **142
+participants at the 2025 Agricultural Outlook Forum**, USDA's oldest and largest
+annual stakeholder gathering, and I continue to leverage connections across
+USDA-ERS, RMA, NASS, FPAC, and OCE to strengthen institutional partnerships for
+risk-management programs.
+
+## Briefs, podcasts, and panels
+
+I lead and co-author **ARPC policy briefs** that turn technical findings into
+concise, accessible formats on prevented-planting buy-up elimination,
+supplemental crop-insurance risk reduction, premium interest deferrals, regional
+financial stress, and the evolution of U.S. crop-insurance plans. To extend the
+reach of this research I have:
+
+- Appeared on the **Morning Coffee and Ag Markets** podcast (Episode 77) on how
+  insured farmers can adjust to USDA's EARP rule;
+- Served on a panel at the **2025 Midwest Extension Farm Management and Outlook
+  Conference** in Omaha, NE; and
+- Contributed scheduled **University of Arkansas Extension** and **Southern Ag
+  Today** articles on rice.
+
+Browse the [risk-management publications](https://ftsiboe.github.io/publications/risk-management/)
+for the underlying briefs and reports.
+
+## Tools that outlast a single project
+
+I view well-documented, reusable software as a form of outreach: it lets others
+reproduce and build on the analysis. I lead or contribute to open-source R
+packages (for FCIP simulation, price and basis, production-cost calibration,
+agricultural peril metrics, and editorial workflows) that are deployed across the
+Center's publications and now form part of its analytical backbone. Explore my
+[R packages](https://ftsiboe.github.io/r-packages/).
+
+Interested in a briefing, panel, or collaboration?
+[Email me](mailto:ftsiboe@hotmail.com).
