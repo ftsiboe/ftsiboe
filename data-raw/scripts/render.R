@@ -108,6 +108,7 @@ jobs <- list(
   list(src = "aboutme/ai.Rmd",          out = file.path(root, "docs", "ai-integration.md"),       front = fm_ap("Why AI Isn't Helping Your Research as Much as It Should", "/ai-integration/", "single")),
   list(src = "working-papers.Rmd",      out = file.path(root, "docs", "working-papers.md"),       front = fm_ap("Working Papers", "/working-papers/")),
   list(src = "r-packages.Rmd",          out = file.path(root, "docs", "r-packages.md"),           front = fm_ap("Software", "/r-packages/")),
+  list(src = "data.Rmd",                out = file.path(root, "docs", "data.md"),                 front = fm_ap("Data", "/data/", "single")),
   list(src = "replication-packages.Rmd",out = file.path(root, "docs", "replication-packages.md"), front = fm_ap("Replication Packages", "/replication-packages/")),
   list(src = "metrics.Rmd",             out = file.path(root, "docs", "metrics.md"),              front = fm_ap("Research Metrics", "/metrics/")),
   list(src = "publications/publications.Rmd", out = file.path(root, "docs", "publications.md"),    front = fm_ap("Publications", "/publications/", "archive"))
@@ -155,3 +156,7 @@ for (f in list.files(pubdir, pattern = "^pub-.*\\.Rmd$")) {
 }
 
 message("\nAll pages rendered. Commit & push, then check https://ftsiboe.github.io/")
+
+
+
+

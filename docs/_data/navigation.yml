@@ -29,6 +29,8 @@ main:
     url: /working-papers/
   - title: "Software"
     url: /r-packages/
+  - title: "Data"
+    url: /data/
   - title: "Replication"
     url: /replication-packages/
   - title: "Metrics"

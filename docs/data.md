@@ -1,0 +1,47 @@
+---
+layout: single
+title: "Data"
+permalink: /data/
+author_profile: true
+---
+
+
+<!-- Source for docs/data.md (GitHub Pages). Build with data-raw/scripts/render.R -->
+
+Research-ready data products for U.S. agricultural risk and policy
+analysis. Each card links to the product’s documentation site, which
+states the collections, methodology, access instructions, and
+recommended citation.
+
+<style>
+.data-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:0.9rem;margin:1.25rem 0;}
+.data-card{display:block;text-decoration:none;border:1px solid var(--global-border-color);border-radius:10px;padding:1rem 1.1rem;color:var(--global-text-color);transition:border-color .15s ease,transform .15s ease;}
+.data-card:hover{border-color:var(--global-link-color);transform:translateY(-2px);}
+.data-card i{font-size:1.3rem;color:var(--global-link-color);}
+.data-card .t{font-weight:700;margin-top:0.45rem;}
+.data-card .d{font-size:0.85rem;color:var(--global-text-color-light);margin-top:0.25rem;line-height:1.5;}
+</style>
+
+<div class="data-grid">
+
+<a class="data-card" href="https://ftsiboe.github.io/rfcipCalibrate/">
+<i class="fa-solid fa-database" aria-hidden="true"></i>
+
+<div class="t">
+
+FCIP Calibrated and Synthetic Data Catalogue
+
+</div>
+
+<div class="d">
+
+Calibrated sub-county yields, correlated revenue scenarios,
+reconstructed contract choice sets, and synthetic producer panels for
+the U.S. Federal Crop Insurance Program, built from public USDA RMA
+records and documented as six methodological articles.
+
+</div>
+
+</a>
+
+</div>
