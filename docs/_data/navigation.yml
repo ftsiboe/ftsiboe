@@ -12,27 +12,6 @@ main:
         url: /teaching/
       - title: "AI"
         url: /ai-integration/
-  - title: "Publications"
-    url: /publications/
-    children:
-      - title: "Risk Management"
-        url: /publications/risk-management/
-      - title: "Production"
-        url: /publications/production/
-      - title: "Off-farm work & welfare"
-        url: /publications/off-farm-work/
-      - title: "Markets & prices"
-        url: /publications/demand-and-markets/
-      - title: "Other"
-        url: /publications/
-  - title: "Working Papers"
-    url: /working-papers/
-  - title: "Software"
-    url: /r-packages/
-  - title: "Data"
-    url: /data/
-  - title: "Replication"
-    url: /replication-packages/
   - title: "Metrics"
     url: /metrics/
   - title: "CV"

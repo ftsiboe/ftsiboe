@@ -107,9 +107,11 @@ jobs <- list(
   list(src = "aboutme/teaching.Rmd",    out = file.path(root, "docs", "teaching.md"),             front = fm_ap("My Teaching & Mentoring", "/teaching/", "single")),
   list(src = "aboutme/ai.Rmd",          out = file.path(root, "docs", "ai-integration.md"),       front = fm_ap("Why AI Isn't Helping Your Research as Much as It Should", "/ai-integration/", "single")),
   list(src = "working-papers.Rmd",      out = file.path(root, "docs", "working-papers.md"),       front = fm_ap("Working Papers", "/working-papers/")),
-  list(src = "r-packages.Rmd",          out = file.path(root, "docs", "r-packages.md"),           front = fm_ap("Software", "/r-packages/")),
+  list(src = "r-packages.Rmd",          out = file.path(root, "docs", "r-packages.md"),           front = fm_ap("Software and Tools", "/r-packages/")),
   list(src = "data.Rmd",                out = file.path(root, "docs", "data.md"),                 front = fm_ap("Data", "/data/", "single")),
   list(src = "replication-packages.Rmd",out = file.path(root, "docs", "replication-packages.md"), front = fm_ap("Replication Packages", "/replication-packages/")),
+  list(src = "books.Rmd",               out = file.path(root, "docs", "books.md"),                front = fm_ap("Books", "/books/", "single")),
+  list(src = "learning-and-games.Rmd",  out = file.path(root, "docs", "learning-and-games.md"),   front = fm_ap("Learning and Classroom Games", "/learning-and-games/", "single")),
   list(src = "metrics.Rmd",             out = file.path(root, "docs", "metrics.md"),              front = fm_ap("Research Metrics", "/metrics/")),
   list(src = "publications/publications.Rmd", out = file.path(root, "docs", "publications.md"),    front = fm_ap("Publications", "/publications/", "archive"))
 )

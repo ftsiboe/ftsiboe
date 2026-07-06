@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Software"
+title: "Software and Tools"
 permalink: /r-packages/
 author_profile: true
 ---

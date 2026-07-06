@@ -24,7 +24,7 @@ recommended citation.
 
 <div class="data-grid">
 
-<a class="data-card" href="https://ftsiboe.github.io/rfcipCalibrate/">
+<a class="data-card" href="https://ftsiboe.github.io/book-fcip-field-guide/">
 <i class="fa-solid fa-database" aria-hidden="true"></i>
 
 <div class="t">
@@ -38,7 +38,8 @@ FCIP Calibrated and Synthetic Data Catalogue
 Calibrated sub-county yields, correlated revenue scenarios,
 reconstructed contract choice sets, and synthetic producer panels for
 the U.S. Federal Crop Insurance Program, built from public USDA RMA
-records and documented as six methodological articles.
+records and documented in the book <em>A Field Guide to Federal Crop
+Insurance Research</em>.
 
 </div>
 
