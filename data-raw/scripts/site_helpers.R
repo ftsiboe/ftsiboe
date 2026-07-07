@@ -139,9 +139,10 @@ pub_topic_index <- function(base = "https://ftsiboe.github.io/publications") {
 
 ## --- SEARCHABLE "BROWSE ALL" LIST -------------------------------------------
 ## pub_record()      parse one file name into (year, authors, title) + venue/url
-## pub_search_list() print a client-side searchable list of EVERY publication,
-##                   grouped by top-level AREA (config order), newest first, with
-##                   a search box + area filter (plain list rows, not cards).
+## fmt_authors()     collapse 3+ authors to "First et al."; keep 1-2 as written
+## pub_search_list() print the search box + Area / Sub-topic / Year / Outlet
+##                   filters and the full list (grouped by area, newest first)
+##                   from the links.csv manifests (plain rows, not cards).
 
 ## Parse "YEAR[-issue] - Authors - Title.pdf" into parts (same rules as pub_cite).
 pub_record <- function(fname, url = "", venue = "") {
@@ -160,20 +161,42 @@ pub_record <- function(fname, url = "", venue = "") {
        authors = authors, title = title, venue = venue, url = url)
 }
 
+## Display form of an author string: 3+ authors collapse to "First et al.";
+## 1-2 authors are kept as written (e.g., "Tsiboe", "Tsiboe & Turner").
+fmt_authors <- function(a) {
+  a <- trimws(a); if (!nzchar(a)) return("")
+  if (grepl("et\\.? al", a, ignore.case = TRUE)) {
+    first <- trimws(strsplit(a, "\\s*(,|&|\\bet\\.? al)", perl = TRUE)[[1]][1])
+    return(paste0(first, " et al."))
+  }
+  n <- lengths(regmatches(a, gregexpr("&", a, fixed = TRUE))) +
+       lengths(regmatches(a, gregexpr(",", a, fixed = TRUE))) + 1
+  if (n > 2) {
+    first <- trimws(strsplit(a, "\\s*[,&]\\s*")[[1]][1])
+    return(paste0(first, " et al."))
+  }
+  a
+}
+
 ## HTML/attribute escaping for the searchable list.
 .esc_html <- function(s) { s <- gsub("&", "&amp;", s, fixed = TRUE); s <- gsub("<", "&lt;", s, fixed = TRUE); gsub(">", "&gt;", s, fixed = TRUE) }
 .esc_attr <- function(s) gsub('"', "&quot;", .esc_html(s), fixed = TRUE)
 
-## Emit the search box, area <select>, grouped list, and filter script. Papers
-## come from pub_manifest() (grouped by the folder = top-level area key), so the
-## list stays in sync with links.csv automatically. Use results="asis".
+## Emit the controls + grouped list + cascade/filter script. Papers come from
+## pub_manifest() (grouped by folder = top-level area key); the sub-topic filter
+## cascades from the chosen area using PUB_SUBS. Use results="asis".
 pub_search_list <- function(manifest = pub_manifest(), cats = pub_categories()) {
   areas <- cats[!nzchar(cats$group), , drop = FALSE]
   areas <- areas[vapply(areas$key, function(k) sum(manifest$area == k) > 0, logical(1)), , drop = FALSE]
+  recs_all <- Map(pub_record, manifest$file, manifest$url, manifest$venue)
+  yrs  <- sort(unique(vapply(recs_all, function(x) x$year, numeric(1))), decreasing = TRUE)
+  yrs  <- yrs[yrs > 0]
+  outs <- sort(unique(manifest$venue[nzchar(manifest$venue)]))
   cat('<style>\n')
   cat('.pub-controls{display:flex;flex-wrap:wrap;gap:0.6rem;align-items:center;margin:1rem 0 0.25rem;}\n')
   cat('.pub-controls input,.pub-controls select{font:inherit;padding:0.45rem 0.6rem;border:1px solid var(--global-border-color);border-radius:8px;background:transparent;color:var(--global-text-color);}\n')
   cat('.pub-controls input{flex:1 1 240px;min-width:200px;}\n')
+  cat('.pub-controls select:disabled{opacity:0.5;}\n')
   cat('.pub-count{font-size:0.8rem;color:var(--global-text-color-light);margin:0.35rem 0 0.5rem;}\n')
   cat('.pub-area-h{font-size:0.75rem;letter-spacing:0.04em;text-transform:uppercase;color:var(--global-text-color-light);margin:1.1rem 0 0.35rem;}\n')
   cat('.pub-item{padding:0.4rem 0;border-bottom:1px solid var(--global-border-color);line-height:1.55;}\n')
@@ -182,9 +205,15 @@ pub_search_list <- function(manifest = pub_manifest(), cats = pub_categories()) 
   cat('</style>\n\n')
   cat('<div class="pub-controls">\n')
   cat('<input id="pub-search" type="search" placeholder="Search title, author, year, or journal" aria-label="Search publications">\n')
-  cat('<select id="pub-area" aria-label="Filter by area">\n')
-  cat('<option value="">All areas</option>\n')
+  cat('<select id="pub-area" aria-label="Filter by area">\n<option value="">All areas</option>\n')
   for (i in seq_len(nrow(areas))) cat(sprintf('<option value="%s">%s</option>\n', areas$key[i], .esc_html(areas$title[i])))
+  cat('</select>\n')
+  cat('<select id="pub-sub" aria-label="Filter by sub-topic" disabled>\n<option value="">All sub-topics</option>\n</select>\n')
+  cat('<select id="pub-year" aria-label="Filter by year">\n<option value="">All years</option>\n')
+  for (y in yrs) cat(sprintf('<option value="%d">%d</option>\n', y, y))
+  cat('</select>\n')
+  cat('<select id="pub-outlet" aria-label="Filter by outlet">\n<option value="">All outlets</option>\n')
+  for (v in outs) cat(sprintf('<option value="%s">%s</option>\n', .esc_attr(v), .esc_html(v)))
   cat('</select>\n')
   cat('</div>\n')
   cat('<p id="pub-count" class="pub-count"></p>\n\n')
@@ -192,44 +221,58 @@ pub_search_list <- function(manifest = pub_manifest(), cats = pub_categories()) 
   for (i in seq_len(nrow(areas))) {
     ak   <- areas$key[i]
     m    <- manifest[manifest$area == ak, , drop = FALSE]
-    recs <- Map(pub_record, m$file, m$url, m$venue)
+    recs <- Map(function(f, u, v, tp) c(pub_record(f, u, v), list(topic = tp)),
+                m$file, m$url, m$venue, m$topic)
     recs <- recs[order(vapply(recs, function(x) x$year, numeric(1)), decreasing = TRUE)]
     cat(sprintf('<div class="pub-area" data-area="%s">\n', ak))
     cat(sprintf('<div class="pub-area-h">%s</div>\n', .esc_html(areas$title[i])))
     for (r in recs) {
-      dt   <- .esc_attr(tolower(paste(r$authors, if (r$year > 0) r$year else "", r$title, r$venue)))
+      disp <- fmt_authors(r$authors)
+      dt   <- .esc_attr(tolower(paste(disp, if (r$year > 0) r$year else "", r$title, r$venue)))
       cite <- paste0(
-        if (nzchar(r$authors)) paste0(.esc_html(r$authors), " ") else "",
+        if (nzchar(disp)) paste0(.esc_html(disp), " ") else "",
         if (r$year > 0) sprintf("(%d). ", r$year) else "",
         sprintf("&ldquo;%s.&rdquo;", .esc_html(r$title)),
         if (nzchar(r$venue)) sprintf(' <span class="v">%s.</span>', .esc_html(r$venue)) else "",
         if (nzchar(r$url)) sprintf(' <a href="%s">Full text</a>', .esc_attr(r$url)) else "")
-      cat(sprintf('<div class="pub-item" data-area="%s" data-text="%s">%s</div>\n', ak, dt, cite))
+      cat(sprintf('<div class="pub-item" data-area="%s" data-topic="%s" data-year="%s" data-venue="%s" data-text="%s">%s</div>\n',
+                  ak, .esc_attr(r$topic), if (r$year > 0) r$year else "", .esc_attr(r$venue), dt, cite))
     }
     cat('</div>\n')
   }
   cat('</div>\n')
   cat('<p id="pub-empty" class="pub-empty" hidden>No publications match your search.</p>\n\n')
+  subs_by_area <- vapply(areas$key, function(ak) {
+    s <- cats[cats$group == ak, , drop = FALSE]
+    if (nrow(s) == 0) return("")
+    paste0('"', ak, '":[', paste(sprintf('["%s","%s"]', s$key, .esc_html(s$title)), collapse = ","), ']')
+  }, character(1))
+  subs_by_area <- subs_by_area[nzchar(subs_by_area)]
   cat('<script>\n')
+  cat(sprintf('var PUB_SUBS = {%s};\n', paste(subs_by_area, collapse = ",")))
   cat('(function(){\n')
-  cat('  var list=document.getElementById("pub-list");\n')
-  cat('  if(!list){return;}\n')
+  cat('  var list=document.getElementById("pub-list");\n  if(!list){return;}\n')
   cat('  var items=Array.prototype.slice.call(list.querySelectorAll(".pub-item"));\n')
   cat('  var areas=Array.prototype.slice.call(list.querySelectorAll(".pub-area"));\n')
-  cat('  var search=document.getElementById("pub-search");\n')
-  cat('  var area=document.getElementById("pub-area");\n')
-  cat('  var count=document.getElementById("pub-count");\n')
-  cat('  var empty=document.getElementById("pub-empty");\n')
+  cat('  var search=document.getElementById("pub-search"), area=document.getElementById("pub-area");\n')
+  cat('  var sub=document.getElementById("pub-sub"), year=document.getElementById("pub-year"), outlet=document.getElementById("pub-outlet");\n')
+  cat('  var count=document.getElementById("pub-count"), empty=document.getElementById("pub-empty");\n')
+  cat('  function fillSub(){\n')
+  cat('    var subs=PUB_SUBS[area.value]||[];\n')
+  cat('    var h=\'<option value="">All sub-topics</option>\';\n')
+  cat('    subs.forEach(function(s){h+=\'<option value="\'+s[0]+\'">\'+s[1]+\'</option>\';});\n')
+  cat('    sub.innerHTML=h; sub.disabled=subs.length===0; sub.value="";\n')
+  cat('  }\n')
   cat('  function apply(){\n')
   cat('    var q=(search.value||"").toLowerCase().trim();\n')
-  cat('    var af=area.value;\n')
-  cat('    var shown=0;\n')
+  cat('    var af=area.value, sf=sub.value, yf=year.value, of=outlet.value, shown=0;\n')
   cat('    items.forEach(function(it){\n')
-  cat('      var okQ=!q||it.getAttribute("data-text").indexOf(q)>-1;\n')
-  cat('      var okA=!af||it.getAttribute("data-area")===af;\n')
-  cat('      var vis=okQ&&okA;\n')
-  cat('      it.style.display=vis?"":"none";\n')
-  cat('      if(vis){shown++;}\n')
+  cat('      var vis=(!q||it.getAttribute("data-text").indexOf(q)>-1)\n')
+  cat('        &&(!af||it.getAttribute("data-area")===af)\n')
+  cat('        &&(!sf||it.getAttribute("data-topic")===sf)\n')
+  cat('        &&(!yf||it.getAttribute("data-year")===yf)\n')
+  cat('        &&(!of||it.getAttribute("data-venue")===of);\n')
+  cat('      it.style.display=vis?"":"none"; if(vis){shown++;}\n')
   cat('    });\n')
   cat('    areas.forEach(function(sec){\n')
   cat('      var any=Array.prototype.slice.call(sec.querySelectorAll(".pub-item")).some(function(it){return it.style.display!=="none";});\n')
@@ -238,8 +281,9 @@ pub_search_list <- function(manifest = pub_manifest(), cats = pub_categories()) 
   cat('    count.textContent=shown+" of "+items.length+" publications";\n')
   cat('    empty.hidden=shown>0;\n')
   cat('  }\n')
-  cat('  search.addEventListener("input",apply);\n')
-  cat('  area.addEventListener("change",apply);\n')
+  cat('  area.addEventListener("change",function(){fillSub();apply();});\n')
+  cat('  sub.addEventListener("change",apply); year.addEventListener("change",apply);\n')
+  cat('  outlet.addEventListener("change",apply); search.addEventListener("input",apply);\n')
   cat('  apply();\n')
   cat('})();\n')
   cat('</script>\n')

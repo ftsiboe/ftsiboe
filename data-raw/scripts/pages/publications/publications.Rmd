@@ -2,23 +2,14 @@
 output: github_document
 ---
 
-<!-- SOURCE for docs/publications.md (the Publications index). Edit the prose;
-     pub_topic_index() lists each AREA (and risk-management's sub-topics as
-     sub-bullets) from docs/_config.yml + the links.csv manifests. -->
+<!-- SOURCE for docs/publications.md. pub_search_list() (in site_helpers.R) prints
+     a search box + Area / Sub-topic / Year / Outlet filters and the full list,
+     grouped by area, from the links.csv manifests. Build with render.R. -->
 
-My publications are organized by area. Risk-management work is further broken
-into sub-topics (shown as sub-bullets). Select an area to see its papers and links.
-
-```{r index, echo=FALSE, results="asis"}
-source("data-raw/scripts/site_helpers.R")
-pub_topic_index()
-```
-
-## Browse all publications
-
-Search across every paper by title, author, year, or journal, or filter by area.
+My publications, searchable and filterable by area, sub-topic, year, and outlet.
 
 ```{r browse, echo=FALSE, results="asis"}
+source("data-raw/scripts/site_helpers.R")
 pub_search_list()
 ```
 

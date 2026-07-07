@@ -65,9 +65,29 @@ if (length(raw_cells) < 3) {
 
 nums <- as.integer(gsub(",", "", gsub("<[^>]+>", "", raw_cells[c(1,3,5)])))
 
+# ---- Parse the "Citations per year" histogram (optional; non-fatal) ----
+# Years are <span class="gsc_g_t">YEAR</span>; bar counts are
+# <span class="gsc_g_al">N</span>. Scholar occasionally prints fewer year
+# labels than bars, so if they mismatch we align counts to the most recent years.
+cpy_json <- ""
+try({
+  yrs <- as.integer(gsub("\\D", "", regmatches(
+    html, gregexpr('<span class="gsc_g_t"[^>]*>[0-9]{4}</span>', html, perl = TRUE))[[1]]))
+  cts <- as.integer(gsub("[^0-9]", "", regmatches(
+    html, gregexpr('<span class="gsc_g_al">[0-9,]+</span>', html, perl = TRUE))[[1]]))
+  if (length(cts) > 0) {
+    if (length(yrs) != length(cts)) {
+      end <- if (length(yrs)) max(yrs) else as.integer(format(Sys.Date(), "%Y"))
+      yrs <- seq.int(end - length(cts) + 1L, end)
+    }
+    pairs   <- paste(sprintf('    "%d": %d', yrs, cts), collapse = ",\n")
+    cpy_json <- sprintf(',\n  "cites_per_year": {\n%s\n  }', pairs)
+  }
+}, silent = TRUE)
+
 json_txt <- sprintf(
-  "{\n  \"citations\": %d,\n  \"h_index\": %d,\n  \"i10_index\": %d\n}\n",
-  nums[1], nums[2], nums[3]
+  "{\n  \"citations\": %d,\n  \"h_index\": %d,\n  \"i10_index\": %d%s\n}\n",
+  nums[1], nums[2], nums[3], cpy_json
 )
 
 dir.create(dirname(OUT_FILE), showWarnings = FALSE, recursive = TRUE)
