@@ -11,14 +11,15 @@ safety net.**
 
 I am a Senior Research Economist and Program Leader at the [Agricultural
 Risk Policy Center (ARPC)](https://www.arpc-ndsu.com/), [North Dakota
-State University](https://www.ndsu.edu/), an applied microeconomist
+State University](https://www.ndsu.edu/), and an applied microeconomist
 working at the intersection of agricultural risk management and U.S.
 farm policy. American-Ghanaian, born and raised in Accra, Ghana.
 
-I received his Ph.D. in Applied Economics in 2021 from Kansas State
-University; a B.S. degree in Agriculture with a major in Agribusiness
-from the University of Ghana; and a master’s degree in Agricultural
-Economics from University of Arkansas.
+Before joining ARPC, I was a Research Agricultural Economist at the USDA
+Economic Research Service (ERS). I earned my Ph.D. in Applied Economics
+from Kansas State University (2021), an M.S. in Agricultural Economics
+from the University of Arkansas, and a B.S. in Agriculture
+(Agribusiness) from the University of Ghana.
 
 ## What I work on
 
@@ -27,10 +28,13 @@ Economics from University of Arkansas.
   prevented planting, and the One Big Beautiful Bill.
 - **Open-source farm-policy tools:** an open U.S. farm-policy simulator
   and a family of R packages for crop-insurance simulation, calibration,
-  and cost benchmarking.
+  demand estimation, and cost benchmarking.
 - **Agricultural development in Ghana:** productivity, technology
-  adoption, markets, and welfare.
+  adoption, impact evaluation, markets, poverty, and gender.
 
-## Explore my Resources
+I work primarily in R and Stata, and I am always open to new research
+directions and to collaborating with others who share these interests.
+
+## Explore my resources
 
 {% include explore-cards.html %}
