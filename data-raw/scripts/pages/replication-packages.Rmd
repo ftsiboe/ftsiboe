@@ -29,10 +29,9 @@ Ghana Living Standards Survey (GLSS) data.</div>
 
 <a class="data-card" href="https://github.com/ftsiboe/rfcipDemand/releases">
 <i class="fa-solid fa-chart-line" aria-hidden="true"></i>
-<div class="t">rfcipDemand</div>
-<div class="d">Tools and data to estimate U.S. Federal Crop Insurance Program
-(FCIP) demand &mdash; participation, coverage, and premium-rate elasticities
-(Tsiboe &amp; Turner 2023).</div>
+<div class="t">FCIP-Instruments</div>
+<div class="d">Provides replication code and output for generating
+instruments for the United States Crop Insurance Program.</div>
 <div class="meta">U.S. FCIP &middot; Insurance demand</div>
 </a>
 

@@ -14,4 +14,12 @@ source("data-raw/scripts/site_helpers.R")
 pub_topic_index()
 ```
 
+## Browse all publications
+
+Search across every paper by title, author, year, or journal, or filter by area.
+
+```{r browse, echo=FALSE, results="asis"}
+pub_search_list()
+```
+
 You can also find my articles on my [Google Scholar profile](https://scholar.google.com/citations?user=ox2t_YIAAAAJ&hl=en).

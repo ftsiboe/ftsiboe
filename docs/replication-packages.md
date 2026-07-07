@@ -52,15 +52,14 @@ Ghana · Agricultural productivity
 
 <div class="t">
 
-rfcipDemand
+FCIP-Instruments
 
 </div>
 
 <div class="d">
 
-Tools and data to estimate U.S. Federal Crop Insurance Program (FCIP)
-demand — participation, coverage, and premium-rate elasticities (Tsiboe
-& Turner 2023).
+Provides replication code and output for generating instruments for the
+United States Crop Insurance Program.
 
 </div>
 

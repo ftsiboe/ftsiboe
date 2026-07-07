@@ -39,6 +39,13 @@ Shark](https://img.shields.io/badge/GitHub-Pull_Shark-181717?logo=github&logoCol
 Extraordinaire](https://img.shields.io/badge/GitHub-Pair_Extraordinaire-181717?logo=github&logoColor=white)](https://github.com/users/ftsiboe/achievements/pair-extraordinaire)
 [![YOLO](https://img.shields.io/badge/GitHub-YOLO-181717?logo=github&logoColor=white)](https://github.com/users/ftsiboe/achievements/yolo)
 
+## GitHub activity
+
+My public contributions over the last year (updates daily):
+
+[![Francis Tsiboe’s GitHub contribution grid for the last
+year](https://ghchart.rshah.org/ftsiboe)](https://github.com/ftsiboe)
+
 ------------------------------------------------------------------------
 
 [Home](https://ftsiboe.github.io/) ·
