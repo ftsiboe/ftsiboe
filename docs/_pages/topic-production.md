@@ -1,0 +1,39 @@
+---
+layout: archive
+title: "Agricultural productivity (Ghana)"
+permalink: /publications/production/
+author_profile: true
+---
+
+
+<!-- SOURCE for the "Agricultural productivity (Ghana)" area page (docs/_pages/topic-production.md).
+     Self-contained & independently editable. pub_area_page() lists this area's
+     papers from the links.csv manifests; for an area with sub-topics (e.g.
+     risk-management) it prints one section per sub-topic. Build with render.R. -->
+
+[← All publications](https://ftsiboe.github.io/publications/)
+
+- Tsiboe et al (2026). “Production Gaps Among Farmers With Disabilities
+  Are Associated With Limited Technology.” *Agricultural Economics*.
+  [Full text](https://doi.org/10.1111/agec.70115)
+- Asravor et al (2025). “Charting the Path to Increased Oil Palm Output
+  in Ghana.” *Agribusiness*. [Full
+  text](https://doi.org/10.1002/agr.22054)
+- Asravor et al (2024). “Technology and Managerial Performance of Farm
+  Operators by Age in Ghana.” *JPA*.
+- Adaku et al (2023). “Taking Stock of Gender Gaps in Crop Production
+  Technology Adoption and Technical Efficiency in Ghana.” *Agrekon*.
+- Ansah et al (2023). “Starchy Staples Production Shortfalls in Ghana.”
+  *PLOS ONE*.
+- Tsiboe et al (2022). “Production Technology, Efficiency, and
+  Productivity of Cereal Farms in Ghana.” *ARER*.
+- Tsiboe et al (2021). “Spatiotemporal Evaluation of Dry Beans and
+  Groundnut Production Technology and Inefficiency in Ghana.”
+- Tsiboe et al (2021). “Effect of Fertilizer Subsidy on Household-level
+  Cereal Production in Ghana.” *Scientific African*.
+- Tsiboe (2020). “Nationally Representative Farm-Household Level Dataset
+  on Crop Production in Ghana, 1987-2017.” *SSRN*.
+- Tsiboe et al (2019). “Vegetable Production Technical Efficiency and
+  Technology Gaps in Ghana.” *AfJARE*.
+
+[← All publications](https://ftsiboe.github.io/publications/)
