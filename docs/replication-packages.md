@@ -10,34 +10,69 @@ author_profile: true
 
 Code and data to reproduce my published studies.
 
-- [HiddenSafetynet2025](https://github.com/ftsiboe/HiddenSafetynet2025)
-  - [Low Participation and Untapped Benefits of Supplemental Crop
-    Insurance in the United
-    States.](https://github.com/ftsiboe/HiddenSafetynet2025/data-raw/HiddenSafetynet2025.pdf)
-- [fcipRateRevisions](https://github.com/ftsiboe/fcipRateRevisions)
-  - Actuarial Impacts of Rating Revisions in United States Agricultural
-    Insurance.
-  - Actuarial Updates Cut Taxpayer Cost in Subsidized Agricultural
-    Insurance.
-  - The Effect of Actuarial Updates on Private to Public Risk Transfers
-    in Agricultural Insurance.
-- [fcipRevealedPreference](https://github.com/ftsiboe/fcipRevealedPreference)
-  - Pseudo-Revealed Calibration of Farmer Preferences Over Agricultural
-    Insurance Products.
-- [SafetyNetBasisRisk](https://github.com/ftsiboe/SafetyNetBasisRisk)
-  - Quantifying Basis Risk in The United States Farm Safety Net
-    Programs.
-- [GHAgricProductivityLab](https://github.com/ftsiboe/GH-Agric-Productivity-Lab)
-  - [Production Gaps among Disabled Farmers is Associated with Limited
-    Technology.](https://github.com/ftsiboe/GH-Agric-Productivity-Lab/blob/master/replications/tech_inefficiency_disability/DisabilityAgricProdGapGhana_public_version.pdf)
-  - [Heterogeneous Effects of Farmer Education on Technology Adoption
-    and Technical Efficiency in
-    Ghana.](https://github.com/ftsiboe/GH-Agric-Productivity-Lab/tree/master/replications/tech_inefficiency_education#heterogeneous-impacts-of-farmer-education-on-technology-access-and-technical-efficiency-in-ghana)
-  - [Digging into the Linkages Between Resource Extraction and Farm
-    Performance.](https://github.com/ftsiboe/GH-Agric-Productivity-Lab/tree/master/replications/tech_inefficiency_resource_extract#digging-into-the-linkages-between-resource-extraction-and-farm-performance)
-  - Financial Inclusion and Credit Impacts on Crop Production in Ghana.
-  - Land Ownership Appears Neither Necessary nor Sufficient for Superior
-    Agricultural Performance in Ghana.
+<style>
+.data-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:0.9rem;margin:1.25rem 0;}
+.data-card{display:block;text-decoration:none;border:1px solid var(--global-border-color);border-radius:10px;padding:1rem 1.1rem;color:var(--global-text-color);transition:border-color .15s ease,transform .15s ease;}
+.data-card:hover{border-color:var(--global-link-color);transform:translateY(-2px);}
+.data-card i{font-size:1.3rem;color:var(--global-link-color);}
+.data-card .t{font-weight:700;margin-top:0.45rem;}
+.data-card .d{font-size:0.85rem;color:var(--global-text-color-light);margin-top:0.25rem;line-height:1.5;}
+.data-card .meta{font-size:0.72rem;color:var(--global-text-color-light);margin-top:0.6rem;text-transform:uppercase;letter-spacing:0.03em;}
+</style>
+
+<div class="data-grid">
+
+<a class="data-card" href="https://github.com/ftsiboe/okwaayeli/releases#release-legacy_studies">
+<i class="fa-solid fa-tractor" aria-hidden="true"></i>
+
+<div class="t">
+
+okwaayeli — legacy studies
+
+</div>
+
+<div class="d">
+
+Replication archives for my published Ghana agricultural productivity
+studies (farmer technical inefficiency and technology gaps), built on
+harmonized Ghana Living Standards Survey (GLSS) data.
+
+</div>
+
+<div class="meta">
+
+Ghana · Agricultural productivity
+
+</div>
+
+</a>
+
+<a class="data-card" href="https://github.com/ftsiboe/rfcipDemand/releases">
+<i class="fa-solid fa-chart-line" aria-hidden="true"></i>
+
+<div class="t">
+
+rfcipDemand
+
+</div>
+
+<div class="d">
+
+Tools and data to estimate U.S. Federal Crop Insurance Program (FCIP)
+demand — participation, coverage, and premium-rate elasticities (Tsiboe
+& Turner 2023).
+
+</div>
+
+<div class="meta">
+
+U.S. FCIP · Insurance demand
+
+</div>
+
+</a>
+
+</div>
 
 ------------------------------------------------------------------------
 

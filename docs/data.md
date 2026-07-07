@@ -9,11 +9,10 @@ author_profile: true
 <!-- Source for docs/data.md (GitHub Pages). Build with data-raw/scripts/render.R -->
 
 Research-ready data products for U.S. agricultural risk and policy
-analysis, distributed as GitHub releases of the
-[USFarmSafetyNetLab](https://github.com/ftsiboe/USFarmSafetyNetLab)
-repository. Each card links to a release, which documents the included
-files, methodology, and recommended citation; most files are `.rds`
-objects downloadable directly in R with `piggyback`.
+analysis, spanning USDA sources and my own calibrated and synthetic
+datasets. Each card links to a public GitHub release that documents the
+included files, methodology, and recommended citation; most files are
+`.rds` objects downloadable directly in R with `piggyback`.
 
 <style>
 .data-controls{display:flex;flex-wrap:wrap;gap:0.6rem;align-items:center;margin:1.25rem 0 0.25rem;}
@@ -37,7 +36,8 @@ objects downloadable directly in R with `piggyback`.
 <option value="">All sources</option> <option value="RMA">USDA
 RMA</option> <option value="NASS">USDA NASS</option>
 <option value="FSA">USDA FSA</option>
-<option value="PRISM">PRISM</option> </select>
+<option value="PRISM">PRISM</option> <option value="GLSS">Ghana
+GLSS</option> </select>
 <select id="data-sort" aria-label="Sort datasets">
 <option value="featured">Sort: Featured</option>
 <option value="name-asc">Name (A–Z)</option>
@@ -392,6 +392,31 @@ Actuarial Data Master (ADM).
 <div class="meta">
 
 USDA RMA · Updated Dec 2025
+
+</div>
+
+</a>
+
+<a class="data-card" data-name="Ghana GLSS Harmonized Household Data" data-source="GLSS" data-date="2026-04-05" href="https://github.com/ftsiboe/okwaayeli/releases/tag/hh_data">
+<i class="fa-solid fa-globe-africa" aria-hidden="true"></i>
+
+<div class="t">
+
+Ghana GLSS Harmonized Household Data
+
+</div>
+
+<div class="d">
+
+Harmonized farmer- and community-level datasets from all seven rounds of
+the Ghana Living Standards Survey (GLSS1 1987/88 – GLSS7 2016/17),
+supporting agricultural productivity research.
+
+</div>
+
+<div class="meta">
+
+Ghana Statistical Service · Updated Apr 2026
 
 </div>
 

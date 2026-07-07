@@ -31,6 +31,14 @@ profile](https://scholar.google.com/citations?user=ox2t_YIAAAAJ&hl=en).
 - **2022.** Outstanding Published Research, Western Agricultural
   Economics Association (WAEA), for the same paper.
 
+## GitHub achievements 🏅
+
+[![Pull
+Shark](https://img.shields.io/badge/GitHub-Pull_Shark-181717?logo=github&logoColor=white)](https://github.com/users/ftsiboe/achievements/pull-shark)
+[![Pair
+Extraordinaire](https://img.shields.io/badge/GitHub-Pair_Extraordinaire-181717?logo=github&logoColor=white)](https://github.com/users/ftsiboe/achievements/pair-extraordinaire)
+[![YOLO](https://img.shields.io/badge/GitHub-YOLO-181717?logo=github&logoColor=white)](https://github.com/users/ftsiboe/achievements/yolo)
+
 ------------------------------------------------------------------------
 
 [Home](https://ftsiboe.github.io/) ·
