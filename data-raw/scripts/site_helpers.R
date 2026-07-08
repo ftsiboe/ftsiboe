@@ -32,17 +32,18 @@ fm_ap <- function(title, permalink, layout = "single") {
 ## Read every area's links.csv (columns: topic, file, url) into one data frame,
 ## adding `area` = the folder name (data-raw/publications/<area>/links.csv).
 pub_manifest <- function() {
+  cols <- c("topic", "file", "url", "venue",
+            "authors", "journal", "volume", "issue", "pages", "doi", "type")
   csvs <- list.files("data-raw/publications", pattern = "^links\\.csv$",
                      recursive = TRUE, full.names = TRUE)
   m <- do.call(rbind, lapply(csvs, function(f) {
     d <- utils::read.csv(f, stringsAsFactors = FALSE)
-    if (!"venue" %in% names(d)) d$venue <- ""
-    d <- d[, c("topic", "file", "url", "venue")]
+    for (c in cols) if (!c %in% names(d)) d[[c]] <- ""   # enrichment cols optional
+    d <- d[, cols]
     d$area <- basename(dirname(f))
     d
   }))
-  m$url[is.na(m$url)]     <- ""
-  m$venue[is.na(m$venue)] <- ""
+  for (c in cols) m[[c]][is.na(m[[c]])] <- ""
   m[nzchar(m$file), , drop = FALSE]
 }
 
@@ -182,6 +183,45 @@ fmt_authors <- function(a) {
 .esc_html <- function(s) { s <- gsub("&", "&amp;", s, fixed = TRUE); s <- gsub("<", "&lt;", s, fixed = TRUE); gsub(">", "&gt;", s, fixed = TRUE) }
 .esc_attr <- function(s) gsub('"', "&quot;", .esc_html(s), fixed = TRUE)
 
+## Render one record as an AJAE (AAEA/Chicago author-date) reference, as HTML.
+## Uses the enriched columns (authors/journal/volume/issue/pages/doi/type) when
+## present; otherwise falls back to the filename-derived surnames + venue so the
+## page still renders before enrich_publications.R has been run.
+##   Article: Authors. Year. "Title." <em>Journal</em> Vol(Issue):Pages. [Full text]
+##   Report:  Authors. Year. "Title." Series No. Publisher. [Full text]
+pub_ajae <- function(r) {
+  au   <- if (nzchar(r$authors)) r$authors else fmt_authors(r$surnames)
+  jour <- if (nzchar(r$journal)) r$journal else r$venue
+  seg  <- .esc_html(au)
+  if (nzchar(seg) && !grepl("\\.$", seg)) seg <- paste0(seg, ".")
+  out <- ""
+  if (nzchar(seg))     out <- paste0(seg, " ")
+  if (r$year > 0)      out <- paste0(out, r$year, ". ")
+  out <- paste0(out, "&ldquo;", .esc_html(r$title), ".&rdquo;")
+  if (identical(r$type, "report")) {
+    jr <- .esc_html(jour)
+    if (nzchar(r$volume)) jr <- paste0(jr, " ", .esc_html(r$volume))
+    out <- paste0(out, " ", jr, ".")
+    if (grepl("^ARPC", jour))            out <- paste0(out, " Agricultural Risk Policy Center, North Dakota State University.")
+    else if (grepl("ERS|USDA", jour))    out <- paste0(out, " U.S. Department of Agriculture, Economic Research Service.")
+  } else {
+    if (nzchar(jour)) out <- paste0(out, " <em>", .esc_html(jour), "</em>")
+    locus <- ""
+    if (nzchar(r$volume)) {
+      locus <- .esc_html(r$volume)
+      if (nzchar(r$issue)) locus <- paste0(locus, "(", .esc_html(r$issue), ")")
+      if (nzchar(r$pages)) locus <- paste0(locus, ":", .esc_html(r$pages))
+    } else if (nzchar(r$pages)) {
+      locus <- .esc_html(r$pages)
+    }
+    if (nzchar(locus)) out <- paste0(out, " ", locus)
+    out <- paste0(out, ".")
+  }
+  link <- if (nzchar(r$url)) r$url else if (nzchar(r$doi)) paste0("https://doi.org/", r$doi) else ""
+  if (nzchar(link)) out <- paste0(out, ' <a href="', .esc_attr(link), '">Full text</a>')
+  out
+}
+
 ## Emit the controls + grouped list + cascade/filter script. Papers come from
 ## pub_manifest() (grouped by folder = top-level area key); the sub-topic filter
 ## cascades from the chosen area using PUB_SUBS. Use results="asis".
@@ -221,20 +261,19 @@ pub_search_list <- function(manifest = pub_manifest(), cats = pub_categories()) 
   for (i in seq_len(nrow(areas))) {
     ak   <- areas$key[i]
     m    <- manifest[manifest$area == ak, , drop = FALSE]
-    recs <- Map(function(f, u, v, tp) c(pub_record(f, u, v), list(topic = tp)),
-                m$file, m$url, m$venue, m$topic)
+    recs <- lapply(seq_len(nrow(m)), function(j) {
+      pr <- pub_record(m$file[j], m$url[j], m$venue[j])
+      list(year = pr$year, title = pr$title, surnames = pr$authors, venue = m$venue[j],
+           url = m$url[j], topic = m$topic[j], authors = m$authors[j], journal = m$journal[j],
+           volume = m$volume[j], issue = m$issue[j], pages = m$pages[j], doi = m$doi[j], type = m$type[j])
+    })
     recs <- recs[order(vapply(recs, function(x) x$year, numeric(1)), decreasing = TRUE)]
     cat(sprintf('<div class="pub-area" data-area="%s">\n', ak))
     cat(sprintf('<div class="pub-area-h">%s</div>\n', .esc_html(areas$title[i])))
     for (r in recs) {
-      disp <- fmt_authors(r$authors)
-      dt   <- .esc_attr(tolower(paste(disp, if (r$year > 0) r$year else "", r$title, r$venue)))
-      cite <- paste0(
-        if (nzchar(disp)) paste0(.esc_html(disp), " ") else "",
-        if (r$year > 0) sprintf("(%d). ", r$year) else "",
-        sprintf("&ldquo;%s.&rdquo;", .esc_html(r$title)),
-        if (nzchar(r$venue)) sprintf(' <span class="v">%s.</span>', .esc_html(r$venue)) else "",
-        if (nzchar(r$url)) sprintf(' <a href="%s">Full text</a>', .esc_attr(r$url)) else "")
+      disp <- if (nzchar(r$authors)) r$authors else fmt_authors(r$surnames)
+      dt   <- .esc_attr(tolower(paste(disp, if (r$year > 0) r$year else "", r$title, r$venue, r$journal)))
+      cite <- pub_ajae(r)
       cat(sprintf('<div class="pub-item" data-area="%s" data-topic="%s" data-year="%s" data-venue="%s" data-text="%s">%s</div>\n',
                   ak, .esc_attr(r$topic), if (r$year > 0) r$year else "", .esc_attr(r$venue), dt, cite))
     }

@@ -111,21 +111,24 @@ Risk management & the U.S. farm safety net
 <div class="pub-item" data-area="risk-management"
 data-topic="background-and-policy" data-year="2026"
 data-venue="ARPC Report"
-data-text="tsiboe et al. 2026 size and growth of the united states crop insurance portfolio, 2025 arpc report">
+data-text="tsiboe, f., r. chakravorty, h. zhao, d. turner, and s. steinbach 2026 size and growth of the united states crop insurance portfolio, 2025 arpc report arpc report">
 
-Tsiboe et al. (2026). “Size and Growth of the United States Crop
-Insurance Portfolio, 2025.” <span class="v">ARPC Report.</span>
-<a href="https://www.arpc-ndsu.com/publications">Full text</a>
+Tsiboe, F., R. Chakravorty, H. Zhao, D. Turner, and S. Steinbach. 2026.
+“Size and Growth of the United States Crop Insurance Portfolio, 2025.”
+ARPC Report 2026-01. Agricultural Risk Policy Center, North Dakota State
+University. <a href="https://www.arpc-ndsu.com/publications">Full
+text</a>
 
 </div>
 
 <div class="pub-item" data-area="risk-management"
 data-topic="crop-insurance-demand" data-year="2026"
 data-venue="ARPC Brief"
-data-text="tsiboe &amp; davis 2026 continued pasture, rangeland, and forage (prf) insurance expansion in 2026 arpc brief">
+data-text="tsiboe, f., and w. davis 2026 continued pasture, rangeland, and forage (prf) insurance expansion in 2026 arpc brief arpc brief">
 
-Tsiboe & Davis (2026). “Continued Pasture, Rangeland, and Forage (PRF)
-Insurance Expansion in 2026.” <span class="v">ARPC Brief.</span>
+Tsiboe, F., and W. Davis. 2026. “Continued Pasture, Rangeland, and
+Forage (PRF) Insurance Expansion in 2026.” ARPC Brief 2026-08.
+Agricultural Risk Policy Center, North Dakota State University.
 <a href="https://www.arpc-ndsu.com/post/continued-pasture-rangeland-and-forage-prf-insurance-expansion-in-2026">Full
 text</a>
 
@@ -134,20 +137,21 @@ text</a>
 <div class="pub-item" data-area="risk-management"
 data-topic="crop-insurance-demand" data-year="2026"
 data-venue="ARPC Brief"
-data-text="tsiboe &amp; zhao 2026 early signals for supplemental crop insurance adoption under partial obbba implementation arpc brief">
+data-text="tsiboe, f., and h. zhao 2026 early signals for supplemental crop insurance adoption under partial obbba implementation arpc brief arpc brief">
 
-Tsiboe & Zhao (2026). “Early Signals for Supplemental Crop Insurance
-Adoption Under Partial OBBBA Implementation.” <span class="v">ARPC
-Brief.</span> <a href="https://www.arpc-ndsu.com/briefs">Full text</a>
+Tsiboe, F., and H. Zhao. 2026. “Early Signals for Supplemental Crop
+Insurance Adoption Under Partial OBBBA Implementation.” ARPC Brief
+2026-12. Agricultural Risk Policy Center, North Dakota State University.
+<a href="https://www.arpc-ndsu.com/briefs">Full text</a>
 
 </div>
 
 <div class="pub-item" data-area="risk-management"
 data-topic="crop-insurance-rating" data-year="2026" data-venue="AEPP"
-data-text="tsiboe 2026 routine actuarial adjustments cut taxpayer cost in subsidized agricultural insurance aepp">
+data-text="tsiboe 2026 routine actuarial adjustments cut taxpayer cost in subsidized agricultural insurance aepp ">
 
-Tsiboe (2026). “Routine Actuarial Adjustments Cut Taxpayer Cost in
-Subsidized Agricultural Insurance.” <span class="v">AEPP.</span>
+Tsiboe. 2026. “Routine Actuarial Adjustments Cut Taxpayer Cost in
+Subsidized Agricultural Insurance.” <em>AEPP</em>.
 <a href="https://doi.org/10.1002/aepp.70052">Full text</a>
 
 </div>
@@ -155,10 +159,11 @@ Subsidized Agricultural Insurance.” <span class="v">AEPP.</span>
 <div class="pub-item" data-area="risk-management"
 data-topic="crop-insurance-rating" data-year="2026"
 data-venue="ARPC Brief"
-data-text="tsiboe &amp; osei 2026 routine pricing adjustments help keep crop insurance costs in check arpc brief">
+data-text="tsiboe, f., and e. osei 2026 routine pricing adjustments help keep crop insurance costs in check arpc brief arpc brief">
 
-Tsiboe & Osei (2026). “Routine Pricing Adjustments Help Keep Crop
-Insurance Costs in Check.” <span class="v">ARPC Brief.</span>
+Tsiboe, F., and E. Osei. 2026. “Routine Pricing Adjustments Help Keep
+Crop Insurance Costs in Check.” ARPC Brief 2026-06. Agricultural Risk
+Policy Center, North Dakota State University.
 <a href="https://www.arpc-ndsu.com/post/routine-pricing-adjustments-help-keep-crop-insurance-costs-in-check">Full
 text</a>
 
@@ -166,31 +171,34 @@ text</a>
 
 <div class="pub-item" data-area="risk-management"
 data-topic="prevented-planting" data-year="2026" data-venue="ARPC Brief"
-data-text="turner &amp; tsiboe 2026 the actuarial performance of prevented planting buy-up coverage arpc brief">
+data-text="turner, d., and f. tsiboe 2026 the actuarial performance of prevented planting buy-up coverage arpc brief arpc brief">
 
-Turner & Tsiboe (2026). “The Actuarial Performance of Prevented Planting
-Buy-Up Coverage.” <span class="v">ARPC Brief.</span>
+Turner, D., and F. Tsiboe. 2026. “The Actuarial Performance of Prevented
+Planting Buy-Up Coverage.” ARPC Brief 2026-01. Agricultural Risk Policy
+Center, North Dakota State University.
 <a href="https://doi.org/10.22004/ag.econ.387586">Full text</a>
 
 </div>
 
 <div class="pub-item" data-area="risk-management"
 data-topic="prevented-planting" data-year="2026" data-venue="ARPC Brief"
-data-text="tsiboe et al. 2026 ending prevented planting buy-ups changes insurance choices and expands program risk arpc brief">
+data-text="tsiboe, f., r. chakravorty, and h. zhao 2026 ending prevented planting buy-ups changes insurance choices and expands program risk arpc brief arpc brief">
 
-Tsiboe et al. (2026). “Ending Prevented Planting Buy-Ups Changes
-Insurance Choices and Expands Program Risk.” <span class="v">ARPC
-Brief.</span> <a href="https://doi.org/10.22004/ag.econ.388966">Full
+Tsiboe, F., R. Chakravorty, and H. Zhao. 2026. “Ending Prevented
+Planting Buy-Ups Changes Insurance Choices and Expands Program Risk.”
+ARPC Brief 2026-02. Agricultural Risk Policy Center, North Dakota State
+University. <a href="https://doi.org/10.22004/ag.econ.388966">Full
 text</a>
 
 </div>
 
 <div class="pub-item" data-area="risk-management"
 data-topic="prevented-planting" data-year="2026" data-venue="ARPC Brief"
-data-text="tsiboe et al. 2026 what ending prevented planting buy-ups means for farmers' insurance costs arpc brief">
+data-text="tsiboe, f., h. zhao, and r. chakravorty 2026 what ending prevented planting buy-ups means for farmers' insurance costs arpc brief arpc brief">
 
-Tsiboe et al. (2026). “What Ending Prevented Planting Buy-Ups Means for
-Farmers’ Insurance Costs.” <span class="v">ARPC Brief.</span>
+Tsiboe, F., H. Zhao, and R. Chakravorty. 2026. “What Ending Prevented
+Planting Buy-Ups Means for Farmers’ Insurance Costs.” ARPC Brief
+2026-03. Agricultural Risk Policy Center, North Dakota State University.
 <a href="https://www.arpc-ndsu.com/post/what-ending-prevented-planting-buy-ups-means-for-farmers-insurance-costs">Full
 text</a>
 
@@ -199,11 +207,12 @@ text</a>
 <div class="pub-item" data-area="risk-management"
 data-topic="prevented-planting" data-year="2026"
 data-venue="ARPC White Paper"
-data-text="tsiboe 2026 prevented planting after buy-up elimination - coverage level substitution, producer costs, and enhanced premium subsidies (obbb) arpc white paper">
+data-text="tsiboe, f. 2026 prevented planting after buy-up elimination - coverage level substitution, producer costs, and enhanced premium subsidies (obbb) arpc white paper arpc white paper">
 
-Tsiboe (2026). “Prevented Planting After Buy-Up Elimination - Coverage
+Tsiboe, F. 2026. “Prevented Planting After Buy-Up Elimination - Coverage
 Level Substitution, Producer Costs, and Enhanced Premium Subsidies
-(OBBB).” <span class="v">ARPC White Paper.</span>
+(OBBB).” ARPC White Paper 2026-01. Agricultural Risk Policy Center,
+North Dakota State University.
 <a href="https://doi.org/10.22004/ag.econ.386196">Full text</a>
 
 </div>
@@ -211,44 +220,48 @@ Level Substitution, Producer Costs, and Enhanced Premium Subsidies
 <div class="pub-item" data-area="risk-management"
 data-topic="prevented-planting" data-year="2026"
 data-venue="ARPC White Paper"
-data-text="tsiboe et al. 2026 prevented planting buy-up elimination - adoption, actuarial performance, and pre-planting risk management options arpc white paper">
+data-text="tsiboe, f., r. chakravorty, d. turner, s. arita, and h. zhao 2026 prevented planting buy-up elimination - adoption, actuarial performance, and pre-planting risk management options arpc white paper arpc white paper">
 
-Tsiboe et al. (2026). “Prevented Planting Buy-Up Elimination - Adoption,
-Actuarial Performance, and Pre-Planting Risk Management Options.”
-<span class="v">ARPC White Paper.</span>
+Tsiboe, F., R. Chakravorty, D. Turner, S. Arita, and H. Zhao. 2026.
+“Prevented Planting Buy-Up Elimination - Adoption, Actuarial
+Performance, and Pre-Planting Risk Management Options.” ARPC White Paper
+2026-02. Agricultural Risk Policy Center, North Dakota State University.
 <a href="https://doi.org/10.22004/ag.econ.388968">Full text</a>
 
 </div>
 
 <div class="pub-item" data-area="risk-management"
 data-topic="yield-modeling" data-year="2026" data-venue="ARPC Brief"
-data-text="li &amp; tsiboe 2026 are crop yields becoming more stable and higher evidence from us county-level data since 1980 arpc brief">
+data-text="li, j., and f. tsiboe 2026 are crop yields becoming more stable and higher evidence from us county-level data since 1980 arpc brief arpc brief">
 
-Li & Tsiboe (2026). “Are Crop Yields Becoming More Stable and Higher
-Evidence from US County-Level Data Since 1980.” <span class="v">ARPC
-Brief.</span> <a href="https://www.arpc-ndsu.com/briefs">Full text</a>
+Li, J., and F. Tsiboe. 2026. “Are Crop Yields Becoming More Stable and
+Higher Evidence from US County-Level Data Since 1980.” ARPC Brief
+2026-07. Agricultural Risk Policy Center, North Dakota State University.
+<a href="https://www.arpc-ndsu.com/briefs">Full text</a>
 
 </div>
 
 <div class="pub-item" data-area="risk-management"
 data-topic="impacts-of-crop-insurance" data-year="2026"
 data-venue="ARPC Working Paper"
-data-text="tsiboe &amp; njuki 2026 agricultural insurance association with farm technology and technical efficiency arpc working paper">
+data-text="tsiboe, f., and e. njuki 2026 agricultural insurance association with farm technology and technical efficiency arpc working paper arpc working paper">
 
-Tsiboe & Njuki (2026). “Agricultural Insurance Association with Farm
-Technology and Technical Efficiency.” <span class="v">ARPC Working
-Paper.</span> <a href="https://doi.org/10.22004/ag.econ.396438">Full
-text</a>
+Tsiboe, F., and E. Njuki. 2026. “Agricultural Insurance Association with
+Farm Technology and Technical Efficiency.” ARPC Working Paper 2026-03.
+Agricultural Risk Policy Center, North Dakota State University.
+<a href="https://doi.org/10.22004/ag.econ.396438">Full text</a>
 
 </div>
 
 <div class="pub-item" data-area="risk-management"
 data-topic="climate-and-environment" data-year="2026"
 data-venue="ARPC White Paper"
-data-text="tsiboe et al. 2026 crop insurance and nitrogen reduction under elevated fertilizer prices arpc white paper">
+data-text="tsiboe, f., d. turner, s. arita, k. jore, r. chakravorty, and s. meyer 2026 crop insurance and nitrogen reduction under elevated fertilizer prices arpc white paper arpc white paper">
 
-Tsiboe et al. (2026). “Crop Insurance and Nitrogen Reduction Under
-Elevated Fertilizer Prices.” <span class="v">ARPC White Paper.</span>
+Tsiboe, F., D. Turner, S. Arita, K. Jore, R. Chakravorty, and S. Meyer.
+2026. “Crop Insurance and Nitrogen Reduction Under Elevated Fertilizer
+Prices.” ARPC White Paper 2026-08. Agricultural Risk Policy Center,
+North Dakota State University.
 <a href="https://www.arpc-ndsu.com/outreach/publications/crop-insurance-and-nitrogen-reduction-under-elevated-fertilizer-prices">Full
 text</a>
 
@@ -257,44 +270,47 @@ text</a>
 <div class="pub-item" data-area="risk-management"
 data-topic="background-and-policy" data-year="2025"
 data-venue="ARPC Brief"
-data-text="chakravorty et al. 2025 rising costs, falling prices - regional disparities deepen farm financial stress arpc brief">
+data-text="chakravorty, r., s. arita, and f. tsiboe 2025 rising costs, falling prices - regional disparities deepen farm financial stress arpc brief arpc brief">
 
-Chakravorty et al. (2025). “Rising Costs, Falling Prices - Regional
-Disparities Deepen Farm Financial Stress.” <span class="v">ARPC
-Brief.</span> <a href="https://doi.org/10.22004/ag.econ.388967">Full
-text</a>
+Chakravorty, R., S. Arita, and F. Tsiboe. 2025. “Rising Costs, Falling
+Prices - Regional Disparities Deepen Farm Financial Stress.” ARPC Brief
+2025-11. Agricultural Risk Policy Center, North Dakota State University.
+<a href="https://doi.org/10.22004/ag.econ.388967">Full text</a>
 
 </div>
 
 <div class="pub-item" data-area="risk-management"
 data-topic="background-and-policy" data-year="2025"
 data-venue="ARPC Brief"
-data-text="tsiboe &amp; turner 2025 evolution of us federal crop-insurance plans arpc brief">
+data-text="tsiboe, f., and d. turner 2025 evolution of us federal crop-insurance plans arpc brief arpc brief">
 
-Tsiboe & Turner (2025). “Evolution of US Federal Crop-Insurance Plans.”
-<span class="v">ARPC Brief.</span>
-<a href="https://www.arpc-ndsu.com/briefs">Full text</a>
+Tsiboe, F., and D. Turner. 2025. “Evolution of US Federal Crop-Insurance
+Plans.” ARPC Brief 2025-13. Agricultural Risk Policy Center, North
+Dakota State University. <a href="https://www.arpc-ndsu.com/briefs">Full
+text</a>
 
 </div>
 
 <div class="pub-item" data-area="risk-management"
 data-topic="crop-insurance-demand" data-year="2025"
 data-venue="ARPC Brief"
-data-text="tsiboe et al. 2025 pasture, rangeland, and forage (prf) insurance expansion and emerging limits to growth arpc brief">
+data-text="tsiboe, f., w. davis, and d. turner 2025 pasture, rangeland, and forage (prf) insurance expansion and emerging limits to growth arpc brief arpc brief">
 
-Tsiboe et al. (2025). “Pasture, Rangeland, and Forage (PRF) Insurance
-Expansion and Emerging Limits to Growth.” <span class="v">ARPC
-Brief.</span> <a href="https://doi.org/10.22004/ag.econ.391345">Full
+Tsiboe, F., W. Davis, and D. Turner. 2025. “Pasture, Rangeland, and
+Forage (PRF) Insurance Expansion and Emerging Limits to Growth.” ARPC
+Brief 2025-16. Agricultural Risk Policy Center, North Dakota State
+University. <a href="https://doi.org/10.22004/ag.econ.391345">Full
 text</a>
 
 </div>
 
 <div class="pub-item" data-area="risk-management"
 data-topic="prevented-planting" data-year="2025" data-venue="ARPC Brief"
-data-text="chakravorty et al. 2025 prevented planting buy-up coverage - payments and policy changes arpc brief">
+data-text="chakravorty, r., d. turner, and f. tsiboe 2025 prevented planting buy-up coverage - payments and policy changes arpc brief arpc brief">
 
-Chakravorty et al. (2025). “Prevented Planting Buy-Up Coverage -
-Payments and Policy Changes.” <span class="v">ARPC Brief.</span>
+Chakravorty, R., D. Turner, and F. Tsiboe. 2025. “Prevented Planting
+Buy-Up Coverage - Payments and Policy Changes.” ARPC Brief 2025-18.
+Agricultural Risk Policy Center, North Dakota State University.
 <a href="https://doi.org/10.22004/ag.econ.386094">Full text</a>
 
 </div>
@@ -302,10 +318,11 @@ Payments and Policy Changes.” <span class="v">ARPC Brief.</span>
 <div class="pub-item" data-area="risk-management"
 data-topic="premium-and-interest-deferrals" data-year="2025"
 data-venue="ARPC Brief"
-data-text="tsiboe &amp; zhao 2025 crop insurance premium and interest deferrals in a time of rising farm costs arpc brief">
+data-text="tsiboe, f., and h. zhao 2025 crop insurance premium and interest deferrals in a time of rising farm costs arpc brief arpc brief">
 
-Tsiboe & Zhao (2025). “Crop Insurance Premium and Interest Deferrals in
-a Time of Rising Farm Costs.” <span class="v">ARPC Brief.</span>
+Tsiboe, F., and H. Zhao. 2025. “Crop Insurance Premium and Interest
+Deferrals in a Time of Rising Farm Costs.” ARPC Brief 2025-09.
+Agricultural Risk Policy Center, North Dakota State University.
 <a href="https://www.arpc-ndsu.com/briefs">Full text</a>
 
 </div>
@@ -313,10 +330,11 @@ a Time of Rising Farm Costs.” <span class="v">ARPC Brief.</span>
 <div class="pub-item" data-area="risk-management"
 data-topic="premium-and-interest-deferrals" data-year="2025"
 data-venue="ARPC Brief"
-data-text="zhao et al. 2025 what repeated crop insurance premium interest deferrals mean for farmers arpc brief">
+data-text="zhao, h., f. tsiboe, d. turner, and s. steinbach 2025 what repeated crop insurance premium interest deferrals mean for farmers arpc brief arpc brief">
 
-Zhao et al. (2025). “What Repeated Crop Insurance Premium Interest
-Deferrals Mean for Farmers.” <span class="v">ARPC Brief.</span>
+Zhao, H., F. Tsiboe, D. Turner, and S. Steinbach. 2025. “What Repeated
+Crop Insurance Premium Interest Deferrals Mean for Farmers.” ARPC Brief
+2025-12. Agricultural Risk Policy Center, North Dakota State University.
 <a href="https://www.arpc-ndsu.com/post/what-repeated-crop-insurance-premium-interest-deferrals-mean-for-farmers">Full
 text</a>
 
@@ -325,21 +343,23 @@ text</a>
 <div class="pub-item" data-area="risk-management"
 data-topic="premium-and-interest-deferrals" data-year="2025"
 data-venue="ARPC White Paper"
-data-text="tsiboe &amp; steinbach 2025 when disaster strikes the billing date - a scoping review of crop insurance interest deferrals arpc white paper">
+data-text="tsiboe, f., and s. steinbach 2025 when disaster strikes the billing date - a scoping review of crop insurance interest deferrals arpc white paper arpc white paper">
 
-Tsiboe & Steinbach (2025). “When Disaster Strikes the Billing Date - A
-Scoping Review of Crop Insurance Interest Deferrals.”
-<span class="v">ARPC White Paper.</span>
-<a href="https://doi.org/10.22004/ag.econ.364685">Full text</a>
+Tsiboe, F., and S. Steinbach. 2025. “When Disaster Strikes the Billing
+Date - A Scoping Review of Crop Insurance Interest Deferrals.” ARPC
+White Paper 2025-04. Agricultural Risk Policy Center, North Dakota State
+University. <a href="https://doi.org/10.22004/ag.econ.364685">Full
+text</a>
 
 </div>
 
 <div class="pub-item" data-area="risk-management"
 data-topic="yield-modeling" data-year="2025" data-venue="ARPC Brief"
-data-text="li &amp; tsiboe 2025 a horse race comparison of county-level crop yield prediction methods arpc brief">
+data-text="li, j., and f. tsiboe 2025 a horse race comparison of county-level crop yield prediction methods arpc brief arpc brief">
 
-Li & Tsiboe (2025). “A Horse Race Comparison of County-Level Crop Yield
-Prediction Methods.” <span class="v">ARPC Brief.</span>
+Li, J., and F. Tsiboe. 2025. “A Horse Race Comparison of County-Level
+Crop Yield Prediction Methods.” ARPC Brief 2025-14. Agricultural Risk
+Policy Center, North Dakota State University.
 <a href="https://www.arpc-ndsu.com/briefs">Full text</a>
 
 </div>
@@ -347,10 +367,11 @@ Prediction Methods.” <span class="v">ARPC Brief.</span>
 <div class="pub-item" data-area="risk-management"
 data-topic="impacts-of-crop-insurance" data-year="2025"
 data-venue="ARPC Brief"
-data-text="tsiboe &amp; turner 2025 crop insurance generally improves farm revenues but effects vary by policy type arpc brief">
+data-text="tsiboe, f., and d. turner 2025 crop insurance generally improves farm revenues but effects vary by policy type arpc brief arpc brief">
 
-Tsiboe & Turner (2025). “Crop Insurance Generally Improves Farm Revenues
-but Effects Vary by Policy Type.” <span class="v">ARPC Brief.</span>
+Tsiboe, F., and D. Turner. 2025. “Crop Insurance Generally Improves Farm
+Revenues but Effects Vary by Policy Type.” ARPC Brief 2025-01.
+Agricultural Risk Policy Center, North Dakota State University.
 <a href="https://www.arpc-ndsu.com/post/crop-insurance-generally-improves-farm-revenues-but-effects-vary-by-policy-type">Full
 text</a>
 
@@ -359,60 +380,60 @@ text</a>
 <div class="pub-item" data-area="risk-management"
 data-topic="impacts-of-crop-insurance" data-year="2025"
 data-venue="JAAE"
-data-text="turner et al. 2025 crop insurance participation and cover crop use jaae">
+data-text="turner et al. 2025 crop insurance participation and cover crop use jaae ">
 
-Turner et al. (2025). “Crop Insurance Participation and Cover Crop Use.”
-<span class="v">JAAE.</span>
-<a href="https://doi.org/10.1017/aae.2025.12">Full text</a>
+Turner et al. 2025. “Crop Insurance Participation and Cover Crop Use.”
+<em>JAAE</em>. <a href="https://doi.org/10.1017/aae.2025.12">Full
+text</a>
 
 </div>
 
 <div class="pub-item" data-area="risk-management"
 data-topic="safety-net-simulation" data-year="2025" data-venue="AEPP"
-data-text="tsiboe &amp; turner 2025 incorporating buy-up price loss coverage into the united states farm safety net aepp">
+data-text="tsiboe &amp; turner 2025 incorporating buy-up price loss coverage into the united states farm safety net aepp ">
 
-Tsiboe & Turner (2025). “Incorporating Buy-up Price Loss Coverage into
-the United States Farm Safety Net.” <span class="v">AEPP.</span>
+Tsiboe & Turner. 2025. “Incorporating Buy-up Price Loss Coverage into
+the United States Farm Safety Net.” <em>AEPP</em>.
 <a href="https://doi.org/10.1002/aepp.13536">Full text</a>
 
 </div>
 
 <div class="pub-item" data-area="risk-management"
 data-topic="safety-net-simulation" data-year="2025" data-venue="AEPP"
-data-text="tsiboe et al. 2025 risk reduction impacts of crop insurance in the united states aepp">
+data-text="tsiboe et al. 2025 risk reduction impacts of crop insurance in the united states aepp ">
 
-Tsiboe et al. (2025). “Risk Reduction Impacts of Crop Insurance in the
-United States.” <span class="v">AEPP.</span>
+Tsiboe et al. 2025. “Risk Reduction Impacts of Crop Insurance in the
+United States.” <em>AEPP</em>.
 <a href="https://doi.org/10.1002/aepp.13513">Full text</a>
 
 </div>
 
 <div class="pub-item" data-area="risk-management"
 data-topic="safety-net-simulation" data-year="2025" data-venue="AFR"
-data-text="gaku &amp; tsiboe 2025 evaluation of alternative farm safety net program combination strategies afr">
+data-text="gaku &amp; tsiboe 2025 evaluation of alternative farm safety net program combination strategies afr ">
 
-Gaku & Tsiboe (2025). “Evaluation of Alternative Farm Safety Net Program
-Combination Strategies.” <span class="v">AFR.</span>
+Gaku & Tsiboe. 2025. “Evaluation of Alternative Farm Safety Net Program
+Combination Strategies.” <em>AFR</em>.
 <a href="https://doi.org/10.1108/AFR-11-2023-0150">Full text</a>
 
 </div>
 
 <div class="pub-item" data-area="risk-management"
 data-topic="prevented-planting" data-year="2025" data-venue="AEPP"
-data-text="turner et al. 2025 actuarial implications of prevented planting coverage aepp">
+data-text="turner et al. 2025 actuarial implications of prevented planting coverage aepp ">
 
-Turner et al. (2025). “Actuarial Implications of Prevented Planting
-Coverage.” <span class="v">AEPP.</span>
+Turner et al. 2025. “Actuarial Implications of Prevented Planting
+Coverage.” <em>AEPP</em>.
 <a href="https://doi.org/10.1002/aepp.13471">Full text</a>
 
 </div>
 
 <div class="pub-item" data-area="risk-management"
 data-topic="background-and-policy" data-year="2025" data-venue="JAAE"
-data-text="hagerman et al. 2025 mitigating structural inequities in us agricultural risk management jaae">
+data-text="hagerman et al. 2025 mitigating structural inequities in us agricultural risk management jaae ">
 
-Hagerman et al. (2025). “Mitigating Structural Inequities in US
-Agricultural Risk Management.” <span class="v">JAAE.</span>
+Hagerman et al. 2025. “Mitigating Structural Inequities in US
+Agricultural Risk Management.” <em>JAAE</em>.
 <a href="https://doi.org/10.1017/aae.2024.29">Full text</a>
 
 </div>
@@ -420,32 +441,33 @@ Agricultural Risk Management.” <span class="v">JAAE.</span>
 <div class="pub-item" data-area="risk-management"
 data-topic="background-and-policy" data-year="2025"
 data-venue="ARPC Report"
-data-text="turner et al. 2025 analysis of the us sugar safety net and a potential sugar beet revenue protection program arpc report">
+data-text="turner, d., f. tsiboe, s. arita, and s. steinbach 2025 analysis of the us sugar safety net and a potential sugar beet revenue protection program arpc report arpc report">
 
-Turner et al. (2025). “Analysis of the US Sugar Safety Net and A
-Potential Sugar Beet Revenue Protection Program.” <span class="v">ARPC
-Report.</span> <a href="https://doi.org/10.22004/ag.econ.364764">Full
-text</a>
+Turner, D., F. Tsiboe, S. Arita, and S. Steinbach. 2025. “Analysis of
+the US Sugar Safety Net and A Potential Sugar Beet Revenue Protection
+Program.” ARPC Report 2025-01. Agricultural Risk Policy Center, North
+Dakota State University.
+<a href="https://doi.org/10.22004/ag.econ.364764">Full text</a>
 
 </div>
 
 <div class="pub-item" data-area="risk-management"
 data-topic="background-and-policy" data-year="2024"
 data-venue="USDA ERS EIB"
-data-text="baldwin 2024 recent developments in ad hoc assistance programs for agricultural producers usda ers eib">
+data-text="baldwin 2024 recent developments in ad hoc assistance programs for agricultural producers usda ers eib ">
 
-Baldwin (2024). “Recent Developments in Ad Hoc Assistance Programs for
-Agricultural Producers.” <span class="v">USDA ERS EIB.</span>
+Baldwin. 2024. “Recent Developments in Ad Hoc Assistance Programs for
+Agricultural Producers.” <em>USDA ERS EIB</em>.
 <a href="https://doi.org/10.32747/2024.8633521.ers">Full text</a>
 
 </div>
 
 <div class="pub-item" data-area="risk-management"
 data-topic="yield-modeling" data-year="2024" data-venue="JRI"
-data-text="tsiboe et al. 2024 utilizing large-scale insurance data sets to calibrate sub-county level crop yields jri">
+data-text="tsiboe et al. 2024 utilizing large-scale insurance data sets to calibrate sub-county level crop yields jri ">
 
-Tsiboe et al. (2024). “Utilizing Large-scale Insurance Data Sets to
-Calibrate Sub-county Level Crop Yields.” <span class="v">JRI.</span>
+Tsiboe et al. 2024. “Utilizing Large-scale Insurance Data Sets to
+Calibrate Sub-county Level Crop Yields.” <em>JRI</em>.
 <a href="https://doi.org/10.1111/jori.12494">Full text</a>
 
 </div>
@@ -453,11 +475,10 @@ Calibrate Sub-county Level Crop Yields.” <span class="v">JRI.</span>
 <div class="pub-item" data-area="risk-management"
 data-topic="climate-and-environment" data-year="2024"
 data-venue="USDA ERS EB"
-data-text="turner 2024 potential budgetary impacts of climate change on the pasture, rangeland, and forage insurance plan usda ers eb">
+data-text="turner 2024 potential budgetary impacts of climate change on the pasture, rangeland, and forage insurance plan usda ers eb ">
 
-Turner (2024). “Potential Budgetary Impacts of Climate Change on the
-Pasture, Rangeland, and Forage Insurance Plan.” <span class="v">USDA ERS
-EB.</span>
+Turner. 2024. “Potential Budgetary Impacts of Climate Change on the
+Pasture, Rangeland, and Forage Insurance Plan.” <em>USDA ERS EB</em>.
 <a href="https://www.ers.usda.gov/publications/pub-details?pubid=110544">Full
 text</a>
 
@@ -466,53 +487,53 @@ text</a>
 <div class="pub-item" data-area="risk-management"
 data-topic="background-and-policy" data-year="2024"
 data-venue="USDA ERS EIB"
-data-text="baldwin 2024 us agricultural policy review 2023 usda ers eib">
+data-text="baldwin 2024 us agricultural policy review 2023 usda ers eib ">
 
-Baldwin (2024). “US Agricultural Policy Review 2023.”
-<span class="v">USDA ERS EIB.</span>
-<a href="https://doi.org/10.32747/2024.8754393.ers">Full text</a>
-
-</div>
-
-<div class="pub-item" data-area="risk-management"
-data-topic="background-and-policy" data-year="2023"
-data-venue="USDA ERS EIB"
-data-text="baldwin 2023 us agricultural policy review 2021 usda ers eib">
-
-Baldwin (2023). “US Agricultural Policy Review 2021.”
-<span class="v">USDA ERS EIB.</span>
-<a href="https://doi.org/10.22004/ag.econ.333549">Full text</a>
+Baldwin. 2024. “US Agricultural Policy Review 2023.” <em>USDA ERS
+EIB</em>. <a href="https://doi.org/10.32747/2024.8754393.ers">Full
+text</a>
 
 </div>
 
 <div class="pub-item" data-area="risk-management"
 data-topic="background-and-policy" data-year="2023"
 data-venue="USDA ERS EIB"
-data-text="baldwin 2023 us agricultural policy review 2022 usda ers eib">
+data-text="baldwin 2023 us agricultural policy review 2021 usda ers eib ">
 
-Baldwin (2023). “US Agricultural Policy Review 2022.”
-<span class="v">USDA ERS EIB.</span>
-<a href="https://doi.org/10.32747/2023.8134363.ers">Full text</a>
+Baldwin. 2023. “US Agricultural Policy Review 2021.” <em>USDA ERS
+EIB</em>. <a href="https://doi.org/10.22004/ag.econ.333549">Full
+text</a>
 
 </div>
 
 <div class="pub-item" data-area="risk-management"
 data-topic="background-and-policy" data-year="2023"
 data-venue="USDA ERS EIB"
-data-text="turner 2023 federal programs for agricultural risk management usda ers eib">
+data-text="baldwin 2023 us agricultural policy review 2022 usda ers eib ">
 
-Turner (2023). “Federal Programs for Agricultural Risk Management.”
-<span class="v">USDA ERS EIB.</span>
+Baldwin. 2023. “US Agricultural Policy Review 2022.” <em>USDA ERS
+EIB</em>. <a href="https://doi.org/10.32747/2023.8134363.ers">Full
+text</a>
+
+</div>
+
+<div class="pub-item" data-area="risk-management"
+data-topic="background-and-policy" data-year="2023"
+data-venue="USDA ERS EIB"
+data-text="turner 2023 federal programs for agricultural risk management usda ers eib ">
+
+Turner. 2023. “Federal Programs for Agricultural Risk Management.”
+<em>USDA ERS EIB</em>.
 <a href="https://doi.org/10.32747/2023.8321812.ers">Full text</a>
 
 </div>
 
 <div class="pub-item" data-area="risk-management"
 data-topic="crop-insurance-demand" data-year="2023" data-venue="ARER"
-data-text="tsiboe &amp; turner 2023 econometric identification of crop insurance participation arer">
+data-text="tsiboe &amp; turner 2023 econometric identification of crop insurance participation arer ">
 
-Tsiboe & Turner (2023). “Econometric Identification of Crop Insurance
-Participation.” <span class="v">ARER.</span>
+Tsiboe & Turner. 2023. “Econometric Identification of Crop Insurance
+Participation.” <em>ARER</em>.
 <a href="https://doi.org/10.1017/age.2023.13">Full text</a>
 
 </div>
@@ -520,40 +541,40 @@ Participation.” <span class="v">ARER.</span>
 <div class="pub-item" data-area="risk-management"
 data-topic="crop-insurance-demand" data-year="2023"
 data-venue="Food Policy"
-data-text="tsiboe &amp; turner 2023 the crop insurance demand response to premium subsidies (us) food policy">
+data-text="tsiboe &amp; turner 2023 the crop insurance demand response to premium subsidies (us) food policy ">
 
-Tsiboe & Turner (2023). “The Crop Insurance Demand Response to Premium
-Subsidies (US).” <span class="v">Food Policy.</span>
+Tsiboe & Turner. 2023. “The Crop Insurance Demand Response to Premium
+Subsidies (US).” <em>Food Policy</em>.
 <a href="https://doi.org/10.1016/j.foodpol.2023.102505">Full text</a>
 
 </div>
 
 <div class="pub-item" data-area="risk-management"
 data-topic="index-insurance" data-year="2023" data-venue="JAAEA"
-data-text="tsiboe et al. 2023 farm-level evaluation of area- and agroclimatic-based index insurance jaaea">
+data-text="tsiboe et al. 2023 farm-level evaluation of area- and agroclimatic-based index insurance jaaea ">
 
-Tsiboe et al. (2023). “Farm-level Evaluation of Area- and
-Agroclimatic-based Index Insurance.” <span class="v">JAAEA.</span>
+Tsiboe et al. 2023. “Farm-level Evaluation of Area- and
+Agroclimatic-based Index Insurance.” <em>JAAEA</em>.
 <a href="https://doi.org/10.1002/jaa2.77">Full text</a>
 
 </div>
 
 <div class="pub-item" data-area="risk-management"
 data-topic="crop-insurance-demand" data-year="2022" data-venue="AEPP"
-data-text="turner &amp; tsiboe 2022 the crop insurance demand response to the wildfire and hurricane indemnity aepp">
+data-text="turner &amp; tsiboe 2022 the crop insurance demand response to the wildfire and hurricane indemnity aepp ">
 
-Turner & Tsiboe (2022). “The Crop Insurance Demand Response to the
-Wildfire and Hurricane Indemnity.” <span class="v">AEPP.</span>
+Turner & Tsiboe. 2022. “The Crop Insurance Demand Response to the
+Wildfire and Hurricane Indemnity.” <em>AEPP</em>.
 <a href="https://doi.org/10.1002/aepp.13314">Full text</a>
 
 </div>
 
 <div class="pub-item" data-area="risk-management"
 data-topic="crop-insurance-rating" data-year="2022" data-venue="AJAE"
-data-text="tsiboe &amp; tack 2022 utilizing topographic and soil features to improve rating for farm-level insurance ajae">
+data-text="tsiboe &amp; tack 2022 utilizing topographic and soil features to improve rating for farm-level insurance ajae ">
 
-Tsiboe & Tack (2022). “Utilizing Topographic and Soil Features to
-Improve Rating for Farm-level Insurance.” <span class="v">AJAE.</span>
+Tsiboe & Tack. 2022. “Utilizing Topographic and Soil Features to Improve
+Rating for Farm-level Insurance.” <em>AJAE</em>.
 <a href="https://doi.org/10.1111/ajae.12218">Full text</a>
 
 </div>
@@ -570,68 +591,67 @@ Cocoa & farmer field schools
 
 <div class="pub-item" data-area="cocoa" data-topic="cocoa"
 data-year="2021" data-venue="ARER"
-data-text="tsiboe 2021 chronic sources of low cocoa production in ghana arer">
+data-text="tsiboe 2021 chronic sources of low cocoa production in ghana arer ">
 
-Tsiboe (2021). “Chronic Sources of Low Cocoa Production in Ghana.”
-<span class="v">ARER.</span>
+Tsiboe. 2021. “Chronic Sources of Low Cocoa Production in Ghana.”
+<em>ARER</em>.
 
 </div>
 
 <div class="pub-item" data-area="cocoa" data-topic="cocoa"
 data-year="2019" data-venue="PLOS ONE"
-data-text="luckstead et al. 2019 estimating the economic incentives necessary for eliminating child labor in ghanaian cocoa production plos one">
+data-text="luckstead et al. 2019 estimating the economic incentives necessary for eliminating child labor in ghanaian cocoa production plos one ">
 
-Luckstead et al. (2019). “Estimating the Economic Incentives Necessary
-for Eliminating Child Labor in Ghanaian Cocoa Production.”
-<span class="v">PLOS ONE.</span>
+Luckstead et al. 2019. “Estimating the Economic Incentives Necessary for
+Eliminating Child Labor in Ghanaian Cocoa Production.” <em>PLOS
+ONE</em>.
 
 </div>
 
 <div class="pub-item" data-area="cocoa" data-topic="cocoa"
 data-year="2018" data-venue="JAAE"
-data-text="tsiboe et al. 2018 analyzing labor heterogeneity in ghanaian cocoa production jaae">
+data-text="tsiboe et al. 2018 analyzing labor heterogeneity in ghanaian cocoa production jaae ">
 
-Tsiboe et al. (2018). “Analyzing Labor Heterogeneity in Ghanaian Cocoa
-Production.” <span class="v">JAAE.</span>
+Tsiboe et al. 2018. “Analyzing Labor Heterogeneity in Ghanaian Cocoa
+Production.” <em>JAAE</em>.
 
 </div>
 
 <div class="pub-item" data-area="cocoa" data-topic="cocoa"
 data-year="2018" data-venue="RoDE"
-data-text="tsiboe et al. 2018 market effects of farmer field schools in sub-saharan africa - the case for cocoa rode">
+data-text="tsiboe et al. 2018 market effects of farmer field schools in sub-saharan africa - the case for cocoa rode ">
 
-Tsiboe et al. (2018). “Market Effects of Farmer Field Schools in
-Sub-Saharan Africa - The Case for Cocoa.” <span class="v">RoDE.</span>
+Tsiboe et al. 2018. “Market Effects of Farmer Field Schools in
+Sub-Saharan Africa - The Case for Cocoa.” <em>RoDE</em>.
 
 </div>
 
 <div class="pub-item" data-area="cocoa" data-topic="cocoa"
 data-year="2018" data-venue="SAEA"
-data-text="tsiboe et al. 2018 economic incentives necessary for adoption of environmentally friendly cocoa production in ghana saea">
+data-text="tsiboe et al. 2018 economic incentives necessary for adoption of environmentally friendly cocoa production in ghana saea ">
 
-Tsiboe et al. (2018). “Economic Incentives Necessary for Adoption of
-Environmentally Friendly Cocoa Production in Ghana.”
-<span class="v">SAEA.</span>
+Tsiboe et al. 2018. “Economic Incentives Necessary for Adoption of
+Environmentally Friendly Cocoa Production in Ghana.” <em>SAEA</em>.
 <a href="https://doi.org/10.22004/ag.econ.266614">Full text</a>
 
 </div>
 
 <div class="pub-item" data-area="cocoa" data-topic="cocoa"
 data-year="2016" data-venue="AfJARE"
-data-text="tsiboe &amp; nalley 2016 effects of biotic and abiotic stress on household cocoa yields in ghana afjare">
+data-text="tsiboe &amp; nalley 2016 effects of biotic and abiotic stress on household cocoa yields in ghana afjare ">
 
-Tsiboe & Nalley (2016). “Effects of Biotic and Abiotic Stress on
-Household Cocoa Yields in Ghana.” <span class="v">AfJARE.</span>
+Tsiboe & Nalley. 2016. “Effects of Biotic and Abiotic Stress on
+Household Cocoa Yields in Ghana.” <em>AfJARE</em>.
 
 </div>
 
 <div class="pub-item" data-area="cocoa" data-topic="cocoa"
 data-year="2016" data-venue="Agricultural Economics"
-data-text="tsiboe et al. 2016 estimating the impact of farmer field schools in sub-saharan africa - the case of cocoa agricultural economics">
+data-text="tsiboe et al. 2016 estimating the impact of farmer field schools in sub-saharan africa - the case of cocoa agricultural economics ">
 
-Tsiboe et al. (2016). “Estimating the Impact of Farmer Field Schools in
-Sub-Saharan Africa - The Case of Cocoa.” <span class="v">Agricultural
-Economics.</span>
+Tsiboe et al. 2016. “Estimating the Impact of Farmer Field Schools in
+Sub-Saharan Africa - The Case of Cocoa.” <em>Agricultural
+Economics</em>.
 
 </div>
 
@@ -647,95 +667,94 @@ Agricultural productivity (Ghana)
 
 <div class="pub-item" data-area="production" data-topic="production"
 data-year="2026" data-venue="Agricultural Economics"
-data-text="tsiboe et al. 2026 production gaps among farmers with disabilities are associated with limited technology agricultural economics">
+data-text="tsiboe et al. 2026 production gaps among farmers with disabilities are associated with limited technology agricultural economics ">
 
-Tsiboe et al. (2026). “Production Gaps Among Farmers With Disabilities
-Are Associated With Limited Technology.” <span class="v">Agricultural
-Economics.</span> <a href="https://doi.org/10.1111/agec.70115">Full
-text</a>
+Tsiboe et al. 2026. “Production Gaps Among Farmers With Disabilities Are
+Associated With Limited Technology.” <em>Agricultural Economics</em>.
+<a href="https://doi.org/10.1111/agec.70115">Full text</a>
 
 </div>
 
 <div class="pub-item" data-area="production" data-topic="production"
 data-year="2025" data-venue="Agribusiness"
-data-text="asravor et al. 2025 charting the path to increased oil palm output in ghana agribusiness">
+data-text="asravor et al. 2025 charting the path to increased oil palm output in ghana agribusiness ">
 
-Asravor et al. (2025). “Charting the Path to Increased Oil Palm Output
-in Ghana.” <span class="v">Agribusiness.</span>
+Asravor et al. 2025. “Charting the Path to Increased Oil Palm Output in
+Ghana.” <em>Agribusiness</em>.
 <a href="https://doi.org/10.1002/agr.22054">Full text</a>
 
 </div>
 
 <div class="pub-item" data-area="production" data-topic="production"
 data-year="2024" data-venue="JPA"
-data-text="asravor et al. 2024 technology and managerial performance of farm operators by age in ghana jpa">
+data-text="asravor et al. 2024 technology and managerial performance of farm operators by age in ghana jpa ">
 
-Asravor et al. (2024). “Technology and Managerial Performance of Farm
-Operators by Age in Ghana.” <span class="v">JPA.</span>
+Asravor et al. 2024. “Technology and Managerial Performance of Farm
+Operators by Age in Ghana.” <em>JPA</em>.
 
 </div>
 
 <div class="pub-item" data-area="production" data-topic="production"
 data-year="2023" data-venue="Agrekon"
-data-text="adaku et al. 2023 taking stock of gender gaps in crop production technology adoption and technical efficiency in ghana agrekon">
+data-text="adaku et al. 2023 taking stock of gender gaps in crop production technology adoption and technical efficiency in ghana agrekon ">
 
-Adaku et al. (2023). “Taking Stock of Gender Gaps in Crop Production
+Adaku et al. 2023. “Taking Stock of Gender Gaps in Crop Production
 Technology Adoption and Technical Efficiency in Ghana.”
-<span class="v">Agrekon.</span>
+<em>Agrekon</em>.
 
 </div>
 
 <div class="pub-item" data-area="production" data-topic="production"
 data-year="2023" data-venue="PLOS ONE"
-data-text="ansah et al. 2023 starchy staples production shortfalls in ghana plos one">
+data-text="ansah et al. 2023 starchy staples production shortfalls in ghana plos one ">
 
-Ansah et al. (2023). “Starchy Staples Production Shortfalls in Ghana.”
-<span class="v">PLOS ONE.</span>
+Ansah et al. 2023. “Starchy Staples Production Shortfalls in Ghana.”
+<em>PLOS ONE</em>.
 
 </div>
 
 <div class="pub-item" data-area="production" data-topic="production"
 data-year="2022" data-venue="ARER"
-data-text="tsiboe et al. 2022 production technology, efficiency, and productivity of cereal farms in ghana arer">
+data-text="tsiboe et al. 2022 production technology, efficiency, and productivity of cereal farms in ghana arer ">
 
-Tsiboe et al. (2022). “Production Technology, Efficiency, and
-Productivity of Cereal Farms in Ghana.” <span class="v">ARER.</span>
+Tsiboe et al. 2022. “Production Technology, Efficiency, and Productivity
+of Cereal Farms in Ghana.” <em>ARER</em>.
 
 </div>
 
 <div class="pub-item" data-area="production" data-topic="production"
 data-year="2021" data-venue=""
-data-text="tsiboe et al. 2021 spatiotemporal evaluation of dry beans and groundnut production technology and inefficiency in ghana ">
+data-text="tsiboe et al. 2021 spatiotemporal evaluation of dry beans and groundnut production technology and inefficiency in ghana  ">
 
-Tsiboe et al. (2021). “Spatiotemporal Evaluation of Dry Beans and
-Groundnut Production Technology and Inefficiency in Ghana.”
+Tsiboe et al. 2021. “Spatiotemporal Evaluation of Dry Beans and
+Groundnut Production Technology and Inefficiency in Ghana.”.
 
 </div>
 
 <div class="pub-item" data-area="production" data-topic="production"
 data-year="2021" data-venue="Scientific African"
-data-text="tsiboe et al. 2021 effect of fertilizer subsidy on household-level cereal production in ghana scientific african">
+data-text="tsiboe et al. 2021 effect of fertilizer subsidy on household-level cereal production in ghana scientific african ">
 
-Tsiboe et al. (2021). “Effect of Fertilizer Subsidy on Household-level
-Cereal Production in Ghana.” <span class="v">Scientific African.</span>
+Tsiboe et al. 2021. “Effect of Fertilizer Subsidy on Household-level
+Cereal Production in Ghana.” <em>Scientific African</em>.
 
 </div>
 
 <div class="pub-item" data-area="production" data-topic="production"
 data-year="2020" data-venue="SSRN"
-data-text="tsiboe 2020 nationally representative farm-household level dataset on crop production in ghana, 1987-2017 ssrn">
+data-text="tsiboe 2020 nationally representative farm-household level dataset on crop production in ghana, 1987-2017 ssrn ">
 
-Tsiboe (2020). “Nationally Representative Farm-Household Level Dataset
-on Crop Production in Ghana, 1987-2017.” <span class="v">SSRN.</span>
+Tsiboe. 2020. “Nationally Representative Farm-Household Level Dataset on
+Crop Production in Ghana, 1987-2017.” <em>SSRN</em>.
 
 </div>
 
 <div class="pub-item" data-area="production" data-topic="production"
 data-year="2019" data-venue="AfJARE"
-data-text="tsiboe et al. 2019 vegetable production technical efficiency and technology gaps in ghana afjare">
+data-text="tsiboe et al. 2019 vegetable production technical efficiency and technology gaps in ghana afjare ">
 
-Tsiboe et al. (2019). “Vegetable Production Technical Efficiency and
-Technology Gaps in Ghana.” <span class="v">AfJARE.</span>
+Tsiboe et al. 2019. “Vegetable Production Technical Efficiency and
+Technology Gaps in Ghana.” <em>AfJARE</em>.
 
 </div>
 
@@ -751,41 +770,41 @@ Gender & empowerment
 
 <div class="pub-item" data-area="gender" data-topic="gender"
 data-year="2026" data-venue="Energy Policy"
-data-text="tsiboe et al. 2026 gendered preferences in household energy use and price policy responses in ghana energy policy">
+data-text="tsiboe et al. 2026 gendered preferences in household energy use and price policy responses in ghana energy policy ">
 
-Tsiboe et al. (2026). “Gendered Preferences in Household Energy Use and
-Price Policy Responses in Ghana.” <span class="v">Energy Policy.</span>
+Tsiboe et al. 2026. “Gendered Preferences in Household Energy Use and
+Price Policy Responses in Ghana.” <em>Energy Policy</em>.
 <a href="https://doi.org/10.1016/j.enpol.2026.115445">Full text</a>
 
 </div>
 
 <div class="pub-item" data-area="gender" data-topic="gender"
 data-year="2025" data-venue="Journal of International Development"
-data-text="tsiboe &amp; attah 2025 gender gaps in wages and fringe benefits - insights from a ghanaian perspective journal of international development">
+data-text="tsiboe &amp; attah 2025 gender gaps in wages and fringe benefits - insights from a ghanaian perspective journal of international development ">
 
-Tsiboe & Attah (2025). “Gender Gaps in Wages and Fringe Benefits -
-Insights From a Ghanaian Perspective.” <span class="v">Journal of
-International Development.</span>
-<a href="https://doi.org/10.1002/jid.70024">Full text</a>
+Tsiboe & Attah. 2025. “Gender Gaps in Wages and Fringe Benefits -
+Insights From a Ghanaian Perspective.” <em>Journal of International
+Development</em>. <a href="https://doi.org/10.1002/jid.70024">Full
+text</a>
 
 </div>
 
 <div class="pub-item" data-area="gender" data-topic="gender"
 data-year="2018" data-venue="AfJARE"
-data-text="tsiboe et al. 2018 health effects of women's empowerment in agriculture in northern ghana afjare">
+data-text="tsiboe et al. 2018 health effects of women's empowerment in agriculture in northern ghana afjare ">
 
-Tsiboe et al. (2018). “Health Effects of Women’s Empowerment in
-Agriculture in Northern Ghana.” <span class="v">AfJARE.</span>
+Tsiboe et al. 2018. “Health Effects of Women’s Empowerment in
+Agriculture in Northern Ghana.” <em>AfJARE</em>.
 
 </div>
 
 <div class="pub-item" data-area="gender" data-topic="gender"
 data-year="2018" data-venue="Social Indicators Research"
-data-text="tsiboe et al. 2018 the effect of women's empowerment in agriculture on household nutrition and food poverty in northern ghana social indicators research">
+data-text="tsiboe et al. 2018 the effect of women's empowerment in agriculture on household nutrition and food poverty in northern ghana social indicators research ">
 
-Tsiboe et al. (2018). “The Effect of Women’s Empowerment in Agriculture
-on Household Nutrition and Food Poverty in Northern Ghana.”
-<span class="v">Social Indicators Research.</span>
+Tsiboe et al. 2018. “The Effect of Women’s Empowerment in Agriculture on
+Household Nutrition and Food Poverty in Northern Ghana.” <em>Social
+Indicators Research</em>.
 
 </div>
 
@@ -801,43 +820,40 @@ Off-farm work & welfare
 
 <div class="pub-item" data-area="off-farm-work"
 data-topic="off-farm-work" data-year="2025" data-venue="JAAEA"
-data-text="armah et al. 2025 dietary shifts in agrarian households - population-based evidence from off-farm work in ghana jaaea">
+data-text="armah et al. 2025 dietary shifts in agrarian households - population-based evidence from off-farm work in ghana jaaea ">
 
-Armah et al. (2025). “Dietary Shifts in Agrarian Households -
-Population-based Evidence from Off-farm Work in Ghana.”
-<span class="v">JAAEA.</span>
+Armah et al. 2025. “Dietary Shifts in Agrarian Households -
+Population-based Evidence from Off-farm Work in Ghana.” <em>JAAEA</em>.
 <a href="https://doi.org/10.1002/jaa2.70014">Full text</a>
 
 </div>
 
 <div class="pub-item" data-area="off-farm-work"
 data-topic="off-farm-work" data-year="2024" data-venue="JAAEA"
-data-text="tsiboe et al. 2024 off-farm employment and body mass index among agrarian women in sub-saharan africa jaaea">
+data-text="tsiboe et al. 2024 off-farm employment and body mass index among agrarian women in sub-saharan africa jaaea ">
 
-Tsiboe et al. (2024). “Off-farm Employment and Body Mass Index Among
-Agrarian Women in Sub-Saharan Africa.” <span class="v">JAAEA.</span>
+Tsiboe et al. 2024. “Off-farm Employment and Body Mass Index Among
+Agrarian Women in Sub-Saharan Africa.” <em>JAAEA</em>.
 
 </div>
 
 <div class="pub-item" data-area="off-farm-work"
 data-topic="off-farm-work" data-year="2017"
 data-venue="World Development"
-data-text="zereyesus et al. 2017 implications of non-farm work to vulnerability to food poverty in northern ghana world development">
+data-text="zereyesus et al. 2017 implications of non-farm work to vulnerability to food poverty in northern ghana world development ">
 
-Zereyesus et al. (2017). “Implications of Non-farm Work to Vulnerability
-to Food Poverty in Northern Ghana.” <span class="v">World
-Development.</span>
+Zereyesus et al. 2017. “Implications of Non-farm Work to Vulnerability
+to Food Poverty in Northern Ghana.” <em>World Development</em>.
 
 </div>
 
 <div class="pub-item" data-area="off-farm-work"
 data-topic="off-farm-work" data-year="2016"
 data-venue="Journal of Rural Studies"
-data-text="tsiboe et al. 2016 non-farm work, food poverty, and nutrient availability in northern ghana journal of rural studies">
+data-text="tsiboe et al. 2016 non-farm work, food poverty, and nutrient availability in northern ghana journal of rural studies ">
 
-Tsiboe et al. (2016). “Non-farm Work, Food Poverty, and Nutrient
-Availability in Northern Ghana.” <span class="v">Journal of Rural
-Studies.</span>
+Tsiboe et al. 2016. “Non-farm Work, Food Poverty, and Nutrient
+Availability in Northern Ghana.” <em>Journal of Rural Studies</em>.
 
 </div>
 
@@ -853,11 +869,10 @@ Markets & prices
 
 <div class="pub-item" data-area="demand-and-markets"
 data-topic="demand-and-markets" data-year="2025" data-venue="JAAE"
-data-text="tsiboe et al. 2025 market integration and the role of transportation and telecommunication infrastructure in ghana jaae">
+data-text="tsiboe et al. 2025 market integration and the role of transportation and telecommunication infrastructure in ghana jaae ">
 
-Tsiboe et al. (2025). “Market Integration and the Role of Transportation
-and Telecommunication Infrastructure in Ghana.”
-<span class="v">JAAE.</span>
+Tsiboe et al. 2025. “Market Integration and the Role of Transportation
+and Telecommunication Infrastructure in Ghana.” <em>JAAE</em>.
 <a href="https://doi.org/10.1017/aae.2025.17">Full text</a>
 
 </div>
@@ -865,53 +880,51 @@ and Telecommunication Infrastructure in Ghana.”
 <div class="pub-item" data-area="demand-and-markets"
 data-topic="demand-and-markets" data-year="2024"
 data-venue="Agribusiness"
-data-text="tsiboe et al. 2024 consumption patterns of fresh and frozen chicken - a ghanaian food policy perspective agribusiness">
+data-text="tsiboe et al. 2024 consumption patterns of fresh and frozen chicken - a ghanaian food policy perspective agribusiness ">
 
-Tsiboe et al. (2024). “Consumption Patterns of Fresh and Frozen
-Chicken - A Ghanaian Food Policy Perspective.”
-<span class="v">Agribusiness.</span>
+Tsiboe et al. 2024. “Consumption Patterns of Fresh and Frozen Chicken -
+A Ghanaian Food Policy Perspective.” <em>Agribusiness</em>.
 <a href="https://doi.org/10.1002/agr.21972">Full text</a>
 
 </div>
 
 <div class="pub-item" data-area="demand-and-markets"
 data-topic="demand-and-markets" data-year="2023" data-venue="JADEE"
-data-text="peterson-wilhelm et al. 2023 quality determinants of rice price in open bag markets in sub-saharan africa jadee">
+data-text="peterson-wilhelm et al. 2023 quality determinants of rice price in open bag markets in sub-saharan africa jadee ">
 
-Peterson-Wilhelm et al. (2023). “Quality Determinants of Rice Price in
-Open Bag Markets in Sub-Saharan Africa.” <span class="v">JADEE.</span>
+Peterson-Wilhelm et al. 2023. “Quality Determinants of Rice Price in
+Open Bag Markets in Sub-Saharan Africa.” <em>JADEE</em>.
 
 </div>
 
 <div class="pub-item" data-area="demand-and-markets"
 data-topic="demand-and-markets" data-year="2023"
 data-venue="Agricultural Finance Review"
-data-text="tsiboe et al. 2023 simulating corn futures market reaction and prices under weekly yield forecasts agricultural finance review">
+data-text="tsiboe et al. 2023 simulating corn futures market reaction and prices under weekly yield forecasts agricultural finance review ">
 
-Tsiboe et al. (2023). “Simulating Corn Futures Market Reaction and
-Prices Under Weekly Yield Forecasts.” <span class="v">Agricultural
-Finance Review.</span>
+Tsiboe et al. 2023. “Simulating Corn Futures Market Reaction and Prices
+Under Weekly Yield Forecasts.” <em>Agricultural Finance Review</em>.
 <a href="https://doi.org/10.1108/AFR-04-2023-0045">Full text</a>
 
 </div>
 
 <div class="pub-item" data-area="demand-and-markets"
 data-topic="demand-and-markets" data-year="2016" data-venue="AfJARE"
-data-text="tsiboe et al. 2016 spatial dynamics and determinants of liberian rice market integration afjare">
+data-text="tsiboe et al. 2016 spatial dynamics and determinants of liberian rice market integration afjare ">
 
-Tsiboe et al. (2016). “Spatial Dynamics and Determinants of Liberian
-Rice Market Integration.” <span class="v">AfJARE.</span>
+Tsiboe et al. 2016. “Spatial Dynamics and Determinants of Liberian Rice
+Market Integration.” <em>AfJARE</em>.
 
 </div>
 
 <div class="pub-item" data-area="demand-and-markets"
 data-topic="demand-and-markets" data-year="2012"
 data-venue="Journal of Agricultural Science"
-data-text="mensah-bonsu &amp; tsiboe 2012 analysis of the constraints and their effects on the marketing of cassava in ghana journal of agricultural science">
+data-text="mensah-bonsu &amp; tsiboe 2012 analysis of the constraints and their effects on the marketing of cassava in ghana journal of agricultural science ">
 
-Mensah-Bonsu & Tsiboe (2012). “Analysis of the Constraints and Their
-Effects on the Marketing of Cassava in Ghana.” <span class="v">Journal
-of Agricultural Science.</span>
+Mensah-Bonsu & Tsiboe. 2012. “Analysis of the Constraints and Their
+Effects on the Marketing of Cassava in Ghana.” <em>Journal of
+Agricultural Science</em>.
 
 </div>
 
@@ -928,22 +941,22 @@ Sustainability & environment
 <div class="pub-item" data-area="sustainability"
 data-topic="sustainability" data-year="2019"
 data-venue="Journal of Soil and Water Conservation"
-data-text="kovacs et al. 2019 factors influencing the willingness to pay for on-farm water infrastructure journal of soil and water conservation">
+data-text="kovacs et al. 2019 factors influencing the willingness to pay for on-farm water infrastructure journal of soil and water conservation ">
 
-Kovacs et al. (2019). “Factors Influencing the Willingness to Pay for
-On-farm Water Infrastructure.” <span class="v">Journal of Soil and Water
-Conservation.</span>
+Kovacs et al. 2019. “Factors Influencing the Willingness to Pay for
+On-farm Water Infrastructure.” <em>Journal of Soil and Water
+Conservation</em>.
 
 </div>
 
 <div class="pub-item" data-area="sustainability"
 data-topic="sustainability" data-year="2017"
 data-venue="Agronomy Journal"
-data-text="tsiboe et al. 2017 profitability of alternative management practices in a wheat-soybean double-crop production system in arkansas agronomy journal">
+data-text="tsiboe et al. 2017 profitability of alternative management practices in a wheat-soybean double-crop production system in arkansas agronomy journal ">
 
-Tsiboe et al. (2017). “Profitability of Alternative Management Practices
+Tsiboe et al. 2017. “Profitability of Alternative Management Practices
 in a Wheat-Soybean Double-Crop Production System in Arkansas.”
-<span class="v">Agronomy Journal.</span>
+<em>Agronomy Journal</em>.
 
 </div>
 
@@ -960,23 +973,23 @@ Food security & poverty
 <div class="pub-item" data-area="food-security-and-poverty"
 data-topic="food-security-and-poverty" data-year="2023"
 data-venue="Scientific African"
-data-text="tsiboe et al. 2023 food poverty assessment in ghana - a closer look at the spatial and temporal dimensions of poverty scientific african">
+data-text="tsiboe et al. 2023 food poverty assessment in ghana - a closer look at the spatial and temporal dimensions of poverty scientific african ">
 
-Tsiboe et al. (2023). “Food Poverty Assessment in Ghana - A Closer Look
-at the Spatial and Temporal Dimensions of Poverty.”
-<span class="v">Scientific African.</span>
-<a href="https://doi.org/10.1016/j.sciaf.2022.e01518">Full text</a>
+Tsiboe et al. 2023. “Food Poverty Assessment in Ghana - A Closer Look at
+the Spatial and Temporal Dimensions of Poverty.” <em>Scientific
+African</em>. <a href="https://doi.org/10.1016/j.sciaf.2022.e01518">Full
+text</a>
 
 </div>
 
 <div class="pub-item" data-area="food-security-and-poverty"
 data-topic="food-security-and-poverty" data-year="2022"
 data-venue="SSRN"
-data-text="tsiboe 2022 nationally representative household-level food consumption and nutrient availability data for ghana, 2005-2017 ssrn">
+data-text="tsiboe 2022 nationally representative household-level food consumption and nutrient availability data for ghana, 2005-2017 ssrn ">
 
-Tsiboe (2022). “Nationally Representative Household-level Food
+Tsiboe. 2022. “Nationally Representative Household-level Food
 Consumption and Nutrient Availability Data for Ghana, 2005-2017.”
-<span class="v">SSRN.</span>
+<em>SSRN</em>.
 
 </div>
 
@@ -992,30 +1005,29 @@ Biotechnology & consumer acceptance
 
 <div class="pub-item" data-area="biotechnology"
 data-topic="biotechnology" data-year="2017" data-venue="Food Control"
-data-text="shew et al. 2017 new innovations in agricultural biotech - consumer acceptance of topical rnai in rice production food control">
+data-text="shew et al. 2017 new innovations in agricultural biotech - consumer acceptance of topical rnai in rice production food control ">
 
-Shew et al. (2017). “New Innovations in Agricultural Biotech - Consumer
-Acceptance of Topical RNAi in Rice Production.” <span class="v">Food
-Control.</span>
+Shew et al. 2017. “New Innovations in Agricultural Biotech - Consumer
+Acceptance of Topical RNAi in Rice Production.” <em>Food Control</em>.
 
 </div>
 
 <div class="pub-item" data-area="biotechnology"
 data-topic="biotechnology" data-year="2017"
 data-venue="Ghana Journal of Development Studies"
-data-text="tsiboe et al. 2017 ghanaian consumers' attitudes toward cisgenic rice ghana journal of development studies">
+data-text="tsiboe et al. 2017 ghanaian consumers' attitudes toward cisgenic rice ghana journal of development studies ">
 
-Tsiboe et al. (2017). “Ghanaian Consumers’ Attitudes Toward Cisgenic
-Rice.” <span class="v">Ghana Journal of Development Studies.</span>
+Tsiboe et al. 2017. “Ghanaian Consumers’ Attitudes Toward Cisgenic
+Rice.” <em>Ghana Journal of Development Studies</em>.
 
 </div>
 
 <div class="pub-item" data-area="biotechnology"
 data-topic="biotechnology" data-year="2015" data-venue="Book Chapter"
-data-text="wailes et al. 2015 identifying and analysing barriers to the acceptance and use of gm rice book chapter">
+data-text="wailes et al. 2015 identifying and analysing barriers to the acceptance and use of gm rice book chapter ">
 
-Wailes et al. (2015). “Identifying and Analysing Barriers to the
-Acceptance and Use of GM Rice.” <span class="v">Book Chapter.</span>
+Wailes et al. 2015. “Identifying and Analysing Barriers to the
+Acceptance and Use of GM Rice.” <em>Book Chapter</em>.
 
 </div>
 
@@ -1031,52 +1043,50 @@ Rice production & environment (US)
 
 <div class="pub-item" data-area="rice" data-topic="rice"
 data-year="2022" data-venue="Agricultural Water Management"
-data-text="nalley et al. 2022 comparative economic and environmental assessments of furrow- and flood-irrigated rice production systems agricultural water management">
+data-text="nalley et al. 2022 comparative economic and environmental assessments of furrow- and flood-irrigated rice production systems agricultural water management ">
 
-Nalley et al. (2022). “Comparative Economic and Environmental
-Assessments of Furrow- and Flood-Irrigated Rice Production Systems.”
-<span class="v">Agricultural Water Management.</span>
+Nalley et al. 2022. “Comparative Economic and Environmental Assessments
+of Furrow- and Flood-Irrigated Rice Production Systems.”
+<em>Agricultural Water Management</em>.
 <a href="https://doi.org/10.1016/j.agwat.2022.107964">Full text</a>
 
 </div>
 
 <div class="pub-item" data-area="rice" data-topic="rice"
 data-year="2018" data-venue="Agronomy Journal"
-data-text="tsiboe et al. 2018 estimating spatial differences in methane emissions to identify sustainable rice sources agronomy journal">
+data-text="tsiboe et al. 2018 estimating spatial differences in methane emissions to identify sustainable rice sources agronomy journal ">
 
-Tsiboe et al. (2018). “Estimating Spatial Differences in Methane
-Emissions to Identify Sustainable Rice Sources.”
-<span class="v">Agronomy Journal.</span>
+Tsiboe et al. 2018. “Estimating Spatial Differences in Methane Emissions
+to Identify Sustainable Rice Sources.” <em>Agronomy Journal</em>.
 <a href="https://doi.org/10.2134/agronj2017.11.0637">Full text</a>
 
 </div>
 
 <div class="pub-item" data-area="rice" data-topic="rice"
 data-year="2017" data-venue="Agronomy Journal"
-data-text="nalley et al. 2017 the production, consumption, and environmental impacts of rice hybridization in the united states agronomy journal">
+data-text="nalley et al. 2017 the production, consumption, and environmental impacts of rice hybridization in the united states agronomy journal ">
 
-Nalley et al. (2017). “The Production, Consumption, and Environmental
-Impacts of Rice Hybridization in the United States.”
-<span class="v">Agronomy Journal.</span>
+Nalley et al. 2017. “The Production, Consumption, and Environmental
+Impacts of Rice Hybridization in the United States.” <em>Agronomy
+Journal</em>.
 
 </div>
 
 <div class="pub-item" data-area="rice" data-topic="rice"
 data-year="2017" data-venue="JARE"
-data-text="tsiboe et al. 2017 the economic and environmental benefits of sheath blight resistance in rice jare">
+data-text="tsiboe et al. 2017 the economic and environmental benefits of sheath blight resistance in rice jare ">
 
-Tsiboe et al. (2017). “The Economic and Environmental Benefits of Sheath
-Blight Resistance in Rice.” <span class="v">JARE.</span>
+Tsiboe et al. 2017. “The Economic and Environmental Benefits of Sheath
+Blight Resistance in Rice.” <em>JARE</em>.
 
 </div>
 
 <div class="pub-item" data-area="rice" data-topic="rice"
 data-year="2016" data-venue="PLOS ONE"
-data-text="nalley et al. 2016 economic and environmental impact of rice blast pathogen alleviation in the united states plos one">
+data-text="nalley et al. 2016 economic and environmental impact of rice blast pathogen alleviation in the united states plos one ">
 
-Nalley et al. (2016). “Economic and Environmental Impact of Rice Blast
-Pathogen Alleviation in the United States.” <span class="v">PLOS
-ONE.</span>
+Nalley et al. 2016. “Economic and Environmental Impact of Rice Blast
+Pathogen Alleviation in the United States.” <em>PLOS ONE</em>.
 
 </div>
 
@@ -1092,21 +1102,20 @@ Impact evaluation
 
 <div class="pub-item" data-area="impact-evaluation"
 data-topic="impact-evaluation" data-year="2017" data-venue="JAAE"
-data-text="dlamini et al. 2017 the economic impact of the south african agricultural research council's dry beans breeding program jaae">
+data-text="dlamini et al. 2017 the economic impact of the south african agricultural research council's dry beans breeding program jaae ">
 
-Dlamini et al. (2017). “The Economic Impact of the South African
+Dlamini et al. 2017. “The Economic Impact of the South African
 Agricultural Research Council’s Dry Beans Breeding Program.”
-<span class="v">JAAE.</span>
+<em>JAAE</em>.
 
 </div>
 
 <div class="pub-item" data-area="impact-evaluation"
 data-topic="impact-evaluation" data-year="2017" data-venue="New Medit"
-data-text="musliu et al. 2017 evaluating the impact of the value added tax reform on raw milk collection in kosovo new medit">
+data-text="musliu et al. 2017 evaluating the impact of the value added tax reform on raw milk collection in kosovo new medit ">
 
-Musliu et al. (2017). “Evaluating the Impact of the Value Added Tax
-Reform on Raw Milk Collection in Kosovo.” <span class="v">New
-Medit.</span>
+Musliu et al. 2017. “Evaluating the Impact of the Value Added Tax Reform
+on Raw Milk Collection in Kosovo.” <em>New Medit</em>.
 
 </div>
 
